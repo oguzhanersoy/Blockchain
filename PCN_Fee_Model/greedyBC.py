@@ -22,6 +22,8 @@ T=50
 
 testFlag=0
 
+""" converting the JSON file to the graph """
+
 def convert_JSON_to_graph(data):
     g=Graph(directed=True)
     i=0
@@ -72,6 +74,7 @@ def convert_JSON_to_graph(data):
     CostofTx(g,txValue)
     return g
 
+""" Updating the weights of all edges wrt. to the tx fee """
 
 def CostofTx(graph,txAmount):
     for edge in graph.es:
@@ -83,6 +86,7 @@ def CostofTx(graph,txAmount):
         if edge['txCost']==0: # This is necessary for betweeenness calculation
             edge['txCost']=1
 
+""" Updating the weight of an edge wrt. to the tx fee """
 
 def CostofTxForEdge(graph,edge,txAmount):
     if graph.es[edge]['capacity'] >= txAmount:
@@ -90,20 +94,28 @@ def CostofTxForEdge(graph,edge,txAmount):
     else:
         edge['txCost']=HighValue
 
+""" Finding the top k nodes with the highest betweenness centrality values """
+
 def TopKBetweennessNodes(graph,k):
     btw= np.array(graph.betweenness(weights='txCost',directed=True))
     topk_nodes= btw.argsort()[-k:][::-1]
     return topk_nodes
+
+""" Finding the top k nodes with the highest degree values """
 
 def TopKDegreeNodes(graph,k):
     btw= np.array(graph.degree())
     topk_nodes= btw.argsort()[-k:][::-1]
     return topk_nodes
 
+""" Finding the top k nodes with the highest pagerank values """
+
 def TopKPageRankNodes(graph,k):
     btw= np.array(graph.pagerank())
     topk_nodes= btw.argsort()[-k:][::-1]
     return topk_nodes
+
+""" Creating a channel from node to the taget_node wrt. fee values """
 
 def CreateChannel(graph,node,target_node,capacity,base_fee,fee_rate,txAmount):
     index=len(graph.es)
@@ -125,6 +137,8 @@ def CreateChannel(graph,node,target_node,capacity,base_fee,fee_rate,txAmount):
     else:
         graph.es[index+1]['txCost']=HighValue
 
+""" Creating channels from node to the k top betweenness nodes """
+
 def Connect2TopKBetweennessNodes(graph,node,k,capacity,txAmount):
     topk_nodes=TopKBetweennessNodes(graph,k)
     Ch_capacity=int(capacity/k)
@@ -144,23 +158,31 @@ def Connect2SecondTopKBetweennessNodes(graph,node,k,capacity,txAmount):
     for target in topk_nodes:
         CreateChannel(graph,node,target,Ch_capacity,our_base_fee,our_fee_rate,txAmount)
 
+""" Creating channels from node to the k top degree nodes """
+
 def Connect2TopKDegreeNodes(graph,node,k,capacity,txAmount):
     topk_nodes=TopKDegreeNodes(graph,k)
     Ch_capacity=int(capacity/k)
     for target in topk_nodes:
         CreateChannel(graph,node,target,Ch_capacity,our_base_fee,our_fee_rate,txAmount)
 
+""" Creating channels from node to the k top pagerank nodes """
+
 def Connect2TopKPageRankNodes(graph,node,k,capacity,txAmount):
     topk_nodes=TopKPageRankNodes(graph,k)
-    Ch_capacity=int(capacity/k) 
+    Ch_capacity=int(capacity/k)
     for target in topk_nodes:
         CreateChannel(graph,node,target,Ch_capacity,our_base_fee,our_fee_rate,txAmount)
+
+""" Creating channels from node to k random nodes """
 
 def Connect2KRandomNodes(graph,node,k,capacity,txAmount):
     Ch_capacity=int(capacity/k)
     #print randomk_nodes[0:k]
     for target in randomk_nodes[0:k]:
         CreateChannel(graph,node,target,Ch_capacity,our_base_fee,our_fee_rate,txAmount)
+
+""" Creating channels from node to k selected nodes (selection by greedy alg.) """
 
 def Connect2KSelectedNodes(graph,node,k,capacity,txAmount):
     Ch_capacity=int(capacity/k)
@@ -237,7 +259,7 @@ for K in np.arange(0,NoV-1): # The last node is our node
     graph=copy.deepcopy(graph_new)
 
     print 'K=',K
-    
+
     #our_node=graph.vs.find(pub_key='our_node_pk')
     CreateChannel(graph,NoV-1,K,OurCapacity,our_base_fee,our_fee_rate,txValue)
 
@@ -260,7 +282,7 @@ for K in np.arange(0,NoV-1): # The last node is our node
         print '-------'
         print BC_improvement[K]
         print '-------'
-    
+
     print BC_improvement[K]
 
     if testFlag==-1:
@@ -277,4 +299,3 @@ top20_improvement= array1.argsort()[-20:][::-1]
 
 print 'Top 20 BC Improvement'
 print top20_improvement
-

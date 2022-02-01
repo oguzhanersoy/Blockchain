@@ -41,6 +41,8 @@ edge_global=out_edges[3]
 
 EBC_global= np.zeros(ChCost+1)
 
+""" Distributing the total capacity over the connected channels """
+
 def DistributeCapacityOverChannels(g,ournode,totalCapacity):
     edge_betwenness= np.array(g.edge_betweenness(weights='txCost',directed=True))
     for i in np.arange(0,len(edge_betwenness)):
@@ -56,6 +58,7 @@ def DistributeCapacityOverChannels(g,ournode,totalCapacity):
 
     return g
 
+""" Updating the edge betweenness centrality wrt. the fee value """
 
 def UpdateEBC(fee_in):
     graph_global.es[edge_global.index]['txCost']=fee_in
@@ -65,11 +68,13 @@ def UpdateEBC(fee_in):
     graph_global.es[e_index]['edgebetweenness']=ebc
     return ebc
 
+""" Calculating the maximum possible fee for a channel addition (also, trying all possible fee values) """
+
 def MaximizeChannelReward(minFee,maxFee):
     global maxRew
     global maxRewFee
     global EBC_global
-    
+
     print '     minFee=',minFee
     print '     maxFee=',maxFee
     print '     maxRew=',maxRew
@@ -78,7 +83,7 @@ def MaximizeChannelReward(minFee,maxFee):
 
     ER = np.zeros(div)
     ER_max = np.zeros(div)
-    
+
     # Base
     if maxFee-minFee <= 10:
         print '   in_base',minFee,maxFee
@@ -92,14 +97,14 @@ def MaximizeChannelReward(minFee,maxFee):
                 EBC_global[fee]=ebc
             else:
                 ebc=EBC_global[fee]
-            
+
             ER_local=ebc*fee
             if ER_local> maxRew:
                 maxRewFee=fee
                 maxRew=ER_local
-        
+
         return
-    
+
     else:
         print '   in_recursion'
         # Recursive part
@@ -109,30 +114,30 @@ def MaximizeChannelReward(minFee,maxFee):
             #graph_global.es[edge_global.index]['txCost']=fee
             #CostofTxCuttingEdges(graph,txAmount)
             #print 'Before: ', graph.es[edge.index]['edgebetweenness'],graph.es[edge.index]['txCost']
-            
+
             if EBC_global[fee]==0:
                 ebc=UpdateEBC(fee)
                 EBC_global[fee]=ebc
             else:
                 ebc=EBC_global[fee]
-            
+
             ER[index1]=ebc*fee
             print '     ebc=', ebc
             print '     ER=',ER[index1]
             if ER[index1]> maxRew:
                 maxRewFee=fee
                 maxRew=ER[index1]
-            
+
             #print 'EBC:  ', graph.es[edge.index]['edgebetweenness']
             ER_max[index1]= ebc* ( ((maxFee-minFee)*(index1+1)/div)+minFee )
             print '     ER_max=',ER_max[index1]
             if ER[index1]==0:
                 print '   break'
                 break
-        
-        
+
+
         for index1 in np.arange(0,div):
-            
+
             if (ER_max[index1] > maxRew):
                 rec_minFee= ((maxFee-minFee)*index1/div)+minFee
                 rec_maxFee= ((maxFee-minFee)*(index1+1)/div)+minFee
@@ -142,8 +147,8 @@ def MaximizeChannelReward(minFee,maxFee):
                 rec_maxFee= ((maxFee-minFee)*(index1+1)/div)+minFee
                 print '   discard',rec_minFee,'-',rec_maxFee
                 #return
-            
-    
+
+
 
 
 
@@ -153,9 +158,10 @@ def ComputeChannelReward(g,edge_index,ebc,txCost):
 
 #def CalculateTotalReward(g, ournode, connectedNodes):
 
+""" Illustraion of the results """
 
 def DisplayBetweennessResults():
-    
+
     result_between = np.load('SavedGraphData/between50.npy')
     result_degree = np.load('SavedGraphData/degree50.npy')
     result_pagerank = np.load('SavedGraphData/pagerank50.npy')
@@ -170,26 +176,26 @@ def DisplayBetweennessResults():
     result_random=np.true_divide(result_random,NF)
     result_selected=np.true_divide(result_selected,NF)
     print result_selected[0][0:10]
-    
+
     t=np.arange(1,T+1)
 
     f1 = plt.figure(1)
     plt.plot(t,result_between[0][:], 'ro-',t,result_degree[0][:], 'bs-',t,result_pagerank[0][:], 'g^-', t,result_random[0][:], 'cd-', t[0:len(selected_nodes_low)],result_selected[0][0:len(selected_nodes_low)], 'mh-')
     plt.figlegend(('Betweenness','Degree','Pagerank','Random','Selected'),loc='right')
     plt.savefig('LowTx_100_greedy_result.pdf')
-    
+
     f2 = plt.figure(2)
     plt.plot(t,result_between[1][:], 'ro-',t,result_degree[1][:], 'bs-',t,result_pagerank[1][:], 'g^-', t,result_random[1][:], 'cd-', t[0:len(selected_nodes_mid)],result_selected[1][0:len(selected_nodes_mid)], 'mh-')
     plt.figlegend(('Betweenness','Degree','Pagerank','Random','Greedy'),loc='right')
     plt.savefig('MidTx_10000_greedy_result.pdf')
-        
+
     f3 = plt.figure(3)
     plt.plot(t,result_between[2][:], 'ro-',t,result_degree[2][:], 'bs-',t,result_pagerank[2][:], 'g^-', t,result_random[2][:], 'cd-', t[0:len(selected_nodes_high)],result_selected[2][0:len(selected_nodes_high)], 'mh-')
     plt.figlegend(('Betweenness','Degree','Pagerank','Random','Selected'),loc='right')
     plt.savefig('HighTx_1000000_greedy_result.pdf')
-    
+
     plt.show()
-    
+
     fig, (ax1, ax2,ax3) = plt.subplots(3, 1,sharex='col', sharey='row',gridspec_kw={'hspace': 0.1})
     fig.suptitle('Betweenness Improvements of Our Node')
     plt.xlabel("The Number of Nodes Connected")
@@ -200,19 +206,19 @@ def DisplayBetweennessResults():
     #ax2.axis([0, 50, -10000, 1100000])
     l1,l2,l3,l4,l5=ax3.plot(t,result_between[2][:], 'ro-',t,result_degree[2][:], 'bs-',t,result_pagerank[2][:], 'g^-', t,result_random[2][:], 'cd-', t[0:len(selected_nodes_high)],result_selected[2][0:len(selected_nodes_high)], 'mh-')
     #ax3.axis([0, 50, -10000, 1100000])
-    
+
     plt.figlegend((l1,l2,l3,l4,l5),('Betweenness','Degree','Pagerank','Random','Selected'),loc='lower center',ncol=5)
     plt.savefig('Combined_01_09.pdf')
-        
+
     plt.show()
 
 
 def ComputeBetweennessResults(ingraph,selected_nodes_all,txValueIndex):
-    
+
     selected_nodes=selected_nodes_all[txValueIndex]
     txValue = txValueSet[txValueIndex]
     graph=copy.deepcopy(ingraph)
-    
+
     ''' Computing the betweenness values for the selected nodes'''
     for K in np.arange(2,len(selected_nodes)+1): # For K=1 there is no path passing through our node
         '''Uncomment the following lines if TxValue Varies '''
@@ -285,7 +291,7 @@ def ComputeBetweennessResults(ingraph,selected_nodes_all,txValueIndex):
         print TopKBetweennessNodes(copy_graph,10)
         print (np.sort(copy_graph.betweenness(weights='txCost',directed=True)))[-10:][::-1]
         print 'Betweenness of our node: ', result_selected[txValueIndex][K-1]
-    
+
     return copy_graph
 
 
@@ -309,33 +315,33 @@ if BC_computation_flag==1:
 
     for txValueIndex in np.arange(0,txLen):
         loaded_graph=load('lngraphv2.txt',format='pickle')
-        
+
         txValue = txValueSet[txValueIndex]
         graph_deleted_edges=CostofTxCuttingEdges(loaded_graph,txValue)
         print summary(loaded_graph)
         print summary(graph_deleted_edges)
         print 'txValue=',txValue
-        
+
         graph_with_channels= ComputeBetweennessResults(graph_deleted_edges,selected_nodes_all,txValueIndex)
-            
+
         our_node=graph_with_channels.vs.find(pub_key='our_node_pk')
-        
+
         graph_with_capacity= DistributeCapacityOverChannels(graph_with_channels,our_node,OurCapacity)
-        
+
         if txValueIndex==0:
             Graph.save(graph_with_capacity,'graph_with_capacity_lowtx.txt',format='pickle')
         if txValueIndex==1:
             Graph.save(graph_with_capacity,'graph_with_capacity_midtx.txt',format='pickle')
         if txValueIndex==2:
             Graph.save(graph_with_capacity,'graph_with_capacity_hightx.txt',format='pickle')
-        
+
         if testFlag==2:
             ournode=graph_with_capacity.vs.find(pub_key='our_node_pk')
             in_edges= np.array( graph_with_capacity.es.select(_to=ournode.index) )
             for edge in in_edges:
                 print graph_with_capacity.es[edge.index]['capacity']
-            
-            
+
+
     np.save('SavedGraphData/selected50.npy',result_selected)
 
 ''' End of BC Computation '''
@@ -359,7 +365,7 @@ high_graph=load('graph_with_capacity_hightx.txt',format='pickle')
 #    capacity=low_graph.es[edge.index]['capacity']
 #    print ebc,capacity,cost
 #    reward=ebc*cost
-#    
+#
 
 
 #graph=copy.deepcopy(mid_graph)
@@ -373,8 +379,8 @@ high_graph=load('graph_with_capacity_hightx.txt',format='pickle')
 #edge_index=int(0)
 #for edge in out_edges:
 #    edge_global=edge
-#    
-#    
+#
+#
 #    for index1 in np.arange(0,div):
 #        fee=(ChCost*index1/div)+1
 #        print fee
@@ -385,15 +391,15 @@ high_graph=load('graph_with_capacity_hightx.txt',format='pickle')
 #        ER[edge_index][index1]=graph.es[edge.index]['edgebetweenness']*graph.es[edge.index]['txCost']
 #        print 'EBC:  ', graph.es[edge.index]['edgebetweenness']
 #        ER_max[edge_index][index1]= (ER[edge_index][index1] *((ChCost*(index1+1)/div)+1) )/fee
-#        
+#
 #        if ER[edge_index][index1]==0:
 #            break
 #
-#    
+#
 #    print ER[edge_index]
 #    print ER_max[edge_index]
 #    edge_index=edge_index+1
-#    
+#
 #ER_min=ER
 #
 #print ER_min
@@ -443,7 +449,7 @@ print maxRew
 #    sum1= sum1 +high_graph.es[edge.index]['capacity']
 #print sum1
 
-#IGRAPH D--- 4619 68749 -- 
+#IGRAPH D--- 4619 68749 --
 #+ attr: pub_key (v), base_fee (e), capacity (e), edgebetweenness (e), fee_rate (e), txCost (e)
 #None
 #3644643.0
@@ -457,7 +463,7 @@ print maxRew
 #111531.0
 #49871.0
 #4999629.0
-#IGRAPH D--- 4619 68713 -- 
+#IGRAPH D--- 4619 68713 --
 #+ attr: pub_key (v), base_fee (e), capacity (e), edgebetweenness (e), fee_rate (e), txCost (e)
 #None
 #3129690.0
@@ -471,7 +477,7 @@ print maxRew
 #86325.0
 #91830.0
 #4999681.0
-#IGRAPH D--- 4619 32209 -- 
+#IGRAPH D--- 4619 32209 --
 #+ attr: pub_key (v), base_fee (e), capacity (e), edgebetweenness (e), fee_rate (e), txCost (e)
 #None
 #1807987.0
@@ -488,6 +494,7 @@ print maxRew
 
 ''' End Of Main Code'''
 
+""" Test cases in below """
 #loaded_graph=load('lngraphv2.txt',format='pickle')
 #
 #print summary(loaded_graph)
@@ -501,7 +508,7 @@ print maxRew
 #            if edge.source==1866:
 #                print edge.tuple
 #            count=count+1
-#            
+#
 #print count
 # There are 3690 multiple edges for Tx=1000000 graph
 #out_edges2=np.array( graph_deleted_edges.es.select(_from=1866) )
@@ -525,7 +532,7 @@ print maxRew
 #
 #print summary(lcc)
 
-''' analyzing node set 3265-2229,2316,3118,3124,3228 ''' 
+''' analyzing node set 3265-2229,2316,3118,3124,3228 '''
 #
 #loaded_graph=load('lngraphv2.txt',format='pickle')
 #print summary(loaded_graph)
@@ -588,7 +595,7 @@ print maxRew
 #out_edges2=np.array( graph.es.select(_from=node2) )
 #print 'Out: ', out_edges2
 #all_edges2= np.concatenate( (in_edges2,out_edges2),axis=None )
- 
+
 ''' General Graph Notes'''
 #DisplayBetweennessResults()
 

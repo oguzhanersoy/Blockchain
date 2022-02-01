@@ -5,6 +5,8 @@ import random
 
 numberOfTest = 1000
 
+""" Some test parameters given below """
+
 #numberOfNodes = 2000
 #numberOfConnections = 8
 #edgeProb = float(numberOfConnections) / float(numberOfNodes)
@@ -44,6 +46,8 @@ numberOfTest = 1000
 #print(g_er.average_path_length(directed=False))
 #Graph.__plot__(g,)
 #
+""" Sorts the list """
+
 def ListSorting(list):
     tempList=list
     lenList=[]
@@ -68,6 +72,8 @@ def ListSorting(list):
 #list=[[1,2,3],[5,6],[0,2,5,6],[3,4,5],[9,3,0],[8,0]]
 
 #ListSorting(list)
+
+""" Finding with nodes are reachable wrt. different failing probabilities"""
 
 def Reachability(paths,connects):
     failprob = [2, 3, 4]
@@ -106,6 +112,9 @@ def Reachability(paths,connects):
 #paths=[[36, 12, 8], [36, 37, 24], [36, 35, 26], [36, 2, 0, 3]]
 #print Reachability(paths,4)
 ###
+
+""" For a tx propagation, computin how many nodes are viited (there are multiple parths from a client to leader) """
+
 def numberOfVisitedNodes(g):
     leader= random.randint(0,g.vcount()-1)
 #    print 'Leader node:', leader
@@ -140,7 +149,7 @@ def numberOfVisitedNodes(g):
 #            print 'PATH:',ShortestPaths[nb]
             for i in range(0,len(ShortestPaths[nb])):
                 nodeSet.add(ShortestPaths[nb][i])
-        
+
 #        print 'nodeSet:',nodeSet
         numNodes.append(nodeSet)
         lenNodes.append(len(nodeSet))
@@ -155,6 +164,8 @@ nodeSet = (1000,2000,200,200,500,10000,10000,500,1000,1000,500,1000,1000,1000,20
 conSet =  (16,  16, 8,  16, 16, 8, 16,  4,  4,  16,  16, 4,   8,   16,  8,   16,  8,   16,  8,    16,   8,    16,   8,    16)
 g_full_20= Graph.Full(20)
 g_full_10= Graph.Full(10)
+
+""" Printing the output"""
 
 with open('workfile','a') as f:
     f.write(str('\n Number of Trials: %s\n' % numberOfTest))
@@ -254,6 +265,3 @@ f.close()
 #
 #
 #print g.get_shortest_paths(99, to=80, mode=ALL)
-
-
-
