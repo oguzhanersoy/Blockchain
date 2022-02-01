@@ -1,0 +1,6138 @@
+ChCost: 10000
+Div: 10
+---------------- Low graph --------------------------
+IGRAPH D--- 4619 68749 -- 
++ attr: pub_key (v), base_fee (e), capacity (e), edgebetweenness (e), fee_rate (e), txCost (e)
+None
+Edge with node: 2796
+     minFee= 1
+     maxFee= 10000
+     maxRew= 0
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 6839.53091668
+     ER= 6839.53091668
+     ER_max= 6839530.91668
+f= 1000
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 1000
+     maxRew= 6839.53091668
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 6839.53091668
+     ER= 6839.53091668
+     ER_max= 683953.091668
+f= 100
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 100
+     maxRew= 6839.53091668
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 6839.53091668
+     ER= 6839.53091668
+     ER_max= 68395.3091668
+f= 10
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 10
+     maxRew= 6839.53091668
+     maxRewFee= 1
+   in_base 1 10
+f= 1
+     ebc= 6839.53091668
+     ER= 6839.53091668
+f= 2
+     ebc= 2272.0
+     ER= 4544.0
+f= 3
+     ebc= 0.0
+     ER= 0.0
+f= 4
+     ebc= 0.0
+     ER= 0.0
+f= 5
+     ebc= 0.0
+     ER= 0.0
+f= 6
+     ebc= 0.0
+     ER= 0.0
+f= 7
+     ebc= 0.0
+     ER= 0.0
+f= 8
+     ebc= 0.0
+     ER= 0.0
+f= 9
+     ebc= 0.0
+     ER= 0.0
+f= 10
+     ebc= 0.0
+     ER= 0.0
+   discard 10 - 20
+   discard 20 - 30
+   discard 30 - 40
+   discard 40 - 50
+   discard 50 - 60
+   discard 60 - 70
+   discard 70 - 80
+   discard 80 - 90
+   discard 90 - 100
+   discard 100 - 200
+   discard 200 - 300
+   discard 300 - 400
+   discard 400 - 500
+   discard 500 - 600
+   discard 600 - 700
+   discard 700 - 800
+   discard 800 - 900
+   discard 900 - 1000
+   discard 1000 - 2000
+   discard 2000 - 3000
+   discard 3000 - 4000
+   discard 4000 - 5000
+   discard 5000 - 6000
+   discard 6000 - 7000
+   discard 7000 - 8000
+   discard 8000 - 9000
+   discard 9000 - 10000
+-----------------
+Edge with node: 2796
+Max Rewarding Fee: 1
+Max Reward: 6839.53091668
+-----------------
+Edge with node: 1223
+     minFee= 1
+     maxFee= 10000
+     maxRew= 0
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 842799.815354
+     ER= 842799.815354
+     ER_max= 842799815.354
+f= 1000
+     ebc= 678852.745096
+     ER= 678852745.096
+     ER_max= 1357705490.19
+f= 2000
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 1000
+     maxRew= 678852745.096
+     maxRewFee= 1000
+   in_recursion
+f= 1
+     ebc= 842799.815354
+     ER= 842799.815354
+     ER_max= 84279981.5354
+f= 100
+     ebc= 824850.045675
+     ER= 82485004.5675
+     ER_max= 164970009.135
+f= 200
+     ebc= 762338.54837
+     ER= 152467709.674
+     ER_max= 228701564.511
+f= 300
+     ebc= 756829.0
+     ER= 227048700.0
+     ER_max= 302731600.0
+f= 400
+     ebc= 756829.0
+     ER= 302731600.0
+     ER_max= 378414500.0
+f= 500
+     ebc= 756828.0
+     ER= 378414000.0
+     ER_max= 454096800.0
+f= 600
+     ebc= 756826.0
+     ER= 454095600.0
+     ER_max= 529778200.0
+f= 700
+     ebc= 756826.0
+     ER= 529778200.0
+     ER_max= 605460800.0
+f= 800
+     ebc= 756458.0
+     ER= 605166400.0
+     ER_max= 680812200.0
+f= 900
+     ebc= 755799.0
+     ER= 680219100.0
+     ER_max= 755799000.0
+   discard 1 - 100
+   discard 100 - 200
+   discard 200 - 300
+   discard 300 - 400
+   discard 400 - 500
+   discard 500 - 600
+   discard 600 - 700
+   discard 700 - 800
+     minFee= 800
+     maxFee= 900
+     maxRew= 680219100.0
+     maxRewFee= 900
+   in_recursion
+f= 800
+     ebc= 756458.0
+     ER= 605166400.0
+     ER_max= 612730980.0
+f= 810
+     ebc= 756458.0
+     ER= 612730980.0
+     ER_max= 620295560.0
+f= 820
+     ebc= 756458.0
+     ER= 620295560.0
+     ER_max= 627860140.0
+f= 830
+     ebc= 756458.0
+     ER= 627860140.0
+     ER_max= 635424720.0
+f= 840
+     ebc= 756458.0
+     ER= 635424720.0
+     ER_max= 642989300.0
+f= 850
+     ebc= 756281.0
+     ER= 642838850.0
+     ER_max= 650401660.0
+f= 860
+     ebc= 756281.0
+     ER= 650401660.0
+     ER_max= 657964470.0
+f= 870
+     ebc= 756281.0
+     ER= 657964470.0
+     ER_max= 665527280.0
+f= 880
+     ebc= 756281.0
+     ER= 665527280.0
+     ER_max= 673090090.0
+f= 890
+     ebc= 756281.0
+     ER= 673090090.0
+     ER_max= 680652900.0
+   discard 800 - 810
+   discard 810 - 820
+   discard 820 - 830
+   discard 830 - 840
+   discard 840 - 850
+   discard 850 - 860
+   discard 860 - 870
+   discard 870 - 880
+   discard 880 - 890
+     minFee= 890
+     maxFee= 900
+     maxRew= 680219100.0
+     maxRewFee= 900
+   in_base 890 900
+f= 890
+     ebc= 756281.0
+     ER= 673090090.0
+f= 891
+     ebc= 756281.0
+     ER= 673846371.0
+f= 892
+     ebc= 756281.0
+     ER= 674602652.0
+f= 893
+     ebc= 756281.0
+     ER= 675358933.0
+f= 894
+     ebc= 756281.0
+     ER= 676115214.0
+f= 895
+     ebc= 756281.0
+     ER= 676871495.0
+f= 896
+     ebc= 756281.0
+     ER= 677627776.0
+f= 897
+     ebc= 756280.894737
+     ER= 678383962.579
+f= 898
+     ebc= 756241.671086
+     ER= 679105020.635
+f= 899
+     ebc= 755969.7
+     ER= 679616760.3
+f= 900
+     ebc= 755799.0
+     ER= 680219100.0
+     minFee= 900
+     maxFee= 1000
+     maxRew= 680219100.0
+     maxRewFee= 900
+   in_recursion
+f= 900
+     ebc= 755799.0
+     ER= 680219100.0
+     ER_max= 687777090.0
+f= 910
+     ebc= 755799.0
+     ER= 687777090.0
+     ER_max= 695335080.0
+f= 920
+     ebc= 755799.0
+     ER= 695335080.0
+     ER_max= 702893070.0
+f= 930
+     ebc= 755799.0
+     ER= 702893070.0
+     ER_max= 710451060.0
+f= 940
+     ebc= 755799.0
+     ER= 710451060.0
+     ER_max= 718009050.0
+f= 950
+     ebc= 755780.0
+     ER= 717991000.0
+     ER_max= 725548800.0
+f= 960
+     ebc= 755780.0
+     ER= 725548800.0
+     ER_max= 733106600.0
+f= 970
+     ebc= 755780.0
+     ER= 733106600.0
+     ER_max= 740664400.0
+f= 980
+     ebc= 755743.0
+     ER= 740628140.0
+     ER_max= 748185570.0
+f= 990
+     ebc= 755273.033333
+     ER= 747720303.0
+     ER_max= 755273033.333
+   discard 900 - 910
+   discard 910 - 920
+   discard 920 - 930
+   discard 930 - 940
+   discard 940 - 950
+   discard 950 - 960
+   discard 960 - 970
+   discard 970 - 980
+     minFee= 980
+     maxFee= 990
+     maxRew= 747720303.0
+     maxRewFee= 990
+   in_base 980 990
+f= 980
+     ebc= 755743.0
+     ER= 740628140.0
+f= 981
+     ebc= 755743.0
+     ER= 741383883.0
+f= 982
+     ebc= 755743.0
+     ER= 742139626.0
+f= 983
+     ebc= 755743.0
+     ER= 742895369.0
+f= 984
+     ebc= 755743.0
+     ER= 743651112.0
+f= 985
+     ebc= 755743.0
+     ER= 744406855.0
+f= 986
+     ebc= 755743.0
+     ER= 745162598.0
+f= 987
+     ebc= 755707.6
+     ER= 745883401.2
+f= 988
+     ebc= 755560.488958
+     ER= 746493763.091
+f= 989
+     ebc= 755491.0
+     ER= 747180599.0
+f= 990
+     ebc= 755273.033333
+     ER= 747720303.0
+     minFee= 990
+     maxFee= 1000
+     maxRew= 747720303.0
+     maxRewFee= 990
+   in_base 990 1000
+f= 990
+     ebc= 755273.033333
+     ER= 747720303.0
+f= 991
+     ebc= 755198.0
+     ER= 748401218.0
+f= 992
+     ebc= 755196.447368
+     ER= 749154875.789
+f= 993
+     ebc= 755174.747368
+     ER= 749888524.137
+f= 994
+     ebc= 755149.0
+     ER= 750618106.0
+f= 995
+     ebc= 755146.058333
+     ER= 751370328.042
+f= 996
+     ebc= 755117.851338
+     ER= 752097379.933
+f= 997
+     ebc= 754713.491956
+     ER= 752449351.48
+f= 998
+     ebc= 744810.147337
+     ER= 743320527.042
+f= 999
+     ebc= 693659.034641
+     ER= 692965375.607
+f= 1000
+     ebc= 678852.745096
+     ER= 678852745.096
+     minFee= 1000
+     maxFee= 2000
+     maxRew= 752449351.48
+     maxRewFee= 997
+   in_recursion
+f= 1000
+     ebc= 678852.745096
+     ER= 678852745.096
+     ER_max= 746738019.605
+f= 1100
+     ebc= 199550.793889
+     ER= 219505873.278
+     ER_max= 239460952.667
+f= 1200
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+   discard 1000 - 1100
+   discard 1100 - 1200
+   discard 1200 - 1300
+   discard 1300 - 1400
+   discard 1400 - 1500
+   discard 1500 - 1600
+   discard 1600 - 1700
+   discard 1700 - 1800
+   discard 1800 - 1900
+   discard 1900 - 2000
+   discard 2000 - 3000
+   discard 3000 - 4000
+   discard 4000 - 5000
+   discard 5000 - 6000
+   discard 6000 - 7000
+   discard 7000 - 8000
+   discard 8000 - 9000
+   discard 9000 - 10000
+-----------------
+Edge with node: 1223
+Max Rewarding Fee: 997
+Max Reward: 752449351.48
+-----------------
+Edge with node: 498
+     minFee= 1
+     maxFee= 10000
+     maxRew= 0
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 3229.52134288
+     ER= 3229.52134288
+     ER_max= 3229521.34288
+f= 1000
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 1000
+     maxRew= 3229.52134288
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 3229.52134288
+     ER= 3229.52134288
+     ER_max= 322952.134288
+f= 100
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 100
+     maxRew= 3229.52134288
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 3229.52134288
+     ER= 3229.52134288
+     ER_max= 32295.2134288
+f= 10
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 10
+     maxRew= 3229.52134288
+     maxRewFee= 1
+   in_base 1 10
+f= 1
+     ebc= 3229.52134288
+     ER= 3229.52134288
+f= 2
+     ebc= 3083.23333333
+     ER= 6166.46666667
+f= 3
+     ebc= 612.653846154
+     ER= 1837.96153846
+f= 4
+     ebc= 0.0
+     ER= 0.0
+f= 5
+     ebc= 0.0
+     ER= 0.0
+f= 6
+     ebc= 0.0
+     ER= 0.0
+f= 7
+     ebc= 0.0
+     ER= 0.0
+f= 8
+     ebc= 0.0
+     ER= 0.0
+f= 9
+     ebc= 0.0
+     ER= 0.0
+f= 10
+     ebc= 0.0
+     ER= 0.0
+   discard 10 - 20
+   discard 20 - 30
+   discard 30 - 40
+   discard 40 - 50
+   discard 50 - 60
+   discard 60 - 70
+   discard 70 - 80
+   discard 80 - 90
+   discard 90 - 100
+   discard 100 - 200
+   discard 200 - 300
+   discard 300 - 400
+   discard 400 - 500
+   discard 500 - 600
+   discard 600 - 700
+   discard 700 - 800
+   discard 800 - 900
+   discard 900 - 1000
+   discard 1000 - 2000
+   discard 2000 - 3000
+   discard 3000 - 4000
+   discard 4000 - 5000
+   discard 5000 - 6000
+   discard 6000 - 7000
+   discard 7000 - 8000
+   discard 8000 - 9000
+   discard 9000 - 10000
+-----------------
+Edge with node: 498
+Max Rewarding Fee: 2
+Max Reward: 6166.46666667
+-----------------
+Edge with node: 3265
+     minFee= 1
+     maxFee= 10000
+     maxRew= 0
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 26106.0
+     ER= 26106.0
+     ER_max= 26106000.0
+f= 1000
+     ebc= 26106.0
+     ER= 26106000.0
+     ER_max= 52212000.0
+f= 2000
+     ebc= 26106.0
+     ER= 52212000.0
+     ER_max= 78318000.0
+f= 3000
+     ebc= 26106.0
+     ER= 78318000.0
+     ER_max= 104424000.0
+f= 4000
+     ebc= 26106.0
+     ER= 104424000.0
+     ER_max= 130530000.0
+f= 5000
+     ebc= 26106.0
+     ER= 130530000.0
+     ER_max= 156636000.0
+f= 6000
+     ebc= 26106.0
+     ER= 156636000.0
+     ER_max= 182742000.0
+f= 7000
+     ebc= 26106.0
+     ER= 182742000.0
+     ER_max= 208848000.0
+f= 8000
+     ebc= 26106.0
+     ER= 208848000.0
+     ER_max= 234954000.0
+f= 9000
+     ebc= 26106.0
+     ER= 234954000.0
+     ER_max= 261060000.0
+   discard 1 - 1000
+   discard 1000 - 2000
+   discard 2000 - 3000
+   discard 3000 - 4000
+   discard 4000 - 5000
+   discard 5000 - 6000
+   discard 6000 - 7000
+   discard 7000 - 8000
+   discard 8000 - 9000
+     minFee= 9000
+     maxFee= 10000
+     maxRew= 234954000.0
+     maxRewFee= 9000
+   in_recursion
+f= 9000
+     ebc= 26106.0
+     ER= 234954000.0
+     ER_max= 237564600.0
+f= 9100
+     ebc= 26106.0
+     ER= 237564600.0
+     ER_max= 240175200.0
+f= 9200
+     ebc= 26106.0
+     ER= 240175200.0
+     ER_max= 242785800.0
+f= 9300
+     ebc= 26106.0
+     ER= 242785800.0
+     ER_max= 245396400.0
+f= 9400
+     ebc= 26106.0
+     ER= 245396400.0
+     ER_max= 248007000.0
+f= 9500
+     ebc= 26106.0
+     ER= 248007000.0
+     ER_max= 250617600.0
+f= 9600
+     ebc= 26106.0
+     ER= 250617600.0
+     ER_max= 253228200.0
+f= 9700
+     ebc= 26106.0
+     ER= 253228200.0
+     ER_max= 255838800.0
+f= 9800
+     ebc= 26106.0
+     ER= 255838800.0
+     ER_max= 258449400.0
+f= 9900
+     ebc= 26106.0
+     ER= 258449400.0
+     ER_max= 261060000.0
+   discard 9000 - 9100
+   discard 9100 - 9200
+   discard 9200 - 9300
+   discard 9300 - 9400
+   discard 9400 - 9500
+   discard 9500 - 9600
+   discard 9600 - 9700
+   discard 9700 - 9800
+   discard 9800 - 9900
+     minFee= 9900
+     maxFee= 10000
+     maxRew= 258449400.0
+     maxRewFee= 9900
+   in_recursion
+f= 9900
+     ebc= 26106.0
+     ER= 258449400.0
+     ER_max= 258710460.0
+f= 9910
+     ebc= 26106.0
+     ER= 258710460.0
+     ER_max= 258971520.0
+f= 9920
+     ebc= 26106.0
+     ER= 258971520.0
+     ER_max= 259232580.0
+f= 9930
+     ebc= 26106.0
+     ER= 259232580.0
+     ER_max= 259493640.0
+f= 9940
+     ebc= 26106.0
+     ER= 259493640.0
+     ER_max= 259754700.0
+f= 9950
+     ebc= 26106.0
+     ER= 259754700.0
+     ER_max= 260015760.0
+f= 9960
+     ebc= 26106.0
+     ER= 260015760.0
+     ER_max= 260276820.0
+f= 9970
+     ebc= 26106.0
+     ER= 260276820.0
+     ER_max= 260537880.0
+f= 9980
+     ebc= 26106.0
+     ER= 260537880.0
+     ER_max= 260798940.0
+f= 9990
+     ebc= 26106.0
+     ER= 260798940.0
+     ER_max= 261060000.0
+   discard 9900 - 9910
+   discard 9910 - 9920
+   discard 9920 - 9930
+   discard 9930 - 9940
+   discard 9940 - 9950
+   discard 9950 - 9960
+   discard 9960 - 9970
+   discard 9970 - 9980
+   discard 9980 - 9990
+     minFee= 9990
+     maxFee= 10000
+     maxRew= 260798940.0
+     maxRewFee= 9990
+   in_base 9990 10000
+f= 9990
+     ebc= 26106.0
+     ER= 260798940.0
+f= 9991
+     ebc= 26106.0
+     ER= 260825046.0
+f= 9992
+     ebc= 26106.0
+     ER= 260851152.0
+f= 9993
+     ebc= 26106.0
+     ER= 260877258.0
+f= 9994
+     ebc= 26106.0
+     ER= 260903364.0
+f= 9995
+     ebc= 26106.0
+     ER= 260929470.0
+f= 9996
+     ebc= 26106.0
+     ER= 260955576.0
+f= 9997
+     ebc= 26106.0
+     ER= 260981682.0
+f= 9998
+     ebc= 26106.0
+     ER= 261007788.0
+f= 9999
+     ebc= 26106.0
+     ER= 261033894.0
+f= 10000
+     ebc= 26106.0
+     ER= 261060000.0
+-----------------
+Edge with node: 3265
+Max Rewarding Fee: 10000
+Max Reward: 261060000.0
+-----------------
+Edge with node: 3884
+     minFee= 1
+     maxFee= 10000
+     maxRew= 0
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 1726.87334231
+     ER= 1726.87334231
+     ER_max= 1726873.34231
+f= 1000
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 1000
+     maxRew= 1726.87334231
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 1726.87334231
+     ER= 1726.87334231
+     ER_max= 172687.334231
+f= 100
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 100
+     maxRew= 1726.87334231
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 1726.87334231
+     ER= 1726.87334231
+     ER_max= 17268.7334231
+f= 10
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 10
+     maxRew= 1726.87334231
+     maxRewFee= 1
+   in_base 1 10
+f= 1
+     ebc= 1726.87334231
+     ER= 1726.87334231
+f= 2
+     ebc= 564.716485507
+     ER= 1129.43297101
+f= 3
+     ebc= 0.0
+     ER= 0.0
+f= 4
+     ebc= 0.0
+     ER= 0.0
+f= 5
+     ebc= 0.0
+     ER= 0.0
+f= 6
+     ebc= 0.0
+     ER= 0.0
+f= 7
+     ebc= 0.0
+     ER= 0.0
+f= 8
+     ebc= 0.0
+     ER= 0.0
+f= 9
+     ebc= 0.0
+     ER= 0.0
+f= 10
+     ebc= 0.0
+     ER= 0.0
+   discard 10 - 20
+   discard 20 - 30
+   discard 30 - 40
+   discard 40 - 50
+   discard 50 - 60
+   discard 60 - 70
+   discard 70 - 80
+   discard 80 - 90
+   discard 90 - 100
+   discard 100 - 200
+   discard 200 - 300
+   discard 300 - 400
+   discard 400 - 500
+   discard 500 - 600
+   discard 600 - 700
+   discard 700 - 800
+   discard 800 - 900
+   discard 900 - 1000
+   discard 1000 - 2000
+   discard 2000 - 3000
+   discard 3000 - 4000
+   discard 4000 - 5000
+   discard 5000 - 6000
+   discard 6000 - 7000
+   discard 7000 - 8000
+   discard 8000 - 9000
+   discard 9000 - 10000
+-----------------
+Edge with node: 3884
+Max Rewarding Fee: 1
+Max Reward: 1726.87334231
+-----------------
+Edge with node: 2836
+     minFee= 1
+     maxFee= 10000
+     maxRew= 0
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 7680.74327277
+     ER= 7680.74327277
+     ER_max= 7680743.27277
+f= 1000
+     ebc= 865.5
+     ER= 865500.0
+     ER_max= 1731000.0
+f= 2000
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 1000
+     maxRew= 865500.0
+     maxRewFee= 1000
+   in_recursion
+f= 1
+     ebc= 7680.74327277
+     ER= 7680.74327277
+     ER_max= 768074.327277
+f= 100
+     ebc= 1063.5
+     ER= 106350.0
+     ER_max= 212700.0
+f= 200
+     ebc= 1008.0
+     ER= 201600.0
+     ER_max= 302400.0
+f= 300
+     ebc= 939.0
+     ER= 281700.0
+     ER_max= 375600.0
+f= 400
+     ebc= 927.0
+     ER= 370800.0
+     ER_max= 463500.0
+f= 500
+     ebc= 915.0
+     ER= 457500.0
+     ER_max= 549000.0
+f= 600
+     ebc= 900.0
+     ER= 540000.0
+     ER_max= 630000.0
+f= 700
+     ebc= 900.0
+     ER= 630000.0
+     ER_max= 720000.0
+f= 800
+     ebc= 900.0
+     ER= 720000.0
+     ER_max= 810000.0
+f= 900
+     ebc= 897.0
+     ER= 807300.0
+     ER_max= 897000.0
+   discard 1 - 100
+   discard 100 - 200
+   discard 200 - 300
+   discard 300 - 400
+   discard 400 - 500
+   discard 500 - 600
+   discard 600 - 700
+   discard 700 - 800
+   discard 800 - 900
+     minFee= 900
+     maxFee= 1000
+     maxRew= 865500.0
+     maxRewFee= 1000
+   in_recursion
+f= 900
+     ebc= 897.0
+     ER= 807300.0
+     ER_max= 816270.0
+f= 910
+     ebc= 894.0
+     ER= 813540.0
+     ER_max= 822480.0
+f= 920
+     ebc= 894.0
+     ER= 822480.0
+     ER_max= 831420.0
+f= 930
+     ebc= 894.0
+     ER= 831420.0
+     ER_max= 840360.0
+f= 940
+     ebc= 894.0
+     ER= 840360.0
+     ER_max= 849300.0
+f= 950
+     ebc= 883.5
+     ER= 839325.0
+     ER_max= 848160.0
+f= 960
+     ebc= 882.0
+     ER= 846720.0
+     ER_max= 855540.0
+f= 970
+     ebc= 879.0
+     ER= 852630.0
+     ER_max= 861420.0
+f= 980
+     ebc= 879.0
+     ER= 861420.0
+     ER_max= 870210.0
+f= 990
+     ebc= 879.0
+     ER= 870210.0
+     ER_max= 879000.0
+   discard 900 - 910
+   discard 910 - 920
+   discard 920 - 930
+   discard 930 - 940
+   discard 940 - 950
+   discard 950 - 960
+   discard 960 - 970
+   discard 970 - 980
+   discard 980 - 990
+     minFee= 990
+     maxFee= 1000
+     maxRew= 870210.0
+     maxRewFee= 990
+   in_base 990 1000
+f= 990
+     ebc= 879.0
+     ER= 870210.0
+f= 991
+     ebc= 879.0
+     ER= 871089.0
+f= 992
+     ebc= 879.0
+     ER= 871968.0
+f= 993
+     ebc= 879.0
+     ER= 872847.0
+f= 994
+     ebc= 879.0
+     ER= 873726.0
+f= 995
+     ebc= 879.0
+     ER= 874605.0
+f= 996
+     ebc= 879.0
+     ER= 875484.0
+f= 997
+     ebc= 879.0
+     ER= 876363.0
+f= 998
+     ebc= 879.0
+     ER= 877242.0
+f= 999
+     ebc= 879.0
+     ER= 878121.0
+f= 1000
+     ebc= 865.5
+     ER= 865500.0
+     minFee= 1000
+     maxFee= 2000
+     maxRew= 878121.0
+     maxRewFee= 999
+   in_recursion
+f= 1000
+     ebc= 865.5
+     ER= 865500.0
+     ER_max= 952050.0
+f= 1100
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1000
+     maxFee= 1100
+     maxRew= 878121.0
+     maxRewFee= 999
+   in_recursion
+f= 1000
+     ebc= 865.5
+     ER= 865500.0
+     ER_max= 874155.0
+f= 1010
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+   discard 1000 - 1010
+   discard 1010 - 1020
+   discard 1020 - 1030
+   discard 1030 - 1040
+   discard 1040 - 1050
+   discard 1050 - 1060
+   discard 1060 - 1070
+   discard 1070 - 1080
+   discard 1080 - 1090
+   discard 1090 - 1100
+   discard 1100 - 1200
+   discard 1200 - 1300
+   discard 1300 - 1400
+   discard 1400 - 1500
+   discard 1500 - 1600
+   discard 1600 - 1700
+   discard 1700 - 1800
+   discard 1800 - 1900
+   discard 1900 - 2000
+   discard 2000 - 3000
+   discard 3000 - 4000
+   discard 4000 - 5000
+   discard 5000 - 6000
+   discard 6000 - 7000
+   discard 7000 - 8000
+   discard 8000 - 9000
+   discard 9000 - 10000
+-----------------
+Edge with node: 2836
+Max Rewarding Fee: 999
+Max Reward: 878121.0
+-----------------
+Edge with node: 2032
+     minFee= 1
+     maxFee= 10000
+     maxRew= 0
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 830.109625204
+     ER= 830.109625204
+     ER_max= 830109.625204
+f= 1000
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 1000
+     maxRew= 830.109625204
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 830.109625204
+     ER= 830.109625204
+     ER_max= 83010.9625204
+f= 100
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 100
+     maxRew= 830.109625204
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 830.109625204
+     ER= 830.109625204
+     ER_max= 8301.09625204
+f= 10
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 10
+     maxRew= 830.109625204
+     maxRewFee= 1
+   in_base 1 10
+f= 1
+     ebc= 830.109625204
+     ER= 830.109625204
+f= 2
+     ebc= 774.571428571
+     ER= 1549.14285714
+f= 3
+     ebc= 128.121212121
+     ER= 384.363636364
+f= 4
+     ebc= 0.0
+     ER= 0.0
+f= 5
+     ebc= 0.0
+     ER= 0.0
+f= 6
+     ebc= 0.0
+     ER= 0.0
+f= 7
+     ebc= 0.0
+     ER= 0.0
+f= 8
+     ebc= 0.0
+     ER= 0.0
+f= 9
+     ebc= 0.0
+     ER= 0.0
+f= 10
+     ebc= 0.0
+     ER= 0.0
+   discard 10 - 20
+   discard 20 - 30
+   discard 30 - 40
+   discard 40 - 50
+   discard 50 - 60
+   discard 60 - 70
+   discard 70 - 80
+   discard 80 - 90
+   discard 90 - 100
+   discard 100 - 200
+   discard 200 - 300
+   discard 300 - 400
+   discard 400 - 500
+   discard 500 - 600
+   discard 600 - 700
+   discard 700 - 800
+   discard 800 - 900
+   discard 900 - 1000
+   discard 1000 - 2000
+   discard 2000 - 3000
+   discard 3000 - 4000
+   discard 4000 - 5000
+   discard 5000 - 6000
+   discard 6000 - 7000
+   discard 7000 - 8000
+   discard 8000 - 9000
+   discard 9000 - 10000
+-----------------
+Edge with node: 2032
+Max Rewarding Fee: 2
+Max Reward: 1549.14285714
+-----------------
+Edge with node: 4051
+     minFee= 1
+     maxFee= 10000
+     maxRew= 0
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 1037.01036639
+     ER= 1037.01036639
+     ER_max= 1037010.36639
+f= 1000
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 1000
+     maxRew= 1037.01036639
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 1037.01036639
+     ER= 1037.01036639
+     ER_max= 103701.036639
+f= 100
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 100
+     maxRew= 1037.01036639
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 1037.01036639
+     ER= 1037.01036639
+     ER_max= 10370.1036639
+f= 10
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 10
+     maxRew= 1037.01036639
+     maxRewFee= 1
+   in_base 1 10
+f= 1
+     ebc= 1037.01036639
+     ER= 1037.01036639
+f= 2
+     ebc= 967.25
+     ER= 1934.5
+f= 3
+     ebc= 192.0
+     ER= 576.0
+f= 4
+     ebc= 0.0
+     ER= 0.0
+f= 5
+     ebc= 0.0
+     ER= 0.0
+f= 6
+     ebc= 0.0
+     ER= 0.0
+f= 7
+     ebc= 0.0
+     ER= 0.0
+f= 8
+     ebc= 0.0
+     ER= 0.0
+f= 9
+     ebc= 0.0
+     ER= 0.0
+f= 10
+     ebc= 0.0
+     ER= 0.0
+   discard 10 - 20
+   discard 20 - 30
+   discard 30 - 40
+   discard 40 - 50
+   discard 50 - 60
+   discard 60 - 70
+   discard 70 - 80
+   discard 80 - 90
+   discard 90 - 100
+   discard 100 - 200
+   discard 200 - 300
+   discard 300 - 400
+   discard 400 - 500
+   discard 500 - 600
+   discard 600 - 700
+   discard 700 - 800
+   discard 800 - 900
+   discard 900 - 1000
+   discard 1000 - 2000
+   discard 2000 - 3000
+   discard 3000 - 4000
+   discard 4000 - 5000
+   discard 5000 - 6000
+   discard 6000 - 7000
+   discard 7000 - 8000
+   discard 8000 - 9000
+   discard 9000 - 10000
+-----------------
+Edge with node: 4051
+Max Rewarding Fee: 2
+Max Reward: 1934.5
+-----------------
+Edge with node: 2228
+     minFee= 1
+     maxFee= 10000
+     maxRew= 0
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 619.504300204
+     ER= 619.504300204
+     ER_max= 619504.300204
+f= 1000
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 1000
+     maxRew= 619.504300204
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 619.504300204
+     ER= 619.504300204
+     ER_max= 61950.4300204
+f= 100
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 100
+     maxRew= 619.504300204
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 619.504300204
+     ER= 619.504300204
+     ER_max= 6195.04300204
+f= 10
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 10
+     maxRew= 619.504300204
+     maxRewFee= 1
+   in_base 1 10
+f= 1
+     ebc= 619.504300204
+     ER= 619.504300204
+f= 2
+     ebc= 580.671907601
+     ER= 1161.3438152
+f= 3
+     ebc= 144.096774194
+     ER= 432.290322581
+f= 4
+     ebc= 0.0
+     ER= 0.0
+f= 5
+     ebc= 0.0
+     ER= 0.0
+f= 6
+     ebc= 0.0
+     ER= 0.0
+f= 7
+     ebc= 0.0
+     ER= 0.0
+f= 8
+     ebc= 0.0
+     ER= 0.0
+f= 9
+     ebc= 0.0
+     ER= 0.0
+f= 10
+     ebc= 0.0
+     ER= 0.0
+   discard 10 - 20
+   discard 20 - 30
+   discard 30 - 40
+   discard 40 - 50
+   discard 50 - 60
+   discard 60 - 70
+   discard 70 - 80
+   discard 80 - 90
+   discard 90 - 100
+   discard 100 - 200
+   discard 200 - 300
+   discard 300 - 400
+   discard 400 - 500
+   discard 500 - 600
+   discard 600 - 700
+   discard 700 - 800
+   discard 800 - 900
+   discard 900 - 1000
+   discard 1000 - 2000
+   discard 2000 - 3000
+   discard 3000 - 4000
+   discard 4000 - 5000
+   discard 5000 - 6000
+   discard 6000 - 7000
+   discard 7000 - 8000
+   discard 8000 - 9000
+   discard 9000 - 10000
+-----------------
+Edge with node: 2228
+Max Rewarding Fee: 2
+Max Reward: 1161.3438152
+-----------------
+Edge with node: 2565
+     minFee= 1
+     maxFee= 10000
+     maxRew= 0
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 8710.0
+     ER= 8710.0
+     ER_max= 8710000.0
+f= 1000
+     ebc= 8710.0
+     ER= 8710000.0
+     ER_max= 17420000.0
+f= 2000
+     ebc= 8710.0
+     ER= 17420000.0
+     ER_max= 26130000.0
+f= 3000
+     ebc= 8710.0
+     ER= 26130000.0
+     ER_max= 34840000.0
+f= 4000
+     ebc= 8710.0
+     ER= 34840000.0
+     ER_max= 43550000.0
+f= 5000
+     ebc= 8710.0
+     ER= 43550000.0
+     ER_max= 52260000.0
+f= 6000
+     ebc= 8710.0
+     ER= 52260000.0
+     ER_max= 60970000.0
+f= 7000
+     ebc= 8710.0
+     ER= 60970000.0
+     ER_max= 69680000.0
+f= 8000
+     ebc= 8710.0
+     ER= 69680000.0
+     ER_max= 78390000.0
+f= 9000
+     ebc= 8710.0
+     ER= 78390000.0
+     ER_max= 87100000.0
+   discard 1 - 1000
+   discard 1000 - 2000
+   discard 2000 - 3000
+   discard 3000 - 4000
+   discard 4000 - 5000
+   discard 5000 - 6000
+   discard 6000 - 7000
+   discard 7000 - 8000
+   discard 8000 - 9000
+     minFee= 9000
+     maxFee= 10000
+     maxRew= 78390000.0
+     maxRewFee= 9000
+   in_recursion
+f= 9000
+     ebc= 8710.0
+     ER= 78390000.0
+     ER_max= 79261000.0
+f= 9100
+     ebc= 8710.0
+     ER= 79261000.0
+     ER_max= 80132000.0
+f= 9200
+     ebc= 8710.0
+     ER= 80132000.0
+     ER_max= 81003000.0
+f= 9300
+     ebc= 8710.0
+     ER= 81003000.0
+     ER_max= 81874000.0
+f= 9400
+     ebc= 8710.0
+     ER= 81874000.0
+     ER_max= 82745000.0
+f= 9500
+     ebc= 8710.0
+     ER= 82745000.0
+     ER_max= 83616000.0
+f= 9600
+     ebc= 8710.0
+     ER= 83616000.0
+     ER_max= 84487000.0
+f= 9700
+     ebc= 8710.0
+     ER= 84487000.0
+     ER_max= 85358000.0
+f= 9800
+     ebc= 8710.0
+     ER= 85358000.0
+     ER_max= 86229000.0
+f= 9900
+     ebc= 8710.0
+     ER= 86229000.0
+     ER_max= 87100000.0
+   discard 9000 - 9100
+   discard 9100 - 9200
+   discard 9200 - 9300
+   discard 9300 - 9400
+   discard 9400 - 9500
+   discard 9500 - 9600
+   discard 9600 - 9700
+   discard 9700 - 9800
+   discard 9800 - 9900
+     minFee= 9900
+     maxFee= 10000
+     maxRew= 86229000.0
+     maxRewFee= 9900
+   in_recursion
+f= 9900
+     ebc= 8710.0
+     ER= 86229000.0
+     ER_max= 86316100.0
+f= 9910
+     ebc= 8710.0
+     ER= 86316100.0
+     ER_max= 86403200.0
+f= 9920
+     ebc= 8710.0
+     ER= 86403200.0
+     ER_max= 86490300.0
+f= 9930
+     ebc= 8710.0
+     ER= 86490300.0
+     ER_max= 86577400.0
+f= 9940
+     ebc= 8710.0
+     ER= 86577400.0
+     ER_max= 86664500.0
+f= 9950
+     ebc= 8710.0
+     ER= 86664500.0
+     ER_max= 86751600.0
+f= 9960
+     ebc= 8710.0
+     ER= 86751600.0
+     ER_max= 86838700.0
+f= 9970
+     ebc= 8710.0
+     ER= 86838700.0
+     ER_max= 86925800.0
+f= 9980
+     ebc= 8710.0
+     ER= 86925800.0
+     ER_max= 87012900.0
+f= 9990
+     ebc= 8710.0
+     ER= 87012900.0
+     ER_max= 87100000.0
+   discard 9900 - 9910
+   discard 9910 - 9920
+   discard 9920 - 9930
+   discard 9930 - 9940
+   discard 9940 - 9950
+   discard 9950 - 9960
+   discard 9960 - 9970
+   discard 9970 - 9980
+   discard 9980 - 9990
+     minFee= 9990
+     maxFee= 10000
+     maxRew= 87012900.0
+     maxRewFee= 9990
+   in_base 9990 10000
+f= 9990
+     ebc= 8710.0
+     ER= 87012900.0
+f= 9991
+     ebc= 8710.0
+     ER= 87021610.0
+f= 9992
+     ebc= 8710.0
+     ER= 87030320.0
+f= 9993
+     ebc= 8710.0
+     ER= 87039030.0
+f= 9994
+     ebc= 8710.0
+     ER= 87047740.0
+f= 9995
+     ebc= 8710.0
+     ER= 87056450.0
+f= 9996
+     ebc= 8710.0
+     ER= 87065160.0
+f= 9997
+     ebc= 8710.0
+     ER= 87073870.0
+f= 9998
+     ebc= 8710.0
+     ER= 87082580.0
+f= 9999
+     ebc= 8710.0
+     ER= 87091290.0
+f= 10000
+     ebc= 8710.0
+     ER= 87100000.0
+-----------------
+Edge with node: 2565
+Max Rewarding Fee: 10000
+Max Reward: 87100000.0
+-----------------
+---------------- Mid graph --------------------------
+IGRAPH D--- 4619 68713 -- 
++ attr: pub_key (v), base_fee (e), capacity (e), edgebetweenness (e), fee_rate (e), txCost (e)
+None
+Edge with node: 2796
+     minFee= 1
+     maxFee= 10000
+     maxRew= 0
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 13395.7743367
+     ER= 13395.7743367
+     ER_max= 13395774.3367
+f= 1000
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 1000
+     maxRew= 13395.7743367
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 13395.7743367
+     ER= 13395.7743367
+     ER_max= 1339577.43367
+f= 100
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 100
+     maxRew= 13395.7743367
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 13395.7743367
+     ER= 13395.7743367
+     ER_max= 133957.743367
+f= 10
+     ebc= 12954.0
+     ER= 129540.0
+     ER_max= 259080.0
+f= 20
+     ebc= 12699.0
+     ER= 253980.0
+     ER_max= 380970.0
+f= 30
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+   discard 1 - 10
+     minFee= 10
+     maxFee= 20
+     maxRew= 253980.0
+     maxRewFee= 20
+   in_base 10 20
+f= 10
+     ebc= 12954.0
+     ER= 129540.0
+f= 11
+     ebc= 12737.25
+     ER= 140109.75
+f= 12
+     ebc= 12699.0
+     ER= 152388.0
+f= 13
+     ebc= 12699.0
+     ER= 165087.0
+f= 14
+     ebc= 12699.0
+     ER= 177786.0
+f= 15
+     ebc= 12699.0
+     ER= 190485.0
+f= 16
+     ebc= 12699.0
+     ER= 203184.0
+f= 17
+     ebc= 12699.0
+     ER= 215883.0
+f= 18
+     ebc= 12699.0
+     ER= 228582.0
+f= 19
+     ebc= 12699.0
+     ER= 241281.0
+f= 20
+     ebc= 12699.0
+     ER= 253980.0
+     minFee= 20
+     maxFee= 30
+     maxRew= 253980.0
+     maxRewFee= 20
+   in_base 20 30
+f= 20
+     ebc= 12699.0
+     ER= 253980.0
+f= 21
+     ebc= 4220.25
+     ER= 88625.25
+f= 22
+     ebc= 0.0
+     ER= 0.0
+f= 23
+     ebc= 0.0
+     ER= 0.0
+f= 24
+     ebc= 0.0
+     ER= 0.0
+f= 25
+     ebc= 0.0
+     ER= 0.0
+f= 26
+     ebc= 0.0
+     ER= 0.0
+f= 27
+     ebc= 0.0
+     ER= 0.0
+f= 28
+     ebc= 0.0
+     ER= 0.0
+f= 29
+     ebc= 0.0
+     ER= 0.0
+f= 30
+     ebc= 0.0
+     ER= 0.0
+   discard 30 - 40
+   discard 40 - 50
+   discard 50 - 60
+   discard 60 - 70
+   discard 70 - 80
+   discard 80 - 90
+   discard 90 - 100
+   discard 100 - 200
+   discard 200 - 300
+   discard 300 - 400
+   discard 400 - 500
+   discard 500 - 600
+   discard 600 - 700
+   discard 700 - 800
+   discard 800 - 900
+   discard 900 - 1000
+   discard 1000 - 2000
+   discard 2000 - 3000
+   discard 3000 - 4000
+   discard 4000 - 5000
+   discard 5000 - 6000
+   discard 6000 - 7000
+   discard 7000 - 8000
+   discard 8000 - 9000
+   discard 9000 - 10000
+-----------------
+Edge with node: 2796
+Max Rewarding Fee: 20
+Max Reward: 253980.0
+-----------------
+Edge with node: 1223
+     minFee= 1
+     maxFee= 10000
+     maxRew= 0
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 1009520.49214
+     ER= 1009520.49214
+     ER_max= 1009520492.14
+f= 1000
+     ebc= 923566.531753
+     ER= 923566531.753
+     ER_max= 1847133063.51
+f= 2000
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 1000
+     maxRew= 923566531.753
+     maxRewFee= 1000
+   in_recursion
+f= 1
+     ebc= 1009520.49214
+     ER= 1009520.49214
+     ER_max= 100952049.214
+f= 100
+     ebc= 937938.116667
+     ER= 93793811.6667
+     ER_max= 187587623.333
+f= 200
+     ebc= 937061.0
+     ER= 187412200.0
+     ER_max= 281118300.0
+f= 300
+     ebc= 937053.0
+     ER= 281115900.0
+     ER_max= 374821200.0
+f= 400
+     ebc= 936105.0
+     ER= 374442000.0
+     ER_max= 468052500.0
+f= 500
+     ebc= 931654.0
+     ER= 465827000.0
+     ER_max= 558992400.0
+f= 600
+     ebc= 931400.0
+     ER= 558840000.0
+     ER_max= 651980000.0
+f= 700
+     ebc= 931398.0
+     ER= 651978600.0
+     ER_max= 745118400.0
+f= 800
+     ebc= 931397.0
+     ER= 745117600.0
+     ER_max= 838257300.0
+f= 900
+     ebc= 931382.0
+     ER= 838243800.0
+     ER_max= 931382000.0
+   discard 1 - 100
+   discard 100 - 200
+   discard 200 - 300
+   discard 300 - 400
+   discard 400 - 500
+   discard 500 - 600
+   discard 600 - 700
+   discard 700 - 800
+   discard 800 - 900
+     minFee= 900
+     maxFee= 1000
+     maxRew= 923566531.753
+     maxRewFee= 1000
+   in_recursion
+f= 900
+     ebc= 931382.0
+     ER= 838243800.0
+     ER_max= 847557620.0
+f= 910
+     ebc= 931366.0
+     ER= 847543060.0
+     ER_max= 856856720.0
+f= 920
+     ebc= 931366.0
+     ER= 856856720.0
+     ER_max= 866170380.0
+f= 930
+     ebc= 931366.0
+     ER= 866170380.0
+     ER_max= 875484040.0
+f= 940
+     ebc= 931365.6
+     ER= 875483664.0
+     ER_max= 884797320.0
+f= 950
+     ebc= 931365.0
+     ER= 884796750.0
+     ER_max= 894110400.0
+f= 960
+     ebc= 931361.2
+     ER= 894106752.0
+     ER_max= 903420364.0
+f= 970
+     ebc= 931350.366667
+     ER= 903409855.667
+     ER_max= 912723359.333
+f= 980
+     ebc= 931248.709453
+     ER= 912623735.264
+     ER_max= 921936222.358
+f= 990
+     ebc= 928561.036547
+     ER= 919275426.182
+     ER_max= 928561036.547
+   discard 900 - 910
+   discard 910 - 920
+   discard 920 - 930
+   discard 930 - 940
+   discard 940 - 950
+   discard 950 - 960
+   discard 960 - 970
+   discard 970 - 980
+   discard 980 - 990
+     minFee= 990
+     maxFee= 1000
+     maxRew= 923566531.753
+     maxRewFee= 1000
+   in_base 990 1000
+f= 990
+     ebc= 928561.036547
+     ER= 919275426.182
+f= 991
+     ebc= 923988.021036
+     ER= 915672128.847
+f= 992
+     ebc= 923688.418911
+     ER= 916298911.559
+f= 993
+     ebc= 923685.0
+     ER= 917219205.0
+f= 994
+     ebc= 923685.0
+     ER= 918142890.0
+f= 995
+     ebc= 923685.0
+     ER= 919066575.0
+f= 996
+     ebc= 923685.0
+     ER= 919990260.0
+f= 997
+     ebc= 923685.0
+     ER= 920913945.0
+f= 998
+     ebc= 923685.0
+     ER= 921837630.0
+f= 999
+     ebc= 923685.0
+     ER= 922761315.0
+f= 1000
+     ebc= 923566.531753
+     ER= 923566531.753
+     minFee= 1000
+     maxFee= 2000
+     maxRew= 923566531.753
+     maxRewFee= 1000
+   in_recursion
+f= 1000
+     ebc= 923566.531753
+     ER= 923566531.753
+     ER_max= 1015923184.93
+f= 1100
+     ebc= 55773.0
+     ER= 61350300.0
+     ER_max= 66927600.0
+f= 1200
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1000
+     maxFee= 1100
+     maxRew= 923566531.753
+     maxRewFee= 1000
+   in_recursion
+f= 1000
+     ebc= 923566.531753
+     ER= 923566531.753
+     ER_max= 932802197.071
+f= 1010
+     ebc= 923453.866667
+     ER= 932688405.333
+     ER_max= 941922944.0
+f= 1020
+     ebc= 923217.0
+     ER= 941681340.0
+     ER_max= 950913510.0
+f= 1030
+     ebc= 923217.0
+     ER= 950913510.0
+     ER_max= 960145680.0
+f= 1040
+     ebc= 923217.0
+     ER= 960145680.0
+     ER_max= 969377850.0
+f= 1050
+     ebc= 923217.0
+     ER= 969377850.0
+     ER_max= 978610020.0
+f= 1060
+     ebc= 923217.0
+     ER= 978610020.0
+     ER_max= 987842190.0
+f= 1070
+     ebc= 922998.0
+     ER= 987607860.0
+     ER_max= 996837840.0
+f= 1080
+     ebc= 922537.44272
+     ER= 996340438.138
+     ER_max= 1005565812.57
+f= 1090
+     ebc= 917937.411827
+     ER= 1000551778.89
+     ER_max= 1009731153.01
+   discard 1000 - 1010
+   discard 1010 - 1020
+   discard 1020 - 1030
+   discard 1030 - 1040
+   discard 1040 - 1050
+   discard 1050 - 1060
+   discard 1060 - 1070
+   discard 1070 - 1080
+     minFee= 1080
+     maxFee= 1090
+     maxRew= 1000551778.89
+     maxRewFee= 1090
+   in_base 1080 1090
+f= 1080
+     ebc= 922537.44272
+     ER= 996340438.138
+f= 1081
+     ebc= 921466.564286
+     ER= 996105355.993
+f= 1082
+     ebc= 920151.0
+     ER= 995603382.0
+f= 1083
+     ebc= 920151.0
+     ER= 996523533.0
+f= 1084
+     ebc= 920151.0
+     ER= 997443684.0
+f= 1085
+     ebc= 920151.0
+     ER= 998363835.0
+f= 1086
+     ebc= 920151.0
+     ER= 999283986.0
+f= 1087
+     ebc= 920151.0
+     ER= 1000204137.0
+f= 1088
+     ebc= 920151.0
+     ER= 1001124288.0
+f= 1089
+     ebc= 920151.0
+     ER= 1002044439.0
+f= 1090
+     ebc= 917937.411827
+     ER= 1000551778.89
+     minFee= 1090
+     maxFee= 1100
+     maxRew= 1002044439.0
+     maxRewFee= 1089
+   in_base 1090 1100
+f= 1090
+     ebc= 917937.411827
+     ER= 1000551778.89
+f= 1091
+     ebc= 732437.374606
+     ER= 799089175.695
+f= 1092
+     ebc= 106417.958496
+     ER= 116208410.678
+f= 1093
+     ebc= 56255.1787489
+     ER= 61486910.3726
+f= 1094
+     ebc= 55773.0
+     ER= 61015662.0
+f= 1095
+     ebc= 55773.0
+     ER= 61071435.0
+f= 1096
+     ebc= 55773.0
+     ER= 61127208.0
+f= 1097
+     ebc= 55773.0
+     ER= 61182981.0
+f= 1098
+     ebc= 55773.0
+     ER= 61238754.0
+f= 1099
+     ebc= 55773.0
+     ER= 61294527.0
+f= 1100
+     ebc= 55773.0
+     ER= 61350300.0
+   discard 1100 - 1200
+   discard 1200 - 1300
+   discard 1300 - 1400
+   discard 1400 - 1500
+   discard 1500 - 1600
+   discard 1600 - 1700
+   discard 1700 - 1800
+   discard 1800 - 1900
+   discard 1900 - 2000
+   discard 2000 - 3000
+   discard 3000 - 4000
+   discard 4000 - 5000
+   discard 5000 - 6000
+   discard 6000 - 7000
+   discard 7000 - 8000
+   discard 8000 - 9000
+   discard 9000 - 10000
+-----------------
+Edge with node: 1223
+Max Rewarding Fee: 1089
+Max Reward: 1002044439.0
+-----------------
+Edge with node: 1163
+     minFee= 1
+     maxFee= 10000
+     maxRew= 0
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 7987.77800409
+     ER= 7987.77800409
+     ER_max= 7987778.00409
+f= 1000
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 1000
+     maxRew= 7987.77800409
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 7987.77800409
+     ER= 7987.77800409
+     ER_max= 798777.800409
+f= 100
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 100
+     maxRew= 7987.77800409
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 7987.77800409
+     ER= 7987.77800409
+     ER_max= 79877.7800409
+f= 10
+     ebc= 7547.99230908
+     ER= 75479.9230908
+     ER_max= 150959.846182
+f= 20
+     ebc= 7311.0
+     ER= 146220.0
+     ER_max= 219330.0
+f= 30
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+   discard 1 - 10
+     minFee= 10
+     maxFee= 20
+     maxRew= 146220.0
+     maxRewFee= 20
+   in_base 10 20
+f= 10
+     ebc= 7547.99230908
+     ER= 75479.9230908
+f= 11
+     ebc= 7311.0
+     ER= 80421.0
+f= 12
+     ebc= 7311.0
+     ER= 87732.0
+f= 13
+     ebc= 7311.0
+     ER= 95043.0
+f= 14
+     ebc= 7311.0
+     ER= 102354.0
+f= 15
+     ebc= 7311.0
+     ER= 109665.0
+f= 16
+     ebc= 7311.0
+     ER= 116976.0
+f= 17
+     ebc= 7311.0
+     ER= 124287.0
+f= 18
+     ebc= 7311.0
+     ER= 131598.0
+f= 19
+     ebc= 7311.0
+     ER= 138909.0
+f= 20
+     ebc= 7311.0
+     ER= 146220.0
+     minFee= 20
+     maxFee= 30
+     maxRew= 146220.0
+     maxRewFee= 20
+   in_base 20 30
+f= 20
+     ebc= 7311.0
+     ER= 146220.0
+f= 21
+     ebc= 3655.5
+     ER= 76765.5
+f= 22
+     ebc= 0.0
+     ER= 0.0
+f= 23
+     ebc= 0.0
+     ER= 0.0
+f= 24
+     ebc= 0.0
+     ER= 0.0
+f= 25
+     ebc= 0.0
+     ER= 0.0
+f= 26
+     ebc= 0.0
+     ER= 0.0
+f= 27
+     ebc= 0.0
+     ER= 0.0
+f= 28
+     ebc= 0.0
+     ER= 0.0
+f= 29
+     ebc= 0.0
+     ER= 0.0
+f= 30
+     ebc= 0.0
+     ER= 0.0
+   discard 30 - 40
+   discard 40 - 50
+   discard 50 - 60
+   discard 60 - 70
+   discard 70 - 80
+   discard 80 - 90
+   discard 90 - 100
+   discard 100 - 200
+   discard 200 - 300
+   discard 300 - 400
+   discard 400 - 500
+   discard 500 - 600
+   discard 600 - 700
+   discard 700 - 800
+   discard 800 - 900
+   discard 900 - 1000
+   discard 1000 - 2000
+   discard 2000 - 3000
+   discard 3000 - 4000
+   discard 4000 - 5000
+   discard 5000 - 6000
+   discard 6000 - 7000
+   discard 7000 - 8000
+   discard 8000 - 9000
+   discard 9000 - 10000
+-----------------
+Edge with node: 1163
+Max Rewarding Fee: 20
+Max Reward: 146220.0
+-----------------
+Edge with node: 498
+     minFee= 1
+     maxFee= 10000
+     maxRew= 0
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 4407.78315018
+     ER= 4407.78315018
+     ER_max= 4407783.15018
+f= 1000
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 1000
+     maxRew= 4407.78315018
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 4407.78315018
+     ER= 4407.78315018
+     ER_max= 440778.315018
+f= 100
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 100
+     maxRew= 4407.78315018
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 4407.78315018
+     ER= 4407.78315018
+     ER_max= 44077.8315018
+f= 10
+     ebc= 3629.86666667
+     ER= 36298.6666667
+     ER_max= 72597.3333333
+f= 20
+     ebc= 3504.0
+     ER= 70080.0
+     ER_max= 105120.0
+f= 30
+     ebc= 3472.0
+     ER= 104160.0
+     ER_max= 138880.0
+f= 40
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+   discard 1 - 10
+   discard 10 - 20
+     minFee= 20
+     maxFee= 30
+     maxRew= 104160.0
+     maxRewFee= 30
+   in_base 20 30
+f= 20
+     ebc= 3504.0
+     ER= 70080.0
+f= 21
+     ebc= 3504.0
+     ER= 73584.0
+f= 22
+     ebc= 3496.0
+     ER= 76912.0
+f= 23
+     ebc= 3475.2
+     ER= 79929.6
+f= 24
+     ebc= 3472.0
+     ER= 83328.0
+f= 25
+     ebc= 3472.0
+     ER= 86800.0
+f= 26
+     ebc= 3472.0
+     ER= 90272.0
+f= 27
+     ebc= 3472.0
+     ER= 93744.0
+f= 28
+     ebc= 3472.0
+     ER= 97216.0
+f= 29
+     ebc= 3472.0
+     ER= 100688.0
+f= 30
+     ebc= 3472.0
+     ER= 104160.0
+     minFee= 30
+     maxFee= 40
+     maxRew= 104160.0
+     maxRewFee= 30
+   in_base 30 40
+f= 30
+     ebc= 3472.0
+     ER= 104160.0
+f= 31
+     ebc= 1736.0
+     ER= 53816.0
+f= 32
+     ebc= 0.0
+     ER= 0.0
+f= 33
+     ebc= 0.0
+     ER= 0.0
+f= 34
+     ebc= 0.0
+     ER= 0.0
+f= 35
+     ebc= 0.0
+     ER= 0.0
+f= 36
+     ebc= 0.0
+     ER= 0.0
+f= 37
+     ebc= 0.0
+     ER= 0.0
+f= 38
+     ebc= 0.0
+     ER= 0.0
+f= 39
+     ebc= 0.0
+     ER= 0.0
+f= 40
+     ebc= 0.0
+     ER= 0.0
+   discard 40 - 50
+   discard 50 - 60
+   discard 60 - 70
+   discard 70 - 80
+   discard 80 - 90
+   discard 90 - 100
+   discard 100 - 200
+   discard 200 - 300
+   discard 300 - 400
+   discard 400 - 500
+   discard 500 - 600
+   discard 600 - 700
+   discard 700 - 800
+   discard 800 - 900
+   discard 900 - 1000
+   discard 1000 - 2000
+   discard 2000 - 3000
+   discard 3000 - 4000
+   discard 4000 - 5000
+   discard 5000 - 6000
+   discard 6000 - 7000
+   discard 7000 - 8000
+   discard 8000 - 9000
+   discard 9000 - 10000
+-----------------
+Edge with node: 498
+Max Rewarding Fee: 30
+Max Reward: 104160.0
+-----------------
+Edge with node: 3265
+     minFee= 1
+     maxFee= 10000
+     maxRew= 0
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 26052.0
+     ER= 26052.0
+     ER_max= 26052000.0
+f= 1000
+     ebc= 26052.0
+     ER= 26052000.0
+     ER_max= 52104000.0
+f= 2000
+     ebc= 26052.0
+     ER= 52104000.0
+     ER_max= 78156000.0
+f= 3000
+     ebc= 26052.0
+     ER= 78156000.0
+     ER_max= 104208000.0
+f= 4000
+     ebc= 26052.0
+     ER= 104208000.0
+     ER_max= 130260000.0
+f= 5000
+     ebc= 26052.0
+     ER= 130260000.0
+     ER_max= 156312000.0
+f= 6000
+     ebc= 26052.0
+     ER= 156312000.0
+     ER_max= 182364000.0
+f= 7000
+     ebc= 26052.0
+     ER= 182364000.0
+     ER_max= 208416000.0
+f= 8000
+     ebc= 26052.0
+     ER= 208416000.0
+     ER_max= 234468000.0
+f= 9000
+     ebc= 26052.0
+     ER= 234468000.0
+     ER_max= 260520000.0
+   discard 1 - 1000
+   discard 1000 - 2000
+   discard 2000 - 3000
+   discard 3000 - 4000
+   discard 4000 - 5000
+   discard 5000 - 6000
+   discard 6000 - 7000
+   discard 7000 - 8000
+   discard 8000 - 9000
+     minFee= 9000
+     maxFee= 10000
+     maxRew= 234468000.0
+     maxRewFee= 9000
+   in_recursion
+f= 9000
+     ebc= 26052.0
+     ER= 234468000.0
+     ER_max= 237073200.0
+f= 9100
+     ebc= 26052.0
+     ER= 237073200.0
+     ER_max= 239678400.0
+f= 9200
+     ebc= 26052.0
+     ER= 239678400.0
+     ER_max= 242283600.0
+f= 9300
+     ebc= 26052.0
+     ER= 242283600.0
+     ER_max= 244888800.0
+f= 9400
+     ebc= 26052.0
+     ER= 244888800.0
+     ER_max= 247494000.0
+f= 9500
+     ebc= 26052.0
+     ER= 247494000.0
+     ER_max= 250099200.0
+f= 9600
+     ebc= 26052.0
+     ER= 250099200.0
+     ER_max= 252704400.0
+f= 9700
+     ebc= 26052.0
+     ER= 252704400.0
+     ER_max= 255309600.0
+f= 9800
+     ebc= 26052.0
+     ER= 255309600.0
+     ER_max= 257914800.0
+f= 9900
+     ebc= 26052.0
+     ER= 257914800.0
+     ER_max= 260520000.0
+   discard 9000 - 9100
+   discard 9100 - 9200
+   discard 9200 - 9300
+   discard 9300 - 9400
+   discard 9400 - 9500
+   discard 9500 - 9600
+   discard 9600 - 9700
+   discard 9700 - 9800
+   discard 9800 - 9900
+     minFee= 9900
+     maxFee= 10000
+     maxRew= 257914800.0
+     maxRewFee= 9900
+   in_recursion
+f= 9900
+     ebc= 26052.0
+     ER= 257914800.0
+     ER_max= 258175320.0
+f= 9910
+     ebc= 26052.0
+     ER= 258175320.0
+     ER_max= 258435840.0
+f= 9920
+     ebc= 26052.0
+     ER= 258435840.0
+     ER_max= 258696360.0
+f= 9930
+     ebc= 26052.0
+     ER= 258696360.0
+     ER_max= 258956880.0
+f= 9940
+     ebc= 26052.0
+     ER= 258956880.0
+     ER_max= 259217400.0
+f= 9950
+     ebc= 26052.0
+     ER= 259217400.0
+     ER_max= 259477920.0
+f= 9960
+     ebc= 26052.0
+     ER= 259477920.0
+     ER_max= 259738440.0
+f= 9970
+     ebc= 26052.0
+     ER= 259738440.0
+     ER_max= 259998960.0
+f= 9980
+     ebc= 26052.0
+     ER= 259998960.0
+     ER_max= 260259480.0
+f= 9990
+     ebc= 26052.0
+     ER= 260259480.0
+     ER_max= 260520000.0
+   discard 9900 - 9910
+   discard 9910 - 9920
+   discard 9920 - 9930
+   discard 9930 - 9940
+   discard 9940 - 9950
+   discard 9950 - 9960
+   discard 9960 - 9970
+   discard 9970 - 9980
+   discard 9980 - 9990
+     minFee= 9990
+     maxFee= 10000
+     maxRew= 260259480.0
+     maxRewFee= 9990
+   in_base 9990 10000
+f= 9990
+     ebc= 26052.0
+     ER= 260259480.0
+f= 9991
+     ebc= 26052.0
+     ER= 260285532.0
+f= 9992
+     ebc= 26052.0
+     ER= 260311584.0
+f= 9993
+     ebc= 26052.0
+     ER= 260337636.0
+f= 9994
+     ebc= 26052.0
+     ER= 260363688.0
+f= 9995
+     ebc= 26052.0
+     ER= 260389740.0
+f= 9996
+     ebc= 26052.0
+     ER= 260415792.0
+f= 9997
+     ebc= 26052.0
+     ER= 260441844.0
+f= 9998
+     ebc= 26052.0
+     ER= 260467896.0
+f= 9999
+     ebc= 26052.0
+     ER= 260493948.0
+f= 10000
+     ebc= 26052.0
+     ER= 260520000.0
+-----------------
+Edge with node: 3265
+Max Rewarding Fee: 10000
+Max Reward: 260520000.0
+-----------------
+Edge with node: 1589
+     minFee= 1
+     maxFee= 10000
+     maxRew= 0
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 1406.92836776
+     ER= 1406.92836776
+     ER_max= 1406928.36776
+f= 1000
+     ebc= 364.0
+     ER= 364000.0
+     ER_max= 728000.0
+f= 2000
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 1000
+     maxRew= 364000.0
+     maxRewFee= 1000
+   in_recursion
+f= 1
+     ebc= 1406.92836776
+     ER= 1406.92836776
+     ER_max= 140692.836776
+f= 100
+     ebc= 394.428571429
+     ER= 39442.8571429
+     ER_max= 78885.7142857
+f= 200
+     ebc= 387.0
+     ER= 77400.0
+     ER_max= 116100.0
+f= 300
+     ebc= 385.0
+     ER= 115500.0
+     ER_max= 154000.0
+f= 400
+     ebc= 384.0
+     ER= 153600.0
+     ER_max= 192000.0
+f= 500
+     ebc= 379.0
+     ER= 189500.0
+     ER_max= 227400.0
+f= 600
+     ebc= 373.0
+     ER= 223800.0
+     ER_max= 261100.0
+f= 700
+     ebc= 371.0
+     ER= 259700.0
+     ER_max= 296800.0
+f= 800
+     ebc= 368.0
+     ER= 294400.0
+     ER_max= 331200.0
+f= 900
+     ebc= 367.0
+     ER= 330300.0
+     ER_max= 367000.0
+   discard 1 - 100
+   discard 100 - 200
+   discard 200 - 300
+   discard 300 - 400
+   discard 400 - 500
+   discard 500 - 600
+   discard 600 - 700
+   discard 700 - 800
+   discard 800 - 900
+     minFee= 900
+     maxFee= 1000
+     maxRew= 364000.0
+     maxRewFee= 1000
+   in_recursion
+f= 900
+     ebc= 367.0
+     ER= 330300.0
+     ER_max= 333970.0
+f= 910
+     ebc= 366.0
+     ER= 333060.0
+     ER_max= 336720.0
+f= 920
+     ebc= 366.0
+     ER= 336720.0
+     ER_max= 340380.0
+f= 930
+     ebc= 366.0
+     ER= 340380.0
+     ER_max= 344040.0
+f= 940
+     ebc= 366.0
+     ER= 344040.0
+     ER_max= 347700.0
+f= 950
+     ebc= 366.0
+     ER= 347700.0
+     ER_max= 351360.0
+f= 960
+     ebc= 366.0
+     ER= 351360.0
+     ER_max= 355020.0
+f= 970
+     ebc= 365.0
+     ER= 354050.0
+     ER_max= 357700.0
+f= 980
+     ebc= 365.0
+     ER= 357700.0
+     ER_max= 361350.0
+f= 990
+     ebc= 365.0
+     ER= 361350.0
+     ER_max= 365000.0
+   discard 900 - 910
+   discard 910 - 920
+   discard 920 - 930
+   discard 930 - 940
+   discard 940 - 950
+   discard 950 - 960
+   discard 960 - 970
+   discard 970 - 980
+   discard 980 - 990
+     minFee= 990
+     maxFee= 1000
+     maxRew= 364000.0
+     maxRewFee= 1000
+   in_base 990 1000
+f= 990
+     ebc= 365.0
+     ER= 361350.0
+f= 991
+     ebc= 365.0
+     ER= 361715.0
+f= 992
+     ebc= 365.0
+     ER= 362080.0
+f= 993
+     ebc= 365.0
+     ER= 362445.0
+f= 994
+     ebc= 365.0
+     ER= 362810.0
+f= 995
+     ebc= 365.0
+     ER= 363175.0
+f= 996
+     ebc= 365.0
+     ER= 363540.0
+f= 997
+     ebc= 365.0
+     ER= 363905.0
+f= 998
+     ebc= 365.0
+     ER= 364270.0
+f= 999
+     ebc= 364.5
+     ER= 364135.5
+f= 1000
+     ebc= 364.0
+     ER= 364000.0
+     minFee= 1000
+     maxFee= 2000
+     maxRew= 364270.0
+     maxRewFee= 998
+   in_recursion
+f= 1000
+     ebc= 364.0
+     ER= 364000.0
+     ER_max= 400400.0
+f= 1100
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1000
+     maxFee= 1100
+     maxRew= 364270.0
+     maxRewFee= 998
+   in_recursion
+f= 1000
+     ebc= 364.0
+     ER= 364000.0
+     ER_max= 367640.0
+f= 1010
+     ebc= 312.563095238
+     ER= 315688.72619
+     ER_max= 318814.357143
+f= 1020
+     ebc= 232.819047619
+     ER= 237475.428571
+     ER_max= 239803.619048
+f= 1030
+     ebc= 226.0
+     ER= 232780.0
+     ER_max= 235040.0
+f= 1040
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1000
+     maxFee= 1010
+     maxRew= 364270.0
+     maxRewFee= 998
+   in_base 1000 1010
+f= 1000
+     ebc= 364.0
+     ER= 364000.0
+f= 1001
+     ebc= 363.125
+     ER= 363488.125
+f= 1002
+     ebc= 363.0
+     ER= 363726.0
+f= 1003
+     ebc= 363.0
+     ER= 364089.0
+f= 1004
+     ebc= 363.0
+     ER= 364452.0
+f= 1005
+     ebc= 363.0
+     ER= 364815.0
+f= 1006
+     ebc= 363.0
+     ER= 365178.0
+f= 1007
+     ebc= 363.0
+     ER= 365541.0
+f= 1008
+     ebc= 363.0
+     ER= 365904.0
+f= 1009
+     ebc= 363.0
+     ER= 366267.0
+f= 1010
+     ebc= 312.563095238
+     ER= 315688.72619
+   discard 1010 - 1020
+   discard 1020 - 1030
+   discard 1030 - 1040
+   discard 1040 - 1050
+   discard 1050 - 1060
+   discard 1060 - 1070
+   discard 1070 - 1080
+   discard 1080 - 1090
+   discard 1090 - 1100
+   discard 1100 - 1200
+   discard 1200 - 1300
+   discard 1300 - 1400
+   discard 1400 - 1500
+   discard 1500 - 1600
+   discard 1600 - 1700
+   discard 1700 - 1800
+   discard 1800 - 1900
+   discard 1900 - 2000
+   discard 2000 - 3000
+   discard 3000 - 4000
+   discard 4000 - 5000
+   discard 5000 - 6000
+   discard 6000 - 7000
+   discard 7000 - 8000
+   discard 8000 - 9000
+   discard 9000 - 10000
+-----------------
+Edge with node: 1589
+Max Rewarding Fee: 1009
+Max Reward: 366267.0
+-----------------
+Edge with node: 4051
+     minFee= 1
+     maxFee= 10000
+     maxRew= 0
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 1357.3248557
+     ER= 1357.3248557
+     ER_max= 1357324.8557
+f= 1000
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 1000
+     maxRew= 1357.3248557
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 1357.3248557
+     ER= 1357.3248557
+     ER_max= 135732.48557
+f= 100
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 100
+     maxRew= 1357.3248557
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 1357.3248557
+     ER= 1357.3248557
+     ER_max= 13573.248557
+f= 10
+     ebc= 1232.5
+     ER= 12325.0
+     ER_max= 24650.0
+f= 20
+     ebc= 1155.0
+     ER= 23100.0
+     ER_max= 34650.0
+f= 30
+     ebc= 1140.0
+     ER= 34200.0
+     ER_max= 45600.0
+f= 40
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+   discard 1 - 10
+   discard 10 - 20
+     minFee= 20
+     maxFee= 30
+     maxRew= 34200.0
+     maxRewFee= 30
+   in_base 20 30
+f= 20
+     ebc= 1155.0
+     ER= 23100.0
+f= 21
+     ebc= 1150.3125
+     ER= 24156.5625
+f= 22
+     ebc= 1147.5
+     ER= 25245.0
+f= 23
+     ebc= 1140.05813953
+     ER= 26221.3372093
+f= 24
+     ebc= 1140.0
+     ER= 27360.0
+f= 25
+     ebc= 1140.0
+     ER= 28500.0
+f= 26
+     ebc= 1140.0
+     ER= 29640.0
+f= 27
+     ebc= 1140.0
+     ER= 30780.0
+f= 28
+     ebc= 1140.0
+     ER= 31920.0
+f= 29
+     ebc= 1140.0
+     ER= 33060.0
+f= 30
+     ebc= 1140.0
+     ER= 34200.0
+     minFee= 30
+     maxFee= 40
+     maxRew= 34200.0
+     maxRewFee= 30
+   in_base 30 40
+f= 30
+     ebc= 1140.0
+     ER= 34200.0
+f= 31
+     ebc= 1140.0
+     ER= 35340.0
+f= 32
+     ebc= 71.25
+     ER= 2280.0
+f= 33
+     ebc= 0.0
+     ER= 0.0
+f= 34
+     ebc= 0.0
+     ER= 0.0
+f= 35
+     ebc= 0.0
+     ER= 0.0
+f= 36
+     ebc= 0.0
+     ER= 0.0
+f= 37
+     ebc= 0.0
+     ER= 0.0
+f= 38
+     ebc= 0.0
+     ER= 0.0
+f= 39
+     ebc= 0.0
+     ER= 0.0
+f= 40
+     ebc= 0.0
+     ER= 0.0
+   discard 40 - 50
+   discard 50 - 60
+   discard 60 - 70
+   discard 70 - 80
+   discard 80 - 90
+   discard 90 - 100
+   discard 100 - 200
+   discard 200 - 300
+   discard 300 - 400
+   discard 400 - 500
+   discard 500 - 600
+   discard 600 - 700
+   discard 700 - 800
+   discard 800 - 900
+   discard 900 - 1000
+   discard 1000 - 2000
+   discard 2000 - 3000
+   discard 3000 - 4000
+   discard 4000 - 5000
+   discard 5000 - 6000
+   discard 6000 - 7000
+   discard 7000 - 8000
+   discard 8000 - 9000
+   discard 9000 - 10000
+-----------------
+Edge with node: 4051
+Max Rewarding Fee: 31
+Max Reward: 35340.0
+-----------------
+Edge with node: 3246
+     minFee= 1
+     maxFee= 10000
+     maxRew= 0
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 1848.41030254
+     ER= 1848.41030254
+     ER_max= 1848410.30254
+f= 1000
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 1000
+     maxRew= 1848.41030254
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 1848.41030254
+     ER= 1848.41030254
+     ER_max= 184841.030254
+f= 100
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 100
+     maxRew= 1848.41030254
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 1848.41030254
+     ER= 1848.41030254
+     ER_max= 18484.1030254
+f= 10
+     ebc= 1683.61666667
+     ER= 16836.1666667
+     ER_max= 33672.3333333
+f= 20
+     ebc= 1613.5
+     ER= 32270.0
+     ER_max= 48405.0
+f= 30
+     ebc= 1596.0
+     ER= 47880.0
+     ER_max= 63840.0
+f= 40
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+   discard 1 - 10
+   discard 10 - 20
+     minFee= 20
+     maxFee= 30
+     maxRew= 47880.0
+     maxRewFee= 30
+   in_base 20 30
+f= 20
+     ebc= 1613.5
+     ER= 32270.0
+f= 21
+     ebc= 1610.0
+     ER= 33810.0
+f= 22
+     ebc= 1603.875
+     ER= 35285.25
+f= 23
+     ebc= 1596.21875
+     ER= 36713.03125
+f= 24
+     ebc= 1596.0
+     ER= 38304.0
+f= 25
+     ebc= 1596.0
+     ER= 39900.0
+f= 26
+     ebc= 1596.0
+     ER= 41496.0
+f= 27
+     ebc= 1596.0
+     ER= 43092.0
+f= 28
+     ebc= 1596.0
+     ER= 44688.0
+f= 29
+     ebc= 1596.0
+     ER= 46284.0
+f= 30
+     ebc= 1596.0
+     ER= 47880.0
+     minFee= 30
+     maxFee= 40
+     maxRew= 47880.0
+     maxRewFee= 30
+   in_base 30 40
+f= 30
+     ebc= 1596.0
+     ER= 47880.0
+f= 31
+     ebc= 798.0
+     ER= 24738.0
+f= 32
+     ebc= 0.0
+     ER= 0.0
+f= 33
+     ebc= 0.0
+     ER= 0.0
+f= 34
+     ebc= 0.0
+     ER= 0.0
+f= 35
+     ebc= 0.0
+     ER= 0.0
+f= 36
+     ebc= 0.0
+     ER= 0.0
+f= 37
+     ebc= 0.0
+     ER= 0.0
+f= 38
+     ebc= 0.0
+     ER= 0.0
+f= 39
+     ebc= 0.0
+     ER= 0.0
+f= 40
+     ebc= 0.0
+     ER= 0.0
+   discard 40 - 50
+   discard 50 - 60
+   discard 60 - 70
+   discard 70 - 80
+   discard 80 - 90
+   discard 90 - 100
+   discard 100 - 200
+   discard 200 - 300
+   discard 300 - 400
+   discard 400 - 500
+   discard 500 - 600
+   discard 600 - 700
+   discard 700 - 800
+   discard 800 - 900
+   discard 900 - 1000
+   discard 1000 - 2000
+   discard 2000 - 3000
+   discard 3000 - 4000
+   discard 4000 - 5000
+   discard 5000 - 6000
+   discard 6000 - 7000
+   discard 7000 - 8000
+   discard 8000 - 9000
+   discard 9000 - 10000
+-----------------
+Edge with node: 3246
+Max Rewarding Fee: 30
+Max Reward: 47880.0
+-----------------
+Edge with node: 2087
+     minFee= 1
+     maxFee= 10000
+     maxRew= 0
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 1735.46783911
+     ER= 1735.46783911
+     ER_max= 1735467.83911
+f= 1000
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 1000
+     maxRew= 1735.46783911
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 1735.46783911
+     ER= 1735.46783911
+     ER_max= 173546.783911
+f= 100
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 100
+     maxRew= 1735.46783911
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 1735.46783911
+     ER= 1735.46783911
+     ER_max= 17354.6783911
+f= 10
+     ebc= 1601.5
+     ER= 16015.0
+     ER_max= 32030.0
+f= 20
+     ebc= 1478.0
+     ER= 29560.0
+     ER_max= 44340.0
+f= 30
+     ebc= 1199.0
+     ER= 35970.0
+     ER_max= 47960.0
+f= 40
+     ebc= 696.0
+     ER= 27840.0
+     ER_max= 34800.0
+f= 50
+     ebc= 687.428571429
+     ER= 34371.4285714
+     ER_max= 41245.7142857
+f= 60
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+   discard 1 - 10
+   discard 10 - 20
+     minFee= 20
+     maxFee= 30
+     maxRew= 35970.0
+     maxRewFee= 30
+   in_base 20 30
+f= 20
+     ebc= 1478.0
+     ER= 29560.0
+f= 21
+     ebc= 1476.41025641
+     ER= 31004.6153846
+f= 22
+     ebc= 1475.5
+     ER= 32461.0
+f= 23
+     ebc= 1473.07142857
+     ER= 33880.6428571
+f= 24
+     ebc= 1472.0
+     ER= 35328.0
+f= 25
+     ebc= 1472.0
+     ER= 36800.0
+f= 26
+     ebc= 1472.0
+     ER= 38272.0
+f= 27
+     ebc= 1472.0
+     ER= 39744.0
+f= 28
+     ebc= 1304.97838828
+     ER= 36539.3948718
+f= 29
+     ebc= 1200.17120536
+     ER= 34804.9649555
+f= 30
+     ebc= 1199.0
+     ER= 35970.0
+     minFee= 30
+     maxFee= 40
+     maxRew= 39744.0
+     maxRewFee= 27
+   in_base 30 40
+f= 30
+     ebc= 1199.0
+     ER= 35970.0
+f= 31
+     ebc= 1199.0
+     ER= 37169.0
+f= 32
+     ebc= 834.948717949
+     ER= 26718.3589744
+f= 33
+     ebc= 741.0
+     ER= 24453.0
+f= 34
+     ebc= 741.0
+     ER= 25194.0
+f= 35
+     ebc= 741.0
+     ER= 25935.0
+f= 36
+     ebc= 741.0
+     ER= 26676.0
+f= 37
+     ebc= 739.5
+     ER= 27361.5
+f= 38
+     ebc= 706.908974359
+     ER= 26862.5410256
+f= 39
+     ebc= 696.25
+     ER= 27153.75
+f= 40
+     ebc= 696.0
+     ER= 27840.0
+   discard 40 - 50
+     minFee= 50
+     maxFee= 60
+     maxRew= 39744.0
+     maxRewFee= 27
+   in_base 50 60
+f= 50
+     ebc= 687.428571429
+     ER= 34371.4285714
+f= 51
+     ebc= 687.0
+     ER= 35037.0
+f= 52
+     ebc= 687.0
+     ER= 35724.0
+f= 53
+     ebc= 687.0
+     ER= 36411.0
+f= 54
+     ebc= 687.0
+     ER= 37098.0
+f= 55
+     ebc= 687.0
+     ER= 37785.0
+f= 56
+     ebc= 687.0
+     ER= 38472.0
+f= 57
+     ebc= 687.0
+     ER= 39159.0
+f= 58
+     ebc= 687.0
+     ER= 39846.0
+f= 59
+     ebc= 76.3333333333
+     ER= 4503.66666667
+f= 60
+     ebc= 0.0
+     ER= 0.0
+   discard 60 - 70
+   discard 70 - 80
+   discard 80 - 90
+   discard 90 - 100
+   discard 100 - 200
+   discard 200 - 300
+   discard 300 - 400
+   discard 400 - 500
+   discard 500 - 600
+   discard 600 - 700
+   discard 700 - 800
+   discard 800 - 900
+   discard 900 - 1000
+   discard 1000 - 2000
+   discard 2000 - 3000
+   discard 3000 - 4000
+   discard 4000 - 5000
+   discard 5000 - 6000
+   discard 6000 - 7000
+   discard 7000 - 8000
+   discard 8000 - 9000
+   discard 9000 - 10000
+-----------------
+Edge with node: 2087
+Max Rewarding Fee: 58
+Max Reward: 39846.0
+-----------------
+Edge with node: 2032
+     minFee= 1
+     maxFee= 10000
+     maxRew= 0
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 1098.59290709
+     ER= 1098.59290709
+     ER_max= 1098592.90709
+f= 1000
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 1000
+     maxRew= 1098.59290709
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 1098.59290709
+     ER= 1098.59290709
+     ER_max= 109859.290709
+f= 100
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 100
+     maxRew= 1098.59290709
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 1098.59290709
+     ER= 1098.59290709
+     ER_max= 10985.9290709
+f= 10
+     ebc= 990.0
+     ER= 9900.0
+     ER_max= 19800.0
+f= 20
+     ebc= 928.0
+     ER= 18560.0
+     ER_max= 27840.0
+f= 30
+     ebc= 916.0
+     ER= 27480.0
+     ER_max= 36640.0
+f= 40
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+   discard 1 - 10
+   discard 10 - 20
+     minFee= 20
+     maxFee= 30
+     maxRew= 27480.0
+     maxRewFee= 30
+   in_base 20 30
+f= 20
+     ebc= 928.0
+     ER= 18560.0
+f= 21
+     ebc= 922.222222222
+     ER= 19366.6666667
+f= 22
+     ebc= 920.0
+     ER= 20240.0
+f= 23
+     ebc= 916.210526316
+     ER= 21072.8421053
+f= 24
+     ebc= 916.0
+     ER= 21984.0
+f= 25
+     ebc= 916.0
+     ER= 22900.0
+f= 26
+     ebc= 916.0
+     ER= 23816.0
+f= 27
+     ebc= 916.0
+     ER= 24732.0
+f= 28
+     ebc= 916.0
+     ER= 25648.0
+f= 29
+     ebc= 916.0
+     ER= 26564.0
+f= 30
+     ebc= 916.0
+     ER= 27480.0
+     minFee= 30
+     maxFee= 40
+     maxRew= 27480.0
+     maxRewFee= 30
+   in_base 30 40
+f= 30
+     ebc= 916.0
+     ER= 27480.0
+f= 31
+     ebc= 916.0
+     ER= 28396.0
+f= 32
+     ebc= 50.8888888889
+     ER= 1628.44444444
+f= 33
+     ebc= 0.0
+     ER= 0.0
+f= 34
+     ebc= 0.0
+     ER= 0.0
+f= 35
+     ebc= 0.0
+     ER= 0.0
+f= 36
+     ebc= 0.0
+     ER= 0.0
+f= 37
+     ebc= 0.0
+     ER= 0.0
+f= 38
+     ebc= 0.0
+     ER= 0.0
+f= 39
+     ebc= 0.0
+     ER= 0.0
+f= 40
+     ebc= 0.0
+     ER= 0.0
+   discard 40 - 50
+   discard 50 - 60
+   discard 60 - 70
+   discard 70 - 80
+   discard 80 - 90
+   discard 90 - 100
+   discard 100 - 200
+   discard 200 - 300
+   discard 300 - 400
+   discard 400 - 500
+   discard 500 - 600
+   discard 600 - 700
+   discard 700 - 800
+   discard 800 - 900
+   discard 900 - 1000
+   discard 1000 - 2000
+   discard 2000 - 3000
+   discard 3000 - 4000
+   discard 4000 - 5000
+   discard 5000 - 6000
+   discard 6000 - 7000
+   discard 7000 - 8000
+   discard 8000 - 9000
+   discard 9000 - 10000
+-----------------
+Edge with node: 2032
+Max Rewarding Fee: 31
+Max Reward: 28396.0
+-----------------
+---------------- High graph --------------------------
+IGRAPH D--- 4619 32209 -- 
++ attr: pub_key (v), base_fee (e), capacity (e), edgebetweenness (e), fee_rate (e), txCost (e)
+None
+Edge with node: 2796
+     minFee= 1
+     maxFee= 10000
+     maxRew= 0
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 11509.0780519
+     ER= 11509.0780519
+     ER_max= 11509078.0519
+f= 1000
+     ebc= 10500.9785714
+     ER= 10500978.5714
+     ER_max= 21001957.1429
+f= 2000
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 1000
+     maxRew= 10500978.5714
+     maxRewFee= 1000
+   in_recursion
+f= 1
+     ebc= 11509.0780519
+     ER= 11509.0780519
+     ER_max= 1150907.80519
+f= 100
+     ebc= 11070.0
+     ER= 1107000.0
+     ER_max= 2214000.0
+f= 200
+     ebc= 11070.0
+     ER= 2214000.0
+     ER_max= 3321000.0
+f= 300
+     ebc= 11070.0
+     ER= 3321000.0
+     ER_max= 4428000.0
+f= 400
+     ebc= 11070.0
+     ER= 4428000.0
+     ER_max= 5535000.0
+f= 500
+     ebc= 11070.0
+     ER= 5535000.0
+     ER_max= 6642000.0
+f= 600
+     ebc= 11070.0
+     ER= 6642000.0
+     ER_max= 7749000.0
+f= 700
+     ebc= 11070.0
+     ER= 7749000.0
+     ER_max= 8856000.0
+f= 800
+     ebc= 11070.0
+     ER= 8856000.0
+     ER_max= 9963000.0
+f= 900
+     ebc= 10988.0
+     ER= 9889200.0
+     ER_max= 10988000.0
+   discard 1 - 100
+   discard 100 - 200
+   discard 200 - 300
+   discard 300 - 400
+   discard 400 - 500
+   discard 500 - 600
+   discard 600 - 700
+   discard 700 - 800
+   discard 800 - 900
+     minFee= 900
+     maxFee= 1000
+     maxRew= 10500978.5714
+     maxRewFee= 1000
+   in_recursion
+f= 900
+     ebc= 10988.0
+     ER= 9889200.0
+     ER_max= 9999080.0
+f= 910
+     ebc= 10988.0
+     ER= 9999080.0
+     ER_max= 10108960.0
+f= 920
+     ebc= 10988.0
+     ER= 10108960.0
+     ER_max= 10218840.0
+f= 930
+     ebc= 10988.0
+     ER= 10218840.0
+     ER_max= 10328720.0
+f= 940
+     ebc= 10988.0
+     ER= 10328720.0
+     ER_max= 10438600.0
+f= 950
+     ebc= 10988.0
+     ER= 10438600.0
+     ER_max= 10548480.0
+f= 960
+     ebc= 10988.0
+     ER= 10548480.0
+     ER_max= 10658360.0
+f= 970
+     ebc= 10988.0
+     ER= 10658360.0
+     ER_max= 10768240.0
+f= 980
+     ebc= 10988.0
+     ER= 10768240.0
+     ER_max= 10878120.0
+f= 990
+     ebc= 10988.0
+     ER= 10878120.0
+     ER_max= 10988000.0
+   discard 900 - 910
+   discard 910 - 920
+   discard 920 - 930
+   discard 930 - 940
+   discard 940 - 950
+   discard 950 - 960
+   discard 960 - 970
+   discard 970 - 980
+   discard 980 - 990
+     minFee= 990
+     maxFee= 1000
+     maxRew= 10878120.0
+     maxRewFee= 990
+   in_base 990 1000
+f= 990
+     ebc= 10988.0
+     ER= 10878120.0
+f= 991
+     ebc= 10988.0
+     ER= 10889108.0
+f= 992
+     ebc= 10988.0
+     ER= 10900096.0
+f= 993
+     ebc= 10988.0
+     ER= 10911084.0
+f= 994
+     ebc= 10988.0
+     ER= 10922072.0
+f= 995
+     ebc= 10988.0
+     ER= 10933060.0
+f= 996
+     ebc= 10988.0
+     ER= 10944048.0
+f= 997
+     ebc= 10988.0
+     ER= 10955036.0
+f= 998
+     ebc= 10988.0
+     ER= 10966024.0
+f= 999
+     ebc= 10988.0
+     ER= 10977012.0
+f= 1000
+     ebc= 10500.9785714
+     ER= 10500978.5714
+     minFee= 1000
+     maxFee= 2000
+     maxRew= 10977012.0
+     maxRewFee= 999
+   in_recursion
+f= 1000
+     ebc= 10500.9785714
+     ER= 10500978.5714
+     ER_max= 11551076.4286
+f= 1100
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1000
+     maxFee= 1100
+     maxRew= 10977012.0
+     maxRewFee= 999
+   in_recursion
+f= 1000
+     ebc= 10500.9785714
+     ER= 10500978.5714
+     ER_max= 10605988.3571
+f= 1010
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+   discard 1000 - 1010
+   discard 1010 - 1020
+   discard 1020 - 1030
+   discard 1030 - 1040
+   discard 1040 - 1050
+   discard 1050 - 1060
+   discard 1060 - 1070
+   discard 1070 - 1080
+   discard 1080 - 1090
+   discard 1090 - 1100
+   discard 1100 - 1200
+   discard 1200 - 1300
+   discard 1300 - 1400
+   discard 1400 - 1500
+   discard 1500 - 1600
+   discard 1600 - 1700
+   discard 1700 - 1800
+   discard 1800 - 1900
+   discard 1900 - 2000
+   discard 2000 - 3000
+   discard 3000 - 4000
+   discard 4000 - 5000
+   discard 5000 - 6000
+   discard 6000 - 7000
+   discard 7000 - 8000
+   discard 8000 - 9000
+   discard 9000 - 10000
+-----------------
+Edge with node: 2796
+Max Rewarding Fee: 999
+Max Reward: 10977012.0
+-----------------
+Edge with node: 1223
+     minFee= 1
+     maxFee= 10000
+     maxRew= 0
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 23449.8318984
+     ER= 23449.8318984
+     ER_max= 23449831.8984
+f= 1000
+     ebc= 1868.25714286
+     ER= 1868257.14286
+     ER_max= 3736514.28571
+f= 2000
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 1000
+     maxRew= 1868257.14286
+     maxRewFee= 1000
+   in_recursion
+f= 1
+     ebc= 23449.8318984
+     ER= 23449.8318984
+     ER_max= 2344983.18984
+f= 100
+     ebc= 1954.0
+     ER= 195400.0
+     ER_max= 390800.0
+f= 200
+     ebc= 1954.0
+     ER= 390800.0
+     ER_max= 586200.0
+f= 300
+     ebc= 1954.0
+     ER= 586200.0
+     ER_max= 781600.0
+f= 400
+     ebc= 1954.0
+     ER= 781600.0
+     ER_max= 977000.0
+f= 500
+     ebc= 1954.0
+     ER= 977000.0
+     ER_max= 1172400.0
+f= 600
+     ebc= 1954.0
+     ER= 1172400.0
+     ER_max= 1367800.0
+f= 700
+     ebc= 1954.0
+     ER= 1367800.0
+     ER_max= 1563200.0
+f= 800
+     ebc= 1952.16666667
+     ER= 1561733.33333
+     ER_max= 1756950.0
+f= 900
+     ebc= 1945.0
+     ER= 1750500.0
+     ER_max= 1945000.0
+     minFee= 1
+     maxFee= 100
+     maxRew= 1868257.14286
+     maxRewFee= 1000
+   in_recursion
+f= 1
+     ebc= 23449.8318984
+     ER= 23449.8318984
+     ER_max= 234498.318984
+f= 10
+     ebc= 1965.5
+     ER= 19655.0
+     ER_max= 39310.0
+f= 20
+     ebc= 1956.0
+     ER= 39120.0
+     ER_max= 58680.0
+f= 30
+     ebc= 1954.0
+     ER= 58620.0
+     ER_max= 78160.0
+f= 40
+     ebc= 1954.0
+     ER= 78160.0
+     ER_max= 97700.0
+f= 50
+     ebc= 1954.0
+     ER= 97700.0
+     ER_max= 117240.0
+f= 60
+     ebc= 1954.0
+     ER= 117240.0
+     ER_max= 136780.0
+f= 70
+     ebc= 1954.0
+     ER= 136780.0
+     ER_max= 156320.0
+f= 80
+     ebc= 1954.0
+     ER= 156320.0
+     ER_max= 175860.0
+f= 90
+     ebc= 1954.0
+     ER= 175860.0
+     ER_max= 195400.0
+   discard 1 - 10
+   discard 10 - 20
+   discard 20 - 30
+   discard 30 - 40
+   discard 40 - 50
+   discard 50 - 60
+   discard 60 - 70
+   discard 70 - 80
+   discard 80 - 90
+   discard 90 - 100
+   discard 100 - 200
+   discard 200 - 300
+   discard 300 - 400
+   discard 400 - 500
+   discard 500 - 600
+   discard 600 - 700
+   discard 700 - 800
+   discard 800 - 900
+     minFee= 900
+     maxFee= 1000
+     maxRew= 1868257.14286
+     maxRewFee= 1000
+   in_recursion
+f= 900
+     ebc= 1945.0
+     ER= 1750500.0
+     ER_max= 1769950.0
+f= 910
+     ebc= 1945.0
+     ER= 1769950.0
+     ER_max= 1789400.0
+f= 920
+     ebc= 1945.0
+     ER= 1789400.0
+     ER_max= 1808850.0
+f= 930
+     ebc= 1945.0
+     ER= 1808850.0
+     ER_max= 1828300.0
+f= 940
+     ebc= 1945.0
+     ER= 1828300.0
+     ER_max= 1847750.0
+f= 950
+     ebc= 1945.0
+     ER= 1847750.0
+     ER_max= 1867200.0
+f= 960
+     ebc= 1945.0
+     ER= 1867200.0
+     ER_max= 1886650.0
+f= 970
+     ebc= 1945.0
+     ER= 1886650.0
+     ER_max= 1906100.0
+f= 980
+     ebc= 1945.0
+     ER= 1906100.0
+     ER_max= 1925550.0
+f= 990
+     ebc= 1945.0
+     ER= 1925550.0
+     ER_max= 1945000.0
+   discard 900 - 910
+   discard 910 - 920
+   discard 920 - 930
+   discard 930 - 940
+   discard 940 - 950
+   discard 950 - 960
+   discard 960 - 970
+   discard 970 - 980
+   discard 980 - 990
+     minFee= 990
+     maxFee= 1000
+     maxRew= 1925550.0
+     maxRewFee= 990
+   in_base 990 1000
+f= 990
+     ebc= 1945.0
+     ER= 1925550.0
+f= 991
+     ebc= 1945.0
+     ER= 1927495.0
+f= 992
+     ebc= 1945.0
+     ER= 1929440.0
+f= 993
+     ebc= 1945.0
+     ER= 1931385.0
+f= 994
+     ebc= 1945.0
+     ER= 1933330.0
+f= 995
+     ebc= 1945.0
+     ER= 1935275.0
+f= 996
+     ebc= 1945.0
+     ER= 1937220.0
+f= 997
+     ebc= 1945.0
+     ER= 1939165.0
+f= 998
+     ebc= 1945.0
+     ER= 1941110.0
+f= 999
+     ebc= 1945.0
+     ER= 1943055.0
+f= 1000
+     ebc= 1868.25714286
+     ER= 1868257.14286
+     minFee= 1000
+     maxFee= 2000
+     maxRew= 1943055.0
+     maxRewFee= 999
+   in_recursion
+f= 1000
+     ebc= 1868.25714286
+     ER= 1868257.14286
+     ER_max= 2055082.85714
+f= 1100
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1000
+     maxFee= 1100
+     maxRew= 1943055.0
+     maxRewFee= 999
+   in_recursion
+f= 1000
+     ebc= 1868.25714286
+     ER= 1868257.14286
+     ER_max= 1886939.71429
+f= 1010
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+   discard 1000 - 1010
+   discard 1010 - 1020
+   discard 1020 - 1030
+   discard 1030 - 1040
+   discard 1040 - 1050
+   discard 1050 - 1060
+   discard 1060 - 1070
+   discard 1070 - 1080
+   discard 1080 - 1090
+   discard 1090 - 1100
+   discard 1100 - 1200
+   discard 1200 - 1300
+   discard 1300 - 1400
+   discard 1400 - 1500
+   discard 1500 - 1600
+   discard 1600 - 1700
+   discard 1700 - 1800
+   discard 1800 - 1900
+   discard 1900 - 2000
+   discard 2000 - 3000
+   discard 3000 - 4000
+   discard 4000 - 5000
+   discard 5000 - 6000
+   discard 6000 - 7000
+   discard 7000 - 8000
+   discard 8000 - 9000
+   discard 9000 - 10000
+-----------------
+Edge with node: 1223
+Max Rewarding Fee: 999
+Max Reward: 1943055.0
+-----------------
+Edge with node: 1163
+     minFee= 1
+     maxFee= 10000
+     maxRew= 0
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 6650.53214286
+     ER= 6650.53214286
+     ER_max= 6650532.14286
+f= 1000
+     ebc= 6045.0
+     ER= 6045000.0
+     ER_max= 12090000.0
+f= 2000
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 1000
+     maxRew= 6045000.0
+     maxRewFee= 1000
+   in_recursion
+f= 1
+     ebc= 6650.53214286
+     ER= 6650.53214286
+     ER_max= 665053.214286
+f= 100
+     ebc= 6318.0
+     ER= 631800.0
+     ER_max= 1263600.0
+f= 200
+     ebc= 6318.0
+     ER= 1263600.0
+     ER_max= 1895400.0
+f= 300
+     ebc= 6318.0
+     ER= 1895400.0
+     ER_max= 2527200.0
+f= 400
+     ebc= 6318.0
+     ER= 2527200.0
+     ER_max= 3159000.0
+f= 500
+     ebc= 6318.0
+     ER= 3159000.0
+     ER_max= 3790800.0
+f= 600
+     ebc= 6318.0
+     ER= 3790800.0
+     ER_max= 4422600.0
+f= 700
+     ebc= 6318.0
+     ER= 4422600.0
+     ER_max= 5054400.0
+f= 800
+     ebc= 6292.0
+     ER= 5033600.0
+     ER_max= 5662800.0
+f= 900
+     ebc= 6279.0
+     ER= 5651100.0
+     ER_max= 6279000.0
+   discard 1 - 100
+   discard 100 - 200
+   discard 200 - 300
+   discard 300 - 400
+   discard 400 - 500
+   discard 500 - 600
+   discard 600 - 700
+   discard 700 - 800
+   discard 800 - 900
+     minFee= 900
+     maxFee= 1000
+     maxRew= 6045000.0
+     maxRewFee= 1000
+   in_recursion
+f= 900
+     ebc= 6279.0
+     ER= 5651100.0
+     ER_max= 5713890.0
+f= 910
+     ebc= 6279.0
+     ER= 5713890.0
+     ER_max= 5776680.0
+f= 920
+     ebc= 6279.0
+     ER= 5776680.0
+     ER_max= 5839470.0
+f= 930
+     ebc= 6279.0
+     ER= 5839470.0
+     ER_max= 5902260.0
+f= 940
+     ebc= 6279.0
+     ER= 5902260.0
+     ER_max= 5965050.0
+f= 950
+     ebc= 6279.0
+     ER= 5965050.0
+     ER_max= 6027840.0
+f= 960
+     ebc= 6279.0
+     ER= 6027840.0
+     ER_max= 6090630.0
+f= 970
+     ebc= 6279.0
+     ER= 6090630.0
+     ER_max= 6153420.0
+f= 980
+     ebc= 6279.0
+     ER= 6153420.0
+     ER_max= 6216210.0
+f= 990
+     ebc= 6279.0
+     ER= 6216210.0
+     ER_max= 6279000.0
+   discard 900 - 910
+   discard 910 - 920
+   discard 920 - 930
+   discard 930 - 940
+   discard 940 - 950
+   discard 950 - 960
+   discard 960 - 970
+   discard 970 - 980
+   discard 980 - 990
+     minFee= 990
+     maxFee= 1000
+     maxRew= 6216210.0
+     maxRewFee= 990
+   in_base 990 1000
+f= 990
+     ebc= 6279.0
+     ER= 6216210.0
+f= 991
+     ebc= 6279.0
+     ER= 6222489.0
+f= 992
+     ebc= 6279.0
+     ER= 6228768.0
+f= 993
+     ebc= 6279.0
+     ER= 6235047.0
+f= 994
+     ebc= 6279.0
+     ER= 6241326.0
+f= 995
+     ebc= 6279.0
+     ER= 6247605.0
+f= 996
+     ebc= 6279.0
+     ER= 6253884.0
+f= 997
+     ebc= 6279.0
+     ER= 6260163.0
+f= 998
+     ebc= 6279.0
+     ER= 6266442.0
+f= 999
+     ebc= 6279.0
+     ER= 6272721.0
+f= 1000
+     ebc= 6045.0
+     ER= 6045000.0
+     minFee= 1000
+     maxFee= 2000
+     maxRew= 6272721.0
+     maxRewFee= 999
+   in_recursion
+f= 1000
+     ebc= 6045.0
+     ER= 6045000.0
+     ER_max= 6649500.0
+f= 1100
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1000
+     maxFee= 1100
+     maxRew= 6272721.0
+     maxRewFee= 999
+   in_recursion
+f= 1000
+     ebc= 6045.0
+     ER= 6045000.0
+     ER_max= 6105450.0
+f= 1010
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+   discard 1000 - 1010
+   discard 1010 - 1020
+   discard 1020 - 1030
+   discard 1030 - 1040
+   discard 1040 - 1050
+   discard 1050 - 1060
+   discard 1060 - 1070
+   discard 1070 - 1080
+   discard 1080 - 1090
+   discard 1090 - 1100
+   discard 1100 - 1200
+   discard 1200 - 1300
+   discard 1300 - 1400
+   discard 1400 - 1500
+   discard 1500 - 1600
+   discard 1600 - 1700
+   discard 1700 - 1800
+   discard 1800 - 1900
+   discard 1900 - 2000
+   discard 2000 - 3000
+   discard 3000 - 4000
+   discard 4000 - 5000
+   discard 5000 - 6000
+   discard 6000 - 7000
+   discard 7000 - 8000
+   discard 8000 - 9000
+   discard 9000 - 10000
+-----------------
+Edge with node: 1163
+Max Rewarding Fee: 999
+Max Reward: 6272721.0
+-----------------
+Edge with node: 222
+     minFee= 1
+     maxFee= 10000
+     maxRew= 0
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 7641.95494505
+     ER= 7641.95494505
+     ER_max= 7641954.94505
+f= 1000
+     ebc= 6308.4
+     ER= 6308400.0
+     ER_max= 12616800.0
+f= 2000
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 1000
+     maxRew= 6308400.0
+     maxRewFee= 1000
+   in_recursion
+f= 1
+     ebc= 7641.95494505
+     ER= 7641.95494505
+     ER_max= 764195.494505
+f= 100
+     ebc= 6588.0
+     ER= 658800.0
+     ER_max= 1317600.0
+f= 200
+     ebc= 6588.0
+     ER= 1317600.0
+     ER_max= 1976400.0
+f= 300
+     ebc= 6588.0
+     ER= 1976400.0
+     ER_max= 2635200.0
+f= 400
+     ebc= 6588.0
+     ER= 2635200.0
+     ER_max= 3294000.0
+f= 500
+     ebc= 6588.0
+     ER= 3294000.0
+     ER_max= 3952800.0
+f= 600
+     ebc= 6588.0
+     ER= 3952800.0
+     ER_max= 4611600.0
+f= 700
+     ebc= 6588.0
+     ER= 4611600.0
+     ER_max= 5270400.0
+f= 800
+     ebc= 6588.0
+     ER= 5270400.0
+     ER_max= 5929200.0
+f= 900
+     ebc= 6588.0
+     ER= 5929200.0
+     ER_max= 6588000.0
+   discard 1 - 100
+   discard 100 - 200
+   discard 200 - 300
+   discard 300 - 400
+   discard 400 - 500
+   discard 500 - 600
+   discard 600 - 700
+   discard 700 - 800
+   discard 800 - 900
+     minFee= 900
+     maxFee= 1000
+     maxRew= 6308400.0
+     maxRewFee= 1000
+   in_recursion
+f= 900
+     ebc= 6588.0
+     ER= 5929200.0
+     ER_max= 5995080.0
+f= 910
+     ebc= 6588.0
+     ER= 5995080.0
+     ER_max= 6060960.0
+f= 920
+     ebc= 6588.0
+     ER= 6060960.0
+     ER_max= 6126840.0
+f= 930
+     ebc= 6588.0
+     ER= 6126840.0
+     ER_max= 6192720.0
+f= 940
+     ebc= 6588.0
+     ER= 6192720.0
+     ER_max= 6258600.0
+f= 950
+     ebc= 6588.0
+     ER= 6258600.0
+     ER_max= 6324480.0
+f= 960
+     ebc= 6588.0
+     ER= 6324480.0
+     ER_max= 6390360.0
+f= 970
+     ebc= 6588.0
+     ER= 6390360.0
+     ER_max= 6456240.0
+f= 980
+     ebc= 6588.0
+     ER= 6456240.0
+     ER_max= 6522120.0
+f= 990
+     ebc= 6588.0
+     ER= 6522120.0
+     ER_max= 6588000.0
+   discard 900 - 910
+   discard 910 - 920
+   discard 920 - 930
+   discard 930 - 940
+   discard 940 - 950
+   discard 950 - 960
+   discard 960 - 970
+   discard 970 - 980
+   discard 980 - 990
+     minFee= 990
+     maxFee= 1000
+     maxRew= 6522120.0
+     maxRewFee= 990
+   in_base 990 1000
+f= 990
+     ebc= 6588.0
+     ER= 6522120.0
+f= 991
+     ebc= 6588.0
+     ER= 6528708.0
+f= 992
+     ebc= 6588.0
+     ER= 6535296.0
+f= 993
+     ebc= 6588.0
+     ER= 6541884.0
+f= 994
+     ebc= 6588.0
+     ER= 6548472.0
+f= 995
+     ebc= 6588.0
+     ER= 6555060.0
+f= 996
+     ebc= 6588.0
+     ER= 6561648.0
+f= 997
+     ebc= 6588.0
+     ER= 6568236.0
+f= 998
+     ebc= 6588.0
+     ER= 6574824.0
+f= 999
+     ebc= 6588.0
+     ER= 6581412.0
+f= 1000
+     ebc= 6308.4
+     ER= 6308400.0
+     minFee= 1000
+     maxFee= 2000
+     maxRew= 6581412.0
+     maxRewFee= 999
+   in_recursion
+f= 1000
+     ebc= 6308.4
+     ER= 6308400.0
+     ER_max= 6939240.0
+f= 1100
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1000
+     maxFee= 1100
+     maxRew= 6581412.0
+     maxRewFee= 999
+   in_recursion
+f= 1000
+     ebc= 6308.4
+     ER= 6308400.0
+     ER_max= 6371484.0
+f= 1010
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+   discard 1000 - 1010
+   discard 1010 - 1020
+   discard 1020 - 1030
+   discard 1030 - 1040
+   discard 1040 - 1050
+   discard 1050 - 1060
+   discard 1060 - 1070
+   discard 1070 - 1080
+   discard 1080 - 1090
+   discard 1090 - 1100
+   discard 1100 - 1200
+   discard 1200 - 1300
+   discard 1300 - 1400
+   discard 1400 - 1500
+   discard 1500 - 1600
+   discard 1600 - 1700
+   discard 1700 - 1800
+   discard 1800 - 1900
+   discard 1900 - 2000
+   discard 2000 - 3000
+   discard 3000 - 4000
+   discard 4000 - 5000
+   discard 5000 - 6000
+   discard 6000 - 7000
+   discard 7000 - 8000
+   discard 8000 - 9000
+   discard 9000 - 10000
+-----------------
+Edge with node: 222
+Max Rewarding Fee: 999
+Max Reward: 6581412.0
+-----------------
+Edge with node: 2745
+     minFee= 1
+     maxFee= 10000
+     maxRew= 0
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 3546.17857143
+     ER= 3546.17857143
+     ER_max= 3546178.57143
+f= 1000
+     ebc= 2865.0
+     ER= 2865000.0
+     ER_max= 5730000.0
+f= 2000
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 1000
+     maxRew= 2865000.0
+     maxRewFee= 1000
+   in_recursion
+f= 1
+     ebc= 3546.17857143
+     ER= 3546.17857143
+     ER_max= 354617.857143
+f= 100
+     ebc= 2985.0
+     ER= 298500.0
+     ER_max= 597000.0
+f= 200
+     ebc= 2985.0
+     ER= 597000.0
+     ER_max= 895500.0
+f= 300
+     ebc= 2985.0
+     ER= 895500.0
+     ER_max= 1194000.0
+f= 400
+     ebc= 2985.0
+     ER= 1194000.0
+     ER_max= 1492500.0
+f= 500
+     ebc= 2985.0
+     ER= 1492500.0
+     ER_max= 1791000.0
+f= 600
+     ebc= 2985.0
+     ER= 1791000.0
+     ER_max= 2089500.0
+f= 700
+     ebc= 2985.0
+     ER= 2089500.0
+     ER_max= 2388000.0
+f= 800
+     ebc= 2975.0
+     ER= 2380000.0
+     ER_max= 2677500.0
+f= 900
+     ebc= 2970.0
+     ER= 2673000.0
+     ER_max= 2970000.0
+   discard 1 - 100
+   discard 100 - 200
+   discard 200 - 300
+   discard 300 - 400
+   discard 400 - 500
+   discard 500 - 600
+   discard 600 - 700
+   discard 700 - 800
+   discard 800 - 900
+     minFee= 900
+     maxFee= 1000
+     maxRew= 2865000.0
+     maxRewFee= 1000
+   in_recursion
+f= 900
+     ebc= 2970.0
+     ER= 2673000.0
+     ER_max= 2702700.0
+f= 910
+     ebc= 2970.0
+     ER= 2702700.0
+     ER_max= 2732400.0
+f= 920
+     ebc= 2970.0
+     ER= 2732400.0
+     ER_max= 2762100.0
+f= 930
+     ebc= 2970.0
+     ER= 2762100.0
+     ER_max= 2791800.0
+f= 940
+     ebc= 2970.0
+     ER= 2791800.0
+     ER_max= 2821500.0
+f= 950
+     ebc= 2970.0
+     ER= 2821500.0
+     ER_max= 2851200.0
+f= 960
+     ebc= 2970.0
+     ER= 2851200.0
+     ER_max= 2880900.0
+f= 970
+     ebc= 2970.0
+     ER= 2880900.0
+     ER_max= 2910600.0
+f= 980
+     ebc= 2970.0
+     ER= 2910600.0
+     ER_max= 2940300.0
+f= 990
+     ebc= 2970.0
+     ER= 2940300.0
+     ER_max= 2970000.0
+   discard 900 - 910
+   discard 910 - 920
+   discard 920 - 930
+   discard 930 - 940
+   discard 940 - 950
+   discard 950 - 960
+   discard 960 - 970
+   discard 970 - 980
+   discard 980 - 990
+     minFee= 990
+     maxFee= 1000
+     maxRew= 2940300.0
+     maxRewFee= 990
+   in_base 990 1000
+f= 990
+     ebc= 2970.0
+     ER= 2940300.0
+f= 991
+     ebc= 2970.0
+     ER= 2943270.0
+f= 992
+     ebc= 2970.0
+     ER= 2946240.0
+f= 993
+     ebc= 2970.0
+     ER= 2949210.0
+f= 994
+     ebc= 2970.0
+     ER= 2952180.0
+f= 995
+     ebc= 2970.0
+     ER= 2955150.0
+f= 996
+     ebc= 2970.0
+     ER= 2958120.0
+f= 997
+     ebc= 2970.0
+     ER= 2961090.0
+f= 998
+     ebc= 2970.0
+     ER= 2964060.0
+f= 999
+     ebc= 2970.0
+     ER= 2967030.0
+f= 1000
+     ebc= 2865.0
+     ER= 2865000.0
+     minFee= 1000
+     maxFee= 2000
+     maxRew= 2967030.0
+     maxRewFee= 999
+   in_recursion
+f= 1000
+     ebc= 2865.0
+     ER= 2865000.0
+     ER_max= 3151500.0
+f= 1100
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1000
+     maxFee= 1100
+     maxRew= 2967030.0
+     maxRewFee= 999
+   in_recursion
+f= 1000
+     ebc= 2865.0
+     ER= 2865000.0
+     ER_max= 2893650.0
+f= 1010
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+   discard 1000 - 1010
+   discard 1010 - 1020
+   discard 1020 - 1030
+   discard 1030 - 1040
+   discard 1040 - 1050
+   discard 1050 - 1060
+   discard 1060 - 1070
+   discard 1070 - 1080
+   discard 1080 - 1090
+   discard 1090 - 1100
+   discard 1100 - 1200
+   discard 1200 - 1300
+   discard 1300 - 1400
+   discard 1400 - 1500
+   discard 1500 - 1600
+   discard 1600 - 1700
+   discard 1700 - 1800
+   discard 1800 - 1900
+   discard 1900 - 2000
+   discard 2000 - 3000
+   discard 3000 - 4000
+   discard 4000 - 5000
+   discard 5000 - 6000
+   discard 6000 - 7000
+   discard 7000 - 8000
+   discard 8000 - 9000
+   discard 9000 - 10000
+-----------------
+Edge with node: 2745
+Max Rewarding Fee: 999
+Max Reward: 2967030.0
+-----------------
+Edge with node: 3884
+     minFee= 1
+     maxFee= 10000
+     maxRew= 0
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 1713.45809301
+     ER= 1713.45809301
+     ER_max= 1713458.09301
+f= 1000
+     ebc= 1570.85714286
+     ER= 1570857.14286
+     ER_max= 3141714.28571
+f= 2000
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 1000
+     maxRew= 1570857.14286
+     maxRewFee= 1000
+   in_recursion
+f= 1
+     ebc= 1713.45809301
+     ER= 1713.45809301
+     ER_max= 171345.809301
+f= 100
+     ebc= 1648.0
+     ER= 164800.0
+     ER_max= 329600.0
+f= 200
+     ebc= 1648.0
+     ER= 329600.0
+     ER_max= 494400.0
+f= 300
+     ebc= 1648.0
+     ER= 494400.0
+     ER_max= 659200.0
+f= 400
+     ebc= 1648.0
+     ER= 659200.0
+     ER_max= 824000.0
+f= 500
+     ebc= 1648.0
+     ER= 824000.0
+     ER_max= 988800.0
+f= 600
+     ebc= 1648.0
+     ER= 988800.0
+     ER_max= 1153600.0
+f= 700
+     ebc= 1648.0
+     ER= 1153600.0
+     ER_max= 1318400.0
+f= 800
+     ebc= 1644.0
+     ER= 1315200.0
+     ER_max= 1479600.0
+f= 900
+     ebc= 1640.0
+     ER= 1476000.0
+     ER_max= 1640000.0
+   discard 1 - 100
+   discard 100 - 200
+   discard 200 - 300
+   discard 300 - 400
+   discard 400 - 500
+   discard 500 - 600
+   discard 600 - 700
+   discard 700 - 800
+   discard 800 - 900
+     minFee= 900
+     maxFee= 1000
+     maxRew= 1570857.14286
+     maxRewFee= 1000
+   in_recursion
+f= 900
+     ebc= 1640.0
+     ER= 1476000.0
+     ER_max= 1492400.0
+f= 910
+     ebc= 1640.0
+     ER= 1492400.0
+     ER_max= 1508800.0
+f= 920
+     ebc= 1640.0
+     ER= 1508800.0
+     ER_max= 1525200.0
+f= 930
+     ebc= 1640.0
+     ER= 1525200.0
+     ER_max= 1541600.0
+f= 940
+     ebc= 1640.0
+     ER= 1541600.0
+     ER_max= 1558000.0
+f= 950
+     ebc= 1640.0
+     ER= 1558000.0
+     ER_max= 1574400.0
+f= 960
+     ebc= 1640.0
+     ER= 1574400.0
+     ER_max= 1590800.0
+f= 970
+     ebc= 1640.0
+     ER= 1590800.0
+     ER_max= 1607200.0
+f= 980
+     ebc= 1640.0
+     ER= 1607200.0
+     ER_max= 1623600.0
+f= 990
+     ebc= 1640.0
+     ER= 1623600.0
+     ER_max= 1640000.0
+   discard 900 - 910
+   discard 910 - 920
+   discard 920 - 930
+   discard 930 - 940
+   discard 940 - 950
+   discard 950 - 960
+   discard 960 - 970
+   discard 970 - 980
+   discard 980 - 990
+     minFee= 990
+     maxFee= 1000
+     maxRew= 1623600.0
+     maxRewFee= 990
+   in_base 990 1000
+f= 990
+     ebc= 1640.0
+     ER= 1623600.0
+f= 991
+     ebc= 1640.0
+     ER= 1625240.0
+f= 992
+     ebc= 1640.0
+     ER= 1626880.0
+f= 993
+     ebc= 1640.0
+     ER= 1628520.0
+f= 994
+     ebc= 1640.0
+     ER= 1630160.0
+f= 995
+     ebc= 1640.0
+     ER= 1631800.0
+f= 996
+     ebc= 1640.0
+     ER= 1633440.0
+f= 997
+     ebc= 1640.0
+     ER= 1635080.0
+f= 998
+     ebc= 1640.0
+     ER= 1636720.0
+f= 999
+     ebc= 1640.0
+     ER= 1638360.0
+f= 1000
+     ebc= 1570.85714286
+     ER= 1570857.14286
+     minFee= 1000
+     maxFee= 2000
+     maxRew= 1638360.0
+     maxRewFee= 999
+   in_recursion
+f= 1000
+     ebc= 1570.85714286
+     ER= 1570857.14286
+     ER_max= 1727942.85714
+f= 1100
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1000
+     maxFee= 1100
+     maxRew= 1638360.0
+     maxRewFee= 999
+   in_recursion
+f= 1000
+     ebc= 1570.85714286
+     ER= 1570857.14286
+     ER_max= 1586565.71429
+f= 1010
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+   discard 1000 - 1010
+   discard 1010 - 1020
+   discard 1020 - 1030
+   discard 1030 - 1040
+   discard 1040 - 1050
+   discard 1050 - 1060
+   discard 1060 - 1070
+   discard 1070 - 1080
+   discard 1080 - 1090
+   discard 1090 - 1100
+   discard 1100 - 1200
+   discard 1200 - 1300
+   discard 1300 - 1400
+   discard 1400 - 1500
+   discard 1500 - 1600
+   discard 1600 - 1700
+   discard 1700 - 1800
+   discard 1800 - 1900
+   discard 1900 - 2000
+   discard 2000 - 3000
+   discard 3000 - 4000
+   discard 4000 - 5000
+   discard 5000 - 6000
+   discard 6000 - 7000
+   discard 7000 - 8000
+   discard 8000 - 9000
+   discard 9000 - 10000
+-----------------
+Edge with node: 3884
+Max Rewarding Fee: 999
+Max Reward: 1638360.0
+-----------------
+Edge with node: 3265
+     minFee= 1
+     maxFee= 10000
+     maxRew= 0
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 12280.0
+     ER= 12280.0
+     ER_max= 12280000.0
+f= 1000
+     ebc= 12280.0
+     ER= 12280000.0
+     ER_max= 24560000.0
+f= 2000
+     ebc= 12280.0
+     ER= 24560000.0
+     ER_max= 36840000.0
+f= 3000
+     ebc= 12280.0
+     ER= 36840000.0
+     ER_max= 49120000.0
+f= 4000
+     ebc= 12280.0
+     ER= 49120000.0
+     ER_max= 61400000.0
+f= 5000
+     ebc= 12280.0
+     ER= 61400000.0
+     ER_max= 73680000.0
+f= 6000
+     ebc= 12280.0
+     ER= 73680000.0
+     ER_max= 85960000.0
+f= 7000
+     ebc= 12280.0
+     ER= 85960000.0
+     ER_max= 98240000.0
+f= 8000
+     ebc= 12280.0
+     ER= 98240000.0
+     ER_max= 110520000.0
+f= 9000
+     ebc= 12280.0
+     ER= 110520000.0
+     ER_max= 122800000.0
+   discard 1 - 1000
+   discard 1000 - 2000
+   discard 2000 - 3000
+   discard 3000 - 4000
+   discard 4000 - 5000
+   discard 5000 - 6000
+   discard 6000 - 7000
+   discard 7000 - 8000
+   discard 8000 - 9000
+     minFee= 9000
+     maxFee= 10000
+     maxRew= 110520000.0
+     maxRewFee= 9000
+   in_recursion
+f= 9000
+     ebc= 12280.0
+     ER= 110520000.0
+     ER_max= 111748000.0
+f= 9100
+     ebc= 12280.0
+     ER= 111748000.0
+     ER_max= 112976000.0
+f= 9200
+     ebc= 12280.0
+     ER= 112976000.0
+     ER_max= 114204000.0
+f= 9300
+     ebc= 12280.0
+     ER= 114204000.0
+     ER_max= 115432000.0
+f= 9400
+     ebc= 12280.0
+     ER= 115432000.0
+     ER_max= 116660000.0
+f= 9500
+     ebc= 12280.0
+     ER= 116660000.0
+     ER_max= 117888000.0
+f= 9600
+     ebc= 12280.0
+     ER= 117888000.0
+     ER_max= 119116000.0
+f= 9700
+     ebc= 12280.0
+     ER= 119116000.0
+     ER_max= 120344000.0
+f= 9800
+     ebc= 12280.0
+     ER= 120344000.0
+     ER_max= 121572000.0
+f= 9900
+     ebc= 12280.0
+     ER= 121572000.0
+     ER_max= 122800000.0
+   discard 9000 - 9100
+   discard 9100 - 9200
+   discard 9200 - 9300
+   discard 9300 - 9400
+   discard 9400 - 9500
+   discard 9500 - 9600
+   discard 9600 - 9700
+   discard 9700 - 9800
+   discard 9800 - 9900
+     minFee= 9900
+     maxFee= 10000
+     maxRew= 121572000.0
+     maxRewFee= 9900
+   in_recursion
+f= 9900
+     ebc= 12280.0
+     ER= 121572000.0
+     ER_max= 121694800.0
+f= 9910
+     ebc= 12280.0
+     ER= 121694800.0
+     ER_max= 121817600.0
+f= 9920
+     ebc= 12280.0
+     ER= 121817600.0
+     ER_max= 121940400.0
+f= 9930
+     ebc= 12280.0
+     ER= 121940400.0
+     ER_max= 122063200.0
+f= 9940
+     ebc= 12280.0
+     ER= 122063200.0
+     ER_max= 122186000.0
+f= 9950
+     ebc= 12280.0
+     ER= 122186000.0
+     ER_max= 122308800.0
+f= 9960
+     ebc= 12280.0
+     ER= 122308800.0
+     ER_max= 122431600.0
+f= 9970
+     ebc= 12280.0
+     ER= 122431600.0
+     ER_max= 122554400.0
+f= 9980
+     ebc= 12280.0
+     ER= 122554400.0
+     ER_max= 122677200.0
+f= 9990
+     ebc= 12280.0
+     ER= 122677200.0
+     ER_max= 122800000.0
+   discard 9900 - 9910
+   discard 9910 - 9920
+   discard 9920 - 9930
+   discard 9930 - 9940
+   discard 9940 - 9950
+   discard 9950 - 9960
+   discard 9960 - 9970
+   discard 9970 - 9980
+   discard 9980 - 9990
+     minFee= 9990
+     maxFee= 10000
+     maxRew= 122677200.0
+     maxRewFee= 9990
+   in_base 9990 10000
+f= 9990
+     ebc= 12280.0
+     ER= 122677200.0
+f= 9991
+     ebc= 12280.0
+     ER= 122689480.0
+f= 9992
+     ebc= 12280.0
+     ER= 122701760.0
+f= 9993
+     ebc= 12280.0
+     ER= 122714040.0
+f= 9994
+     ebc= 12280.0
+     ER= 122726320.0
+f= 9995
+     ebc= 12280.0
+     ER= 122738600.0
+f= 9996
+     ebc= 12280.0
+     ER= 122750880.0
+f= 9997
+     ebc= 12280.0
+     ER= 122763160.0
+f= 9998
+     ebc= 12280.0
+     ER= 122775440.0
+f= 9999
+     ebc= 12280.0
+     ER= 122787720.0
+f= 10000
+     ebc= 12280.0
+     ER= 122800000.0
+-----------------
+Edge with node: 3265
+Max Rewarding Fee: 10000
+Max Reward: 122800000.0
+-----------------
+Edge with node: 4209
+     minFee= 1
+     maxFee= 10000
+     maxRew= 0
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 680.036368894
+     ER= 680.036368894
+     ER_max= 680036.368894
+f= 1000
+     ebc= 599.966666667
+     ER= 599966.666667
+     ER_max= 1199933.33333
+f= 2000
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 1000
+     maxRew= 599966.666667
+     maxRewFee= 1000
+   in_recursion
+f= 1
+     ebc= 680.036368894
+     ER= 680.036368894
+     ER_max= 68003.6368894
+f= 100
+     ebc= 630.0
+     ER= 63000.0
+     ER_max= 126000.0
+f= 200
+     ebc= 630.0
+     ER= 126000.0
+     ER_max= 189000.0
+f= 300
+     ebc= 630.0
+     ER= 189000.0
+     ER_max= 252000.0
+f= 400
+     ebc= 630.0
+     ER= 252000.0
+     ER_max= 315000.0
+f= 500
+     ebc= 630.0
+     ER= 315000.0
+     ER_max= 378000.0
+f= 600
+     ebc= 630.0
+     ER= 378000.0
+     ER_max= 441000.0
+f= 700
+     ebc= 630.0
+     ER= 441000.0
+     ER_max= 504000.0
+f= 800
+     ebc= 630.0
+     ER= 504000.0
+     ER_max= 567000.0
+f= 900
+     ebc= 627.0
+     ER= 564300.0
+     ER_max= 627000.0
+   discard 1 - 100
+   discard 100 - 200
+   discard 200 - 300
+   discard 300 - 400
+   discard 400 - 500
+   discard 500 - 600
+   discard 600 - 700
+   discard 700 - 800
+   discard 800 - 900
+     minFee= 900
+     maxFee= 1000
+     maxRew= 599966.666667
+     maxRewFee= 1000
+   in_recursion
+f= 900
+     ebc= 627.0
+     ER= 564300.0
+     ER_max= 570570.0
+f= 910
+     ebc= 627.0
+     ER= 570570.0
+     ER_max= 576840.0
+f= 920
+     ebc= 627.0
+     ER= 576840.0
+     ER_max= 583110.0
+f= 930
+     ebc= 627.0
+     ER= 583110.0
+     ER_max= 589380.0
+f= 940
+     ebc= 627.0
+     ER= 589380.0
+     ER_max= 595650.0
+f= 950
+     ebc= 627.0
+     ER= 595650.0
+     ER_max= 601920.0
+f= 960
+     ebc= 627.0
+     ER= 601920.0
+     ER_max= 608190.0
+f= 970
+     ebc= 627.0
+     ER= 608190.0
+     ER_max= 614460.0
+f= 980
+     ebc= 627.0
+     ER= 614460.0
+     ER_max= 620730.0
+f= 990
+     ebc= 627.0
+     ER= 620730.0
+     ER_max= 627000.0
+   discard 900 - 910
+   discard 910 - 920
+   discard 920 - 930
+   discard 930 - 940
+   discard 940 - 950
+   discard 950 - 960
+   discard 960 - 970
+   discard 970 - 980
+   discard 980 - 990
+     minFee= 990
+     maxFee= 1000
+     maxRew= 620730.0
+     maxRewFee= 990
+   in_base 990 1000
+f= 990
+     ebc= 627.0
+     ER= 620730.0
+f= 991
+     ebc= 627.0
+     ER= 621357.0
+f= 992
+     ebc= 627.0
+     ER= 621984.0
+f= 993
+     ebc= 627.0
+     ER= 622611.0
+f= 994
+     ebc= 627.0
+     ER= 623238.0
+f= 995
+     ebc= 627.0
+     ER= 623865.0
+f= 996
+     ebc= 627.0
+     ER= 624492.0
+f= 997
+     ebc= 627.0
+     ER= 625119.0
+f= 998
+     ebc= 627.0
+     ER= 625746.0
+f= 999
+     ebc= 627.0
+     ER= 626373.0
+f= 1000
+     ebc= 599.966666667
+     ER= 599966.666667
+     minFee= 1000
+     maxFee= 2000
+     maxRew= 626373.0
+     maxRewFee= 999
+   in_recursion
+f= 1000
+     ebc= 599.966666667
+     ER= 599966.666667
+     ER_max= 659963.333333
+f= 1100
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1000
+     maxFee= 1100
+     maxRew= 626373.0
+     maxRewFee= 999
+   in_recursion
+f= 1000
+     ebc= 599.966666667
+     ER= 599966.666667
+     ER_max= 605966.333333
+f= 1010
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+   discard 1000 - 1010
+   discard 1010 - 1020
+   discard 1020 - 1030
+   discard 1030 - 1040
+   discard 1040 - 1050
+   discard 1050 - 1060
+   discard 1060 - 1070
+   discard 1070 - 1080
+   discard 1080 - 1090
+   discard 1090 - 1100
+   discard 1100 - 1200
+   discard 1200 - 1300
+   discard 1300 - 1400
+   discard 1400 - 1500
+   discard 1500 - 1600
+   discard 1600 - 1700
+   discard 1700 - 1800
+   discard 1800 - 1900
+   discard 1900 - 2000
+   discard 2000 - 3000
+   discard 3000 - 4000
+   discard 4000 - 5000
+   discard 5000 - 6000
+   discard 6000 - 7000
+   discard 7000 - 8000
+   discard 8000 - 9000
+   discard 9000 - 10000
+-----------------
+Edge with node: 4209
+Max Rewarding Fee: 999
+Max Reward: 626373.0
+-----------------
+Edge with node: 2087
+     minFee= 1
+     maxFee= 10000
+     maxRew= 0
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 2703.53333333
+     ER= 2703.53333333
+     ER_max= 2703533.33333
+f= 1000
+     ebc= 2092.0
+     ER= 2092000.0
+     ER_max= 4184000.0
+f= 2000
+     ebc= 1254.0
+     ER= 2508000.0
+     ER_max= 3762000.0
+f= 3000
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 1
+     maxFee= 1000
+     maxRew= 2508000.0
+     maxRewFee= 2000
+   in_recursion
+f= 1
+     ebc= 2703.53333333
+     ER= 2703.53333333
+     ER_max= 270353.333333
+f= 100
+     ebc= 2471.42857143
+     ER= 247142.857143
+     ER_max= 494285.714286
+f= 200
+     ebc= 2147.0
+     ER= 429400.0
+     ER_max= 644100.0
+f= 300
+     ebc= 2123.0
+     ER= 636900.0
+     ER_max= 849200.0
+f= 400
+     ebc= 2123.0
+     ER= 849200.0
+     ER_max= 1061500.0
+f= 500
+     ebc= 2123.0
+     ER= 1061500.0
+     ER_max= 1273800.0
+f= 600
+     ebc= 2109.0
+     ER= 1265400.0
+     ER_max= 1476300.0
+f= 700
+     ebc= 2093.0
+     ER= 1465100.0
+     ER_max= 1674400.0
+f= 800
+     ebc= 2093.0
+     ER= 1674400.0
+     ER_max= 1883700.0
+f= 900
+     ebc= 2092.0
+     ER= 1882800.0
+     ER_max= 2092000.0
+   discard 1 - 100
+   discard 100 - 200
+   discard 200 - 300
+   discard 300 - 400
+   discard 400 - 500
+   discard 500 - 600
+   discard 600 - 700
+   discard 700 - 800
+   discard 800 - 900
+   discard 900 - 1000
+     minFee= 1000
+     maxFee= 2000
+     maxRew= 2508000.0
+     maxRewFee= 2000
+   in_recursion
+f= 1000
+     ebc= 2092.0
+     ER= 2092000.0
+     ER_max= 2301200.0
+f= 1100
+     ebc= 1727.40714286
+     ER= 1900147.85714
+     ER_max= 2072888.57143
+f= 1200
+     ebc= 1260.0
+     ER= 1512000.0
+     ER_max= 1638000.0
+f= 1300
+     ebc= 1260.0
+     ER= 1638000.0
+     ER_max= 1764000.0
+f= 1400
+     ebc= 1260.0
+     ER= 1764000.0
+     ER_max= 1890000.0
+f= 1500
+     ebc= 1260.0
+     ER= 1890000.0
+     ER_max= 2016000.0
+f= 1600
+     ebc= 1260.0
+     ER= 2016000.0
+     ER_max= 2142000.0
+f= 1700
+     ebc= 1260.0
+     ER= 2142000.0
+     ER_max= 2268000.0
+f= 1800
+     ebc= 1260.0
+     ER= 2268000.0
+     ER_max= 2394000.0
+f= 1900
+     ebc= 1257.0
+     ER= 2388300.0
+     ER_max= 2514000.0
+   discard 1000 - 1100
+   discard 1100 - 1200
+   discard 1200 - 1300
+   discard 1300 - 1400
+   discard 1400 - 1500
+   discard 1500 - 1600
+   discard 1600 - 1700
+   discard 1700 - 1800
+   discard 1800 - 1900
+     minFee= 1900
+     maxFee= 2000
+     maxRew= 2508000.0
+     maxRewFee= 2000
+   in_recursion
+f= 1900
+     ebc= 1257.0
+     ER= 2388300.0
+     ER_max= 2400870.0
+f= 1910
+     ebc= 1254.0
+     ER= 2395140.0
+     ER_max= 2407680.0
+f= 1920
+     ebc= 1254.0
+     ER= 2407680.0
+     ER_max= 2420220.0
+f= 1930
+     ebc= 1254.0
+     ER= 2420220.0
+     ER_max= 2432760.0
+f= 1940
+     ebc= 1254.0
+     ER= 2432760.0
+     ER_max= 2445300.0
+f= 1950
+     ebc= 1254.0
+     ER= 2445300.0
+     ER_max= 2457840.0
+f= 1960
+     ebc= 1254.0
+     ER= 2457840.0
+     ER_max= 2470380.0
+f= 1970
+     ebc= 1254.0
+     ER= 2470380.0
+     ER_max= 2482920.0
+f= 1980
+     ebc= 1254.0
+     ER= 2482920.0
+     ER_max= 2495460.0
+f= 1990
+     ebc= 1254.0
+     ER= 2495460.0
+     ER_max= 2508000.0
+   discard 1900 - 1910
+   discard 1910 - 1920
+   discard 1920 - 1930
+   discard 1930 - 1940
+   discard 1940 - 1950
+   discard 1950 - 1960
+   discard 1960 - 1970
+   discard 1970 - 1980
+   discard 1980 - 1990
+   discard 1990 - 2000
+     minFee= 2000
+     maxFee= 3000
+     maxRew= 2508000.0
+     maxRewFee= 2000
+   in_recursion
+f= 2000
+     ebc= 1254.0
+     ER= 2508000.0
+     ER_max= 2633400.0
+f= 2100
+     ebc= 1213.0
+     ER= 2547300.0
+     ER_max= 2668600.0
+f= 2200
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+     minFee= 2000
+     maxFee= 2100
+     maxRew= 2547300.0
+     maxRewFee= 2100
+   in_recursion
+f= 2000
+     ebc= 1254.0
+     ER= 2508000.0
+     ER_max= 2520540.0
+f= 2010
+     ebc= 1254.0
+     ER= 2520540.0
+     ER_max= 2533080.0
+f= 2020
+     ebc= 1254.0
+     ER= 2533080.0
+     ER_max= 2545620.0
+f= 2030
+     ebc= 1254.0
+     ER= 2545620.0
+     ER_max= 2558160.0
+f= 2040
+     ebc= 1254.0
+     ER= 2558160.0
+     ER_max= 2570700.0
+f= 2050
+     ebc= 1254.0
+     ER= 2570700.0
+     ER_max= 2583240.0
+f= 2060
+     ebc= 1254.0
+     ER= 2583240.0
+     ER_max= 2595780.0
+f= 2070
+     ebc= 1254.0
+     ER= 2595780.0
+     ER_max= 2608320.0
+f= 2080
+     ebc= 1254.0
+     ER= 2608320.0
+     ER_max= 2620860.0
+f= 2090
+     ebc= 1254.0
+     ER= 2620860.0
+     ER_max= 2633400.0
+   discard 2000 - 2010
+   discard 2010 - 2020
+   discard 2020 - 2030
+   discard 2030 - 2040
+   discard 2040 - 2050
+   discard 2050 - 2060
+   discard 2060 - 2070
+   discard 2070 - 2080
+   discard 2080 - 2090
+     minFee= 2090
+     maxFee= 2100
+     maxRew= 2620860.0
+     maxRewFee= 2090
+   in_base 2090 2100
+f= 2090
+     ebc= 1254.0
+     ER= 2620860.0
+f= 2091
+     ebc= 1254.0
+     ER= 2622114.0
+f= 2092
+     ebc= 1254.0
+     ER= 2623368.0
+f= 2093
+     ebc= 1254.0
+     ER= 2624622.0
+f= 2094
+     ebc= 1254.0
+     ER= 2625876.0
+f= 2095
+     ebc= 1254.0
+     ER= 2627130.0
+f= 2096
+     ebc= 1254.0
+     ER= 2628384.0
+f= 2097
+     ebc= 1254.0
+     ER= 2629638.0
+f= 2098
+     ebc= 1254.0
+     ER= 2630892.0
+f= 2099
+     ebc= 1254.0
+     ER= 2632146.0
+f= 2100
+     ebc= 1213.0
+     ER= 2547300.0
+     minFee= 2100
+     maxFee= 2200
+     maxRew= 2632146.0
+     maxRewFee= 2099
+   in_recursion
+f= 2100
+     ebc= 1213.0
+     ER= 2547300.0
+     ER_max= 2559430.0
+f= 2110
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+   discard 2100 - 2110
+   discard 2110 - 2120
+   discard 2120 - 2130
+   discard 2130 - 2140
+   discard 2140 - 2150
+   discard 2150 - 2160
+   discard 2160 - 2170
+   discard 2170 - 2180
+   discard 2180 - 2190
+   discard 2190 - 2200
+   discard 2200 - 2300
+   discard 2300 - 2400
+   discard 2400 - 2500
+   discard 2500 - 2600
+   discard 2600 - 2700
+   discard 2700 - 2800
+   discard 2800 - 2900
+   discard 2900 - 3000
+   discard 3000 - 4000
+   discard 4000 - 5000
+   discard 5000 - 6000
+   discard 6000 - 7000
+   discard 7000 - 8000
+   discard 8000 - 9000
+   discard 9000 - 10000
+-----------------
+Edge with node: 2087
+Max Rewarding Fee: 2099
+Max Reward: 2632146.0
+-----------------
+Edge with node: 3540
+     minFee= 1
+     maxFee= 10000
+     maxRew= 0
+     maxRewFee= 1
+   in_recursion
+f= 1
+     ebc= 532472.60656
+     ER= 532472.60656
+     ER_max= 532472606.56
+f= 1000
+     ebc= 467657.838769
+     ER= 467657838.769
+     ER_max= 935315677.538
+f= 2000
+     ebc= 432428.71973
+     ER= 864857439.46
+     ER_max= 1297286159.19
+f= 3000
+     ebc= 152035.469994
+     ER= 456106409.981
+     ER_max= 608141879.974
+f= 4000
+     ebc= 0.0
+     ER= 0.0
+     ER_max= 0.0
+   break
+   discard 1 - 1000
+     minFee= 1000
+     maxFee= 2000
+     maxRew= 864857439.46
+     maxRewFee= 2000
+   in_recursion
+f= 1000
+     ebc= 467657.838769
+     ER= 467657838.769
+     ER_max= 514423622.646
+f= 1100
+     ebc= 440293.0
+     ER= 484322300.0
+     ER_max= 528351600.0
+f= 1200
+     ebc= 440293.0
+     ER= 528351600.0
+     ER_max= 572380900.0
+f= 1300
+     ebc= 440293.0
+     ER= 572380900.0
+     ER_max= 616410200.0
+f= 1400
+     ebc= 440293.0
+     ER= 616410200.0
+     ER_max= 660439500.0
+f= 1500
+     ebc= 440293.0
+     ER= 660439500.0
+     ER_max= 704468800.0
+f= 1600
+     ebc= 440293.0
+     ER= 704468800.0
+     ER_max= 748498100.0
+f= 1700
+     ebc= 440293.0
+     ER= 748498100.0
+     ER_max= 792527400.0
+f= 1800
+     ebc= 440293.0
+     ER= 792527400.0
+     ER_max= 836556700.0
+f= 1900
+     ebc= 440293.0
+     ER= 836556700.0
+     ER_max= 880586000.0
+   discard 1000 - 1100
+   discard 1100 - 1200
+   discard 1200 - 1300
+   discard 1300 - 1400
+   discard 1400 - 1500
+   discard 1500 - 1600
+   discard 1600 - 1700
+   discard 1700 - 1800
+   discard 1800 - 1900
+     minFee= 1900
+     maxFee= 2000
+     maxRew= 864857439.46
+     maxRewFee= 2000
+   in_recursion
+f= 1900
+     ebc= 440293.0
+     ER= 836556700.0
+     ER_max= 840959630.0
+f= 1910
+     ebc= 440293.0
+     ER= 840959630.0
+     ER_max= 845362560.0
+f= 1920
+     ebc= 440293.0
+     ER= 845362560.0
+     ER_max= 849765490.0
+f= 1930
+     ebc= 440293.0
+     ER= 849765490.0
+     ER_max= 854168420.0
+f= 1940
+     ebc= 440293.0
+     ER= 854168420.0
+     ER_max= 858571350.0
+f= 1950
+     ebc= 440293.0
+     ER= 858571350.0
+     ER_max= 862974280.0
+f= 1960
+     ebc= 440293.0
+     ER= 862974280.0
+     ER_max= 867377210.0
+f= 1970
+     ebc= 440293.0
+     ER= 867377210.0
+     ER_max= 871780140.0
+f= 1980
+     ebc= 440293.0
+     ER= 871780140.0
+     ER_max= 876183070.0
+f= 1990
+     ebc= 440293.0
+     ER= 876183070.0
+     ER_max= 880586000.0
+   discard 1900 - 1910
+   discard 1910 - 1920
+   discard 1920 - 1930
+   discard 1930 - 1940
+   discard 1940 - 1950
+   discard 1950 - 1960
+   discard 1960 - 1970
+   discard 1970 - 1980
+   discard 1980 - 1990
+     minFee= 1990
+     maxFee= 2000
+     maxRew= 876183070.0
+     maxRewFee= 1990
+   in_base 1990 2000
+f= 1990
+     ebc= 440293.0
+     ER= 876183070.0
+f= 1991
+     ebc= 440293.0
+     ER= 876623363.0
+f= 1992
+     ebc= 440293.0
+     ER= 877063656.0
+f= 1993
+     ebc= 440293.0
+     ER= 877503949.0
+f= 1994
+     ebc= 440293.0
+     ER= 877944242.0
+f= 1995
+     ebc= 440293.0
+     ER= 878384535.0
+f= 1996
+     ebc= 440293.0
+     ER= 878824828.0
+f= 1997
+     ebc= 440291.986755
+     ER= 879263097.55
+f= 1998
+     ebc= 440260.391522
+     ER= 879640262.261
+f= 1999
+     ebc= 439037.788465
+     ER= 877636539.142
+f= 2000
+     ebc= 432428.71973
+     ER= 864857439.46
+     minFee= 2000
+     maxFee= 3000
+     maxRew= 879640262.261
+     maxRewFee= 1998
+   in_recursion
+f= 2000
+     ebc= 432428.71973
+     ER= 864857439.46
+     ER_max= 908100311.433
+f= 2100
+     ebc= 427615.0
+     ER= 897991500.0
+     ER_max= 940753000.0
+f= 2200
+     ebc= 427615.0
+     ER= 940753000.0
+     ER_max= 983514500.0
+f= 2300
+     ebc= 427615.0
+     ER= 983514500.0
+     ER_max= 1026276000.0
+f= 2400
+     ebc= 427615.0
+     ER= 1026276000.0
+     ER_max= 1069037500.0
+f= 2500
+     ebc= 427615.0
+     ER= 1069037500.0
+     ER_max= 1111799000.0
+f= 2600
+     ebc= 427615.0
+     ER= 1111799000.0
+     ER_max= 1154560500.0
+f= 2700
+     ebc= 427615.0
+     ER= 1154560500.0
+     ER_max= 1197322000.0
+f= 2800
+     ebc= 427615.0
+     ER= 1197322000.0
+     ER_max= 1240083500.0
+f= 2900
+     ebc= 427615.0
+     ER= 1240083500.0
+     ER_max= 1282845000.0
+   discard 2000 - 2100
+   discard 2100 - 2200
+   discard 2200 - 2300
+   discard 2300 - 2400
+   discard 2400 - 2500
+   discard 2500 - 2600
+   discard 2600 - 2700
+   discard 2700 - 2800
+   discard 2800 - 2900
+     minFee= 2900
+     maxFee= 3000
+     maxRew= 1240083500.0
+     maxRewFee= 2900
+   in_recursion
+f= 2900
+     ebc= 427615.0
+     ER= 1240083500.0
+     ER_max= 1244359650.0
+f= 2910
+     ebc= 427615.0
+     ER= 1244359650.0
+     ER_max= 1248635800.0
+f= 2920
+     ebc= 427615.0
+     ER= 1248635800.0
+     ER_max= 1252911950.0
+f= 2930
+     ebc= 427615.0
+     ER= 1252911950.0
+     ER_max= 1257188100.0
+f= 2940
+     ebc= 427615.0
+     ER= 1257188100.0
+     ER_max= 1261464250.0
+f= 2950
+     ebc= 427615.0
+     ER= 1261464250.0
+     ER_max= 1265740400.0
+f= 2960
+     ebc= 427615.0
+     ER= 1265740400.0
+     ER_max= 1270016550.0
+f= 2970
+     ebc= 427615.0
+     ER= 1270016550.0
+     ER_max= 1274292700.0
+f= 2980
+     ebc= 427614.0
+     ER= 1274289720.0
+     ER_max= 1278565860.0
+f= 2990
+     ebc= 427614.0
+     ER= 1278565860.0
+     ER_max= 1282842000.0
+   discard 2900 - 2910
+   discard 2910 - 2920
+   discard 2920 - 2930
+   discard 2930 - 2940
+   discard 2940 - 2950
+   discard 2950 - 2960
+   discard 2960 - 2970
+   discard 2970 - 2980
+   discard 2980 - 2990
+     minFee= 2990
+     maxFee= 3000
+     maxRew= 1278565860.0
+     maxRewFee= 2990
+   in_base 2990 3000
+f= 2990
+     ebc= 427614.0
+     ER= 1278565860.0
+f= 2991
+     ebc= 427614.0
+     ER= 1278993474.0
+f= 2992
+     ebc= 427614.0
+     ER= 1279421088.0
+f= 2993
+     ebc= 427614.0
+     ER= 1279848702.0
+f= 2994
+     ebc= 427614.0
+     ER= 1280276316.0
+f= 2995
+     ebc= 427614.0
+     ER= 1280703930.0
+f= 2996
+     ebc= 427614.0
+     ER= 1281131544.0
+f= 2997
+     ebc= 427613.970389
+     ER= 1281559069.26
+f= 2998
+     ebc= 427537.235999
+     ER= 1281756633.53
+f= 2999
+     ebc= 409661.318533
+     ER= 1228574294.28
+f= 3000
+     ebc= 152035.469994
+     ER= 456106409.981
+   discard 3000 - 4000
+   discard 4000 - 5000
+   discard 5000 - 6000
+   discard 6000 - 7000
+   discard 7000 - 8000
+   discard 8000 - 9000
+   discard 9000 - 10000
+-----------------
+Edge with node: 3540
+Max Rewarding Fee: 2998
+Max Reward: 1281756633.53
+-----------------
