@@ -1,0 +1,1237 @@
+Number of Trials: 20
+Number of Transactions:100 
+
+ Node Failing Probability: 0.2 
+Parameters: 50 - 4 (Time 0.74 sec) 
+Average Path Length: 2.08008163265 
+Average Nodes Visited: 6.0 
+Failing Paths Ratio: 0.0015 
+ Parameters: 50 - 8 (Time 1.96 sec) 
+Average Path Length: 1.71816326531 
+Average Nodes Visited: 10.0 
+Failing Paths Ratio: 0.0 
+ 
+ Node Failing Probability: 0.3 
+Parameters: 50 - 4 (Time 0.73 sec) 
+Average Path Length: 2.08840816327 
+Average Nodes Visited: 6.0 
+Failing Paths Ratio: 0.0065 
+ Parameters: 50 - 8 (Time 1.95 sec) 
+Average Path Length: 1.71746938776 
+Average Nodes Visited: 10.15 
+Failing Paths Ratio: 0.0 
+ 
+ Node Failing Probability: 0.4 
+Parameters: 50 - 4 (Time 0.76 sec) 
+Average Path Length: 2.0792244898 
+Average Nodes Visited: 6.0 
+Failing Paths Ratio: 0.006 
+ Parameters: 50 - 8 (Time 2.0 sec) 
+Average Path Length: 1.7173877551 
+Average Nodes Visited: 9.95 
+Failing Paths Ratio: 0.0 
+ Number of Trials: 20
+Number of Transactions:100 
+Number of Trials: 20
+Number of Transactions:100 
+Number of Trials: 20
+Number of Transactions:100 
+Number of Trials: 20
+Number of Transactions:100 
+Number of Trials: 20
+Number of Transactions:100 
+Number of Trials: 20
+Number of Transactions:100 
+Number of Trials: 20
+Number of Transactions:100 
+Number of Trials: 20
+Number of Transactions:100 
+Number of Trials: 20
+Number of Transactions:100 
+Number of Trials: 20
+Number of Transactions:100 
+Number of Trials: 20
+Number of Transactions:100 
+Number of Trials: 20
+Number of Transactions:100 
+Number of Trials: 20
+Number of Transactions:100 
+Parameters: 50 - 4 (Time 0.75 sec) 
+Average Path Length: 2.07534693878 
+Average Nodes Visited: 6.0 
+Total Failing Paths:
+0.2: [14, 12, 12] 
+0.3: [14, 12, 12] 
+0.4: [14, 12, 12] 
+Parameters: 50 - 8 (Time 1.93 sec) 
+Average Path Length: 1.71795918367 
+Average Nodes Visited: 10.05 
+Total Failing Paths:
+0.2: [0, 0, 0] 
+0.3: [0, 0, 0] 
+0.4: [0, 0, 0] 
+Parameters: 100 - 4 (Time 1.46 sec) 
+Average Path Length: 2.37460606061 
+Average Nodes Visited: 7.0 
+Total Failing Paths:
+0.2: [3, 4, 18] 
+0.3: [3, 4, 18] 
+0.4: [3, 4, 18] 
+Parameters: 100 - 8 (Time 3.61 sec) 
+Average Path Length: 1.94366666667 
+Average Nodes Visited: 11.55 
+Total Failing Paths:
+0.2: [0, 0, 0] 
+0.3: [0, 0, 0] 
+0.4: [0, 0, 0] 
+Parameters: 500 - 4 (Time 7.71 sec) 
+Average Path Length: 2.98381523046 
+Average Nodes Visited: 9.15 
+Total Failing Paths:
+0.2: [23, 93, 12] 
+0.3: [23, 93, 12] 
+0.4: [23, 93, 12] 
+Parameters: 500 - 8 (Time 22.94 sec) 
+Average Path Length: 2.48544448898 
+Average Nodes Visited: 14.55 
+Total Failing Paths:
+0.2: [1, 1, 0] 
+0.3: [1, 1, 0] 
+0.4: [1, 1, 0] 
+Parameters: 500 - 16 (Time 49.63 sec) 
+Average Path Length: 2.08705450902 
+Average Nodes Visited: 24.75 
+Total Failing Paths:
+0.2: [0, 0, 0] 
+0.3: [0, 0, 0] 
+0.4: [0, 0, 0] 
+Parameters: 1000 - 4 (Time 15.62 sec) 
+Average Path Length: 3.23032502503 
+Average Nodes Visited: 9.05 
+Total Failing Paths:
+0.2: [13, 47, 82] 
+0.3: [13, 47, 82] 
+0.4: [13, 47, 82] 
+Number of Trials: 20
+Number of Transactions:100 
+Parameters: 50 - 4 (Time 0.81 sec) 
+Average Path Length: 2.07885714286 
+Average Nodes Visited: 6.15 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [4, 4, 2] 
+Parameters: 50 - 8 (Time 2.01 sec) 
+Average Path Length: 1.71812244898 
+Average Nodes Visited: 9.85 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 0] 
+Parameters: 100 - 4 (Time 1.5 sec) 
+Average Path Length: 2.37956565657 
+Average Nodes Visited: 7.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [23, 10, 11] 
+Parameters: 100 - 8 (Time 3.6 sec) 
+Average Path Length: 1.94477777778 
+Average Nodes Visited: 11.1 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 0] 
+Parameters: 500 - 4 (Time 7.69 sec) 
+Average Path Length: 2.98200801603 
+Average Nodes Visited: 8.95 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [130, 10, 12] 
+Parameters: 500 - 8 (Time 24.1 sec) 
+Average Path Length: 2.48970260521 
+Average Nodes Visited: 14.05 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 1] 
+Parameters: 500 - 16 (Time 49.61 sec) 
+Average Path Length: 2.08758116232 
+Average Nodes Visited: 25.05 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 0] 
+Parameters: 1000 - 4 (Time 18.13 sec) 
+Average Path Length: 3.23837467467 
+Average Nodes Visited: 10.35 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [20, 35, 23] 
+Number of Trials: 20
+Number of Transactions:100 
+Parameters: 50 - 4 (Time 0.8 sec) 
+Average Path Length: 2.08873469388 
+Average Nodes Visited: 6.05 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [41, 93, 209] 
+Parameters: 50 - 8 (Time 1.82 sec) 
+Average Path Length: 1.71840816327 
+Average Nodes Visited: 10.1 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 11, 16] 
+Parameters: 100 - 4 (Time 1.58 sec) 
+Average Path Length: 2.37803030303 
+Average Nodes Visited: 7.05 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [75, 122, 436] 
+Parameters: 100 - 8 (Time 3.69 sec) 
+Average Path Length: 1.94293939394 
+Average Nodes Visited: 11.65 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 6, 82] 
+Parameters: 500 - 4 (Time 9.56 sec) 
+Average Path Length: 2.99591503006 
+Average Nodes Visited: 9.1 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [65, 289, 831] 
+Parameters: 500 - 8 (Time 26.52 sec) 
+Average Path Length: 2.4901254509 
+Average Nodes Visited: 14.65 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [6, 11, 182] 
+Parameters: 500 - 16 (Time 56.63 sec) 
+Average Path Length: 2.08664849699 
+Average Nodes Visited: 25.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 2] 
+Parameters: 1000 - 4 (Time 20.76 sec) 
+Average Path Length: 3.23265555556 
+Average Nodes Visited: 10.15 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [297, 315, 705] 
+Number of Trials: 100
+Number of Transactions:100 
+Parameters: 50 - 4 (Time 3.73 sec) 
+Average Path Length: 2.08451428571 
+Average Nodes Visited: 6.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [108, 708, 1746] 
+Parameters: 50 - 8 (Time 9.62 sec) 
+Average Path Length: 1.71795102041 
+Average Nodes Visited: 10.01 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 18, 58] 
+Parameters: 100 - 4 (Time 7.56 sec) 
+Average Path Length: 2.37868888889 
+Average Nodes Visited: 7.04 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [173, 1384, 2088] 
+Parameters: 100 - 8 (Time 19.75 sec) 
+Average Path Length: 1.94388282828 
+Average Nodes Visited: 11.96 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 58, 160] 
+Parameters: 500 - 4 (Time 39.97 sec) 
+Average Path Length: 2.98572561122 
+Average Nodes Visited: 8.99 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [667, 1790, 3672] 
+Parameters: 500 - 8 (Time 131.04 sec) 
+Average Path Length: 2.48547230461 
+Average Nodes Visited: 14.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [24, 159, 610] 
+Parameters: 500 - 16 (Time 260.37 sec) 
+Average Path Length: 2.08623527054 
+Average Nodes Visited: 24.65 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 25] 
+Parameters: 1000 - 4 (Time 91.04 sec) 
+Average Path Length: 3.23630772773 
+Average Nodes Visited: 10.14 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [660, 2631, 3722] 
+Number of Trials: 100
+Number of Transactions:100 
+Parameters: 50 - 4 (Time 4.25 sec) 
+Average Path Length: 2.08166530612 
+Average Nodes Visited: 6.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [180, 700, 1626] 
+Parameters: 50 - 8 (Time 10.53 sec) 
+Average Path Length: 1.71830204082 
+Average Nodes Visited: 10.01 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [1, 17, 64] 
+Parameters: 100 - 4 (Time 8.57 sec) 
+Average Path Length: 2.37431515152 
+Average Nodes Visited: 7.01 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [163, 909, 2526] 
+Parameters: 100 - 8 (Time 19.08 sec) 
+Average Path Length: 1.9444040404 
+Average Nodes Visited: 12.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [3, 63, 167] 
+Parameters: 500 - 4 (Time 42.17 sec) 
+Average Path Length: 2.9880854509 
+Average Nodes Visited: 9.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [539, 1916, 3207] 
+Parameters: 500 - 8 (Time 120.96 sec) 
+Average Path Length: 2.48543014028 
+Average Nodes Visited: 14.51 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [39, 174, 574] 
+Parameters: 500 - 16 (Time 243.29 sec) 
+Average Path Length: 2.0859511022 
+Average Nodes Visited: 24.94 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 2, 23] 
+Parameters: 1000 - 4 (Time 87.97 sec) 
+Average Path Length: 3.23761231231 
+Average Nodes Visited: 9.96 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [738, 2338, 3535] 
+Parameters: 1000 - 8 (Time 3855.06 sec) 
+Average Path Length: 2.67764864865 
+Average Nodes Visited: 16.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [38, 272, 796] 
+Parameters: 1000 - 16 (Time 687.05 sec) 
+Average Path Length: 2.28891349349 
+Average Nodes Visited: 26.05 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 2, 24] 
+Number of Trials: 100
+Number of Transactions:100 
+Parameters: 50 - 4 (Time 3.71 sec) 
+Average Path Length: 2.0816244898 
+Average Nodes Visited: 6.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [274, 1077, 982] 
+Parameters: 50 - 8 (Time 9.61 sec) 
+Average Path Length: 1.71875102041 
+Average Nodes Visited: 10.02 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [2, 10, 37] 
+Parameters: 100 - 4 (Time 7.25 sec) 
+Average Path Length: 2.37319393939 
+Average Nodes Visited: 7.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [443, 1261, 1120] 
+Parameters: 100 - 8 (Time 18.94 sec) 
+Average Path Length: 1.94530909091 
+Average Nodes Visited: 11.07 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [21, 34, 130] 
+Parameters: 500 - 4 (Time 38.31 sec) 
+Average Path Length: 2.98281378758 
+Average Nodes Visited: 8.99 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [1001, 1654, 2838] 
+Parameters: 500 - 8 (Time 127.68 sec) 
+Average Path Length: 2.48651951904 
+Average Nodes Visited: 14.63 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [44, 299, 566] 
+Parameters: 500 - 16 (Time 254.38 sec) 
+Average Path Length: 2.08632136273 
+Average Nodes Visited: 24.86 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 2, 18] 
+Parameters: 1000 - 4 (Time 85.96 sec) 
+Average Path Length: 3.23798508509 
+Average Nodes Visited: 9.97 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [1004, 2822, 2929] 
+Parameters: 1000 - 8 (Time 255.06 sec) 
+Average Path Length: 2.67786938939 
+Average Nodes Visited: 16.02 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [88, 442, 590] 
+Parameters: 1000 - 16 (Time 730.8 sec) 
+Average Path Length: 2.28825123123 
+Average Nodes Visited: 26.67 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 8, 37] 
+Number of Trials: 100
+Number of Transactions:100 
+Parameters: 50 - 4 (Time 3.76 sec) 
+Average Path Length: 2.07946122449 
+Average Nodes Visited: 6.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [390, 642, 722] 
+Parameters: 50 - 8 (Time 9.4 sec) 
+Average Path Length: 1.71806530612 
+Average Nodes Visited: 10.03 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [4, 25, 30] 
+Parameters: 100 - 4 (Time 7.31 sec) 
+Average Path Length: 2.37705656566 
+Average Nodes Visited: 7.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [609, 1114, 1191] 
+Parameters: 100 - 8 (Time 17.4 sec) 
+Average Path Length: 1.94349494949 
+Average Nodes Visited: 11.09 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [8, 36, 246] 
+Parameters: 500 - 4 (Time 38.32 sec) 
+Average Path Length: 2.98510965932 
+Average Nodes Visited: 8.99 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [1041, 1927, 2729] 
+Parameters: 500 - 8 (Time 116.83 sec) 
+Average Path Length: 2.48805563126 
+Average Nodes Visited: 14.38 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [65, 205, 723] 
+Parameters: 500 - 16 (Time 244.17 sec) 
+Average Path Length: 2.08657667335 
+Average Nodes Visited: 25.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 14] 
+Parameters: 1000 - 4 (Time 89.56 sec) 
+Average Path Length: 3.23549361361 
+Average Nodes Visited: 9.99 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [1228, 2534, 2924] 
+Parameters: 1000 - 8 (Time 249.2 sec) 
+Average Path Length: 2.67776262262 
+Average Nodes Visited: 15.87 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [61, 298, 752] 
+Parameters: 1000 - 16 (Time 4319.87 sec) 
+Average Path Length: 2.2889649049 
+Average Nodes Visited: 26.35 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 6, 18] 
+Number of Trials: 10
+Number of Transactions:100 
+Parameters: 100 - 4 (Time 0.78 sec) 
+Average Path Length: 2.37860606061 
+Average Nodes Visited: 7.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [132, 62, 109] 
+Number of Trials: 10
+Number of Transactions:100 
+Parameters: 100 - 4 (Time 0.79 sec) 
+Average Path Length: 2.38501010101 
+Average Nodes Visited: 7.1 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [43, 138, 91] 
+Number of Trials: 10
+Number of Transactions:100 
+Parameters: 100 - 4 (Time 0.8 sec) 
+Average Path Length: 2.37955555556 
+Average Nodes Visited: 7.2 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [78, 85, 82] 
+Number of Trials: 10
+Number of Transactions:100 
+Parameters: 100 - 4 (Time 1.15 sec) 
+Average Path Length: 2.37163636364 
+Average Nodes Visited: 6.9 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [46, 67, 166] 
+Number of Trials: 10
+Number of Transactions:100 
+Parameters: 100 - 4 (Time 1.19 sec) 
+Average Path Length: 2.36870707071 
+Average Nodes Visited: 6.9 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [57, 54, 204] 
+Number of Trials: 10
+Number of Transactions:100 
+Parameters: 100 - 4 (Time 1.08 sec) 
+Average Path Length: 2.38395959596 
+Average Nodes Visited: 7.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [48, 88, 131] 
+Number of Trials: 10
+Number of Transactions:100 
+Parameters: 100 - 4 (Time 1.06 sec) 
+Average Path Length: 2.376 
+Average Nodes Visited: 7.2 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [67, 239, 102] 
+Number of Trials: 10
+Number of Trials: 10
+Number of Transactions:100 
+Parameters: 100 - 4 (Time 1.09 sec) 
+Average Path Length: 2.38373737374 
+Average Nodes Visited: 6.9 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [16, 118, 130] 
+Number of Trials: 10
+Number of Transactions:100 
+Parameters: 100 - 4 (Time 1.19 sec) 
+Average Path Length: 2.37806060606 
+Average Nodes Visited: 7.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [28, 118, 188] 
+Number of Trials: 10
+Number of Transactions:100 
+Parameters: 100 - 4 (Time 1.32 sec) 
+Average Path Length: 2.26111111111 
+Average Nodes Visited: 5.8 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [21, 43, 84] 
+Number of Trials: 10
+Number of Transactions:100 
+Number of Trials: 10
+Number of Transactions:100 
+Number of Trials: 10
+Number of Transactions:100 
+Number of Trials: 10
+Number of Transactions:100 
+Parameters: 100 - 4 (Time 1.48 sec) 
+Average Path Length: 2.25945454545 
+Average Nodes Visited: 6.1 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [28, 99, 174] 
+Number of Trials: 10
+Number of Transactions:100 
+Parameters: 100 - 4 (Time 1.27 sec) 
+Average Path Length: 2.25361616162 
+Average Nodes Visited: 6.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [29, 158, 82] 
+Number of Trials: 10
+Number of Transactions:100 
+Number of Trials: 10
+Number of Transactions:100 
+Parameters: 50 - 4 (Time 0.47 sec) 
+Average Path Length: 2.05902040816 
+Average Nodes Visited: 6.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [56, 32, 106] 
+Parameters: 50 - 8 (Time 0.92 sec) 
+Average Path Length: 1.71673469388 
+Average Nodes Visited: 10.3 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 1, 3] 
+Parameters: 100 - 4 (Time 0.74 sec) 
+Average Path Length: 2.34812121212 
+Average Nodes Visited: 6.1 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [56, 72, 100] 
+Parameters: 100 - 8 (Time 1.69 sec) 
+Average Path Length: 1.94270707071 
+Average Nodes Visited: 12.1 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 7, 45] 
+Parameters: 500 - 4 (Time 3.91 sec) 
+Average Path Length: 2.94365370741 
+Average Nodes Visited: 8.7 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [74, 265, 327] 
+Parameters: 500 - 8 (Time 11.49 sec) 
+Average Path Length: 2.485098998 
+Average Nodes Visited: 14.4 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [4, 44, 36] 
+Parameters: 500 - 16 (Time 22.95 sec) 
+Average Path Length: 2.08749819639 
+Average Nodes Visited: 25.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 0] 
+Parameters: 1000 - 4 (Time 9.03 sec) 
+Average Path Length: 3.21446306306 
+Average Nodes Visited: 10.1 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [86, 296, 313] 
+Parameters: 1000 - 8 (Time 23.94 sec) 
+Average Path Length: 2.68081221221 
+Average Nodes Visited: 17.3 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [7, 68, 46] 
+Parameters: 1000 - 16 (Time 73.38 sec) 
+Average Path Length: 2.29057457457 
+Average Nodes Visited: 26.4 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 3] 
+Number of Trials: 10
+Number of Transactions:100 
+Parameters: 100 - 4 (Time 0.81 sec) 
+Average Path Length: 2.34882828283 
+Average Nodes Visited: 6.3 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [46, 126, 163] 
+Number of Trials: 10
+Number of Transactions:100 
+Parameters: 100 - 4 (Time 1.09 sec) 
+Average Path Length: 2.33642424242 
+Average Nodes Visited: 7.1 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [48, 55, 204] 
+Number of Trials: 10
+Number of Transactions:100 
+Parameters: 100 - 4 (Time 1.08 sec) 
+Average Path Length: 2.34426262626 
+Average Nodes Visited: 6.1 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [75, 123, 86] 
+Number of Trials: 10
+Number of Transactions:100 
+Parameters: 100 - 4 (Time 1.24 sec) 
+Average Path Length: 2.3481010101 
+Average Nodes Visited: 6.9 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 5, 10] 
+Number of Trials: 10
+Number of Transactions:100 
+Parameters: 100 - 4 (Time 1.24 sec) 
+Average Path Length: 2.35551515152 
+Average Nodes Visited: 6.9 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [4, 1, 8] 
+Number of Trials: 10
+Number of Transactions:100 
+Parameters: 100 - 4 (Time 0.99 sec) 
+Average Path Length: 2.35656565657 
+Average Nodes Visited: 6.9 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [6, 5, 8] 
+Number of Trials: 100
+Number of Transactions:100 
+Parameters: 100 - 4 (Time 9.61 sec) 
+Average Path Length: 2.34964848485 
+Average Nodes Visited: 6.85 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [41, 106, 237] 
+Number of Trials: 100
+Number of Transactions:100 
+Parameters: 100 - 4 (Time 8.3 sec) 
+Average Path Length: 2.34656565657 
+Average Nodes Visited: 7.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [41, 171, 165] 
+Number of Trials: 100
+Number of Transactions:100 
+Parameters: 100 - 4 (Time 8.17 sec) 
+Average Path Length: 2.34919191919 
+Average Nodes Visited: 7.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [22, 35, 309] 
+Number of Trials: 100
+Number of Transactions:100 
+Parameters: 100 - 4 (Time 8.24 sec) 
+Average Path Length: 2.35178989899 
+Average Nodes Visited: 6.99 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [36, 140, 336] 
+Number of Trials: 1000
+Number of Transactions:100 
+Parameters: 100 - 4 (Time 85.62 sec) 
+Average Path Length: 2.34908747475 
+Average Nodes Visited: 6.999 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [591, 1035, 2019] 
+Number of Trials: 1000
+Number of Transactions:100 
+Parameters: 50 - 4 (Time 39.95 sec) 
+Average Path Length: 2.05073306122 
+Average Nodes Visited: 5.999 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [129, 330, 354] 
+Parameters: 50 - 8 (Time 96.51 sec) 
+Average Path Length: 1.71780571429 
+Average Nodes Visited: 10.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [4, 9, 2] 
+Parameters: 100 - 4 (Time 75.96 sec) 
+Average Path Length: 2.34948848485 
+Average Nodes Visited: 6.996 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [560, 1345, 2096] 
+Parameters: 100 - 8 (Time 180.89 sec) 
+Average Path Length: 1.94372848485 
+Average Nodes Visited: 11.01 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [12, 57, 126] 
+Parameters: 500 - 4 (Time 429.6 sec) 
+Average Path Length: 2.95205438076 
+Average Nodes Visited: 9.004 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [3199, 7177, 12218] 
+Parameters: 500 - 8 (Time 1248.28 sec) 
+Average Path Length: 2.48582593186 
+Average Nodes Visited: 13.997 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [203, 680, 1672] 
+Parameters: 500 - 16 (Time 2604.73 sec) 
+Average Path Length: 2.08610341483 
+Average Nodes Visited: 24.981 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 2, 39] 
+Number of Trials: 100
+Number of Transactions:100 
+Parameters: 50 - 4 (Time 4.08 sec) 
+Average Path Length: 2.04853061224 
+Average Nodes Visited: 6.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [16, 39, 40] 
+Parameters: 50 - 8 (Time 9.56 sec) 
+Average Path Length: 1.71777959184 
+Average Nodes Visited: 10.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 0] 
+Parameters: 100 - 4 (Time 8.13 sec) 
+Average Path Length: 2.34905858586 
+Average Nodes Visited: 7.01 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [107, 151, 288] 
+Parameters: 100 - 8 (Time 19.85 sec) 
+Average Path Length: 1.94474343434 
+Average Nodes Visited: 11.09 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [1, 21, 3] 
+Parameters: 500 - 4 (Time 42.4 sec) 
+Average Path Length: 2.9523292986 
+Average Nodes Visited: 8.99 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [333, 700, 1483] 
+Parameters: 500 - 8 (Time 126.39 sec) 
+Average Path Length: 2.48476953908 
+Average Nodes Visited: 14.01 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [9, 62, 123] 
+Parameters: 500 - 16 (Time 261.36 sec) 
+Average Path Length: 2.08690725451 
+Average Nodes Visited: 25.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 1] 
+Parameters: 1000 - 4 (Time 93.76 sec) 
+Average Path Length: 3.20335175175 
+Average Nodes Visited: 9.92 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [304, 1072, 1792] 
+Parameters: 1000 - 8 (Time 248.2 sec) 
+Average Path Length: 2.67731157157 
+Average Nodes Visited: 16.07 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [36, 74, 369] 
+Parameters: 1000 - 16 (Time 717.5 sec) 
+Average Path Length: 2.28943717718 
+Average Nodes Visited: 26.08 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [1, 5, 9] 
+Parameters: 2000 - 8 (Time 514.74 sec) 
+Average Path Length: 2.84742342171 
+Average Nodes Visited: 16.95 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [34, 158, 684] 
+Parameters: 2000 - 16 (Time 2139.58 sec) 
+Average Path Length: 2.49373433717 
+Average Nodes Visited: 28.11 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 2, 45] 
+Parameters: 5000 - 8 (Time 1683.16 sec) 
+Average Path Length: 3.0806599784 
+Average Nodes Visited: 19.06 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [127, 268, 634] 
+Parameters: 5000 - 16 (Time 67634.78 sec) 
+Average Path Length: 2.71245690898 
+Average Nodes Visited: 31.46 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [3, 11, 47] 
+
+ Number of Trials: 1
+Number of Transactions:10 
+Fully ER
+Parameters: 50 - 4 (Time 0.03 sec) 
+Average Path Length: 1.48653061224 
+Average Nodes Visited: 4.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 0] 
+Parameters: 50 - 8 (Time 0.03 sec) 
+Average Path Length: 1.49469387755 
+Average Nodes Visited: 8.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 0] 
+Parameters: 100 - 4 (Time 0.19 sec) 
+Average Path Length: 1.49232323232 
+Average Nodes Visited: 4.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 0] 
+Parameters: 100 - 8 (Time 0.18 sec) 
+Average Path Length: 1.49757575758 
+Average Nodes Visited: 8.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 0] 
+Parameters: 500 - 4 (Time 21.67 sec) 
+Average Path Length: 1.49987975952 
+Average Nodes Visited: 4.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 0] 
+Parameters: 500 - 8 (Time 19.82 sec) 
+Average Path Length: 1.50095390782 
+Average Nodes Visited: 8.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 0] 
+Parameters: 500 - 16 (Time 16.03 sec) 
+Average Path Length: 1.50255711423 
+Average Nodes Visited: 16.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 0] 
+Parameters: 1000 - 4 (Time 184.86 sec) 
+Average Path Length: 1.50081881882 
+Average Nodes Visited: 4.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 0] 
+Parameters: 1000 - 8 (Time 187.61 sec) 
+Average Path Length: 1.50089489489 
+Average Nodes Visited: 8.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 0] 
+
+ Number of Trials: 1
+Number of Transactions:10 
+Fully ER
+Parameters: 50 - 4 (Time 0.03 sec) 
+Average Path Length: 1.4906122449 
+Average Nodes Visited: 4.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 0] 
+Parameters: 50 - 8 (Time 0.03 sec) 
+Average Path Length: 1.48816326531 
+Average Nodes Visited: 8.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 0] 
+Parameters: 100 - 4 (Time 0.17 sec) 
+Average Path Length: 1.48666666667 
+Average Nodes Visited: 4.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 0] 
+Parameters: 100 - 8 (Time 0.16 sec) 
+Average Path Length: 1.49292929293 
+Average Nodes Visited: 8.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 0] 
+Parameters: 500 - 4 (Time 17.88 sec) 
+Average Path Length: 1.50040881764 
+Average Nodes Visited: 4.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 0] 
+Parameters: 500 - 8 (Time 20.88 sec) 
+Average Path Length: 1.50086573146 
+Average Nodes Visited: 8.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 0] 
+Parameters: 500 - 16 (Time 18.62 sec) 
+Average Path Length: 1.49886973948 
+Average Nodes Visited: 16.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 0] 
+Parameters: 1000 - 4 (Time 187.63 sec) 
+Average Path Length: 1.50058058058 
+Average Nodes Visited: 4.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 0] 
+Parameters: 1000 - 8 (Time 182.58 sec) 
+Average Path Length: 1.49954354354 
+Average Nodes Visited: 8.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 0] 
+
+ Number of Trials: 1
+Number of Transactions:10 
+Fully ER
+Parameters: 50 - 4 (Time 0.02 sec) 
+Average Path Length: 1.48244897959 
+Average Nodes Visited: 4.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 0] 
+Parameters: 50 - 8 (Time 0.02 sec) 
+Average Path Length: 1.50204081633 
+Average Nodes Visited: 8.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 0] 
+Parameters: 100 - 4 (Time 0.15 sec) 
+Average Path Length: 1.51474747475 
+Average Nodes Visited: 4.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [1, 0, 0] 
+Parameters: 100 - 8 (Time 0.15 sec) 
+Average Path Length: 1.49454545455 
+Average Nodes Visited: 8.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 0] 
+Parameters: 500 - 4 (Time 20.51 sec) 
+Average Path Length: 1.49953507014 
+Average Nodes Visited: 4.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 0] 
+Parameters: 500 - 8 (Time 18.97 sec) 
+Average Path Length: 1.49758717435 
+Average Nodes Visited: 8.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 0] 
+Parameters: 500 - 16 (Time 18.84 sec) 
+Average Path Length: 1.49984769539 
+Average Nodes Visited: 16.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 0] 
+Parameters: 1000 - 4 (Time 174.76 sec) 
+Average Path Length: 1.49996996997 
+Average Nodes Visited: 4.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 0] 
+Parameters: 1000 - 8 (Time 172.15 sec) 
+Average Path Length: 1.4993973974 
+Average Nodes Visited: 8.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 0] 
+
+ Number of Trials: 1
+Number of Transactions:10 
+Parameters: 50 - 4 (Time 0.03 sec) 
+Average Path Length: 1.50530612245 
+Average Nodes Visited: 4.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 0] 
+Parameters: 50 - 8 (Time 0.03 sec) 
+Average Path Length: 1.47183673469 
+Average Nodes Visited: 8.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 0] 
+Parameters: 100 - 4 (Time 0.02 sec) 
+Average Path Length: 2.04080808081 
+Average Nodes Visited: 5.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 1] 
+Parameters: 100 - 8 (Time 0.02 sec) 
+Average Path Length: 1.86202020202 
+Average Nodes Visited: 12.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 0] 
+Parameters: 500 - 4 (Time 0.05 sec) 
+Average Path Length: 2.73820440882 
+Average Nodes Visited: 9.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 1, 7] 
+Parameters: 500 - 8 (Time 0.18 sec) 
+Average Path Length: 2.43217635271 
+Average Nodes Visited: 15.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 0] 
+Parameters: 500 - 16 (Time 0.31 sec) 
+Average Path Length: 2.09232865731 
+Average Nodes Visited: 24.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 0] 
+Parameters: 1000 - 4 (Time 0.13 sec) 
+Average Path Length: 2.9828968969 
+Average Nodes Visited: 10.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 7, 2] 
+Parameters: 1000 - 8 (Time 0.38 sec) 
+Average Path Length: 2.6473953954 
+Average Nodes Visited: 14.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 0] 
+
+ Number of Trials: 10
+Number of Transactions:100 
+Parameters: 50 - 4 (Time 2.3 sec) 
+Average Path Length: 1.49755102041 
+Average Nodes Visited: 4.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 7, 2] 
+Parameters: 50 - 8 (Time 2.33 sec) 
+Average Path Length: 1.49812244898 
+Average Nodes Visited: 8.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 0] 
+Parameters: 100 - 4 (Time 1.83 sec) 
+Average Path Length: 2.04965656566 
+Average Nodes Visited: 5.9 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [15, 44, 140] 
+Parameters: 100 - 8 (Time 2.44 sec) 
+Average Path Length: 1.86822222222 
+Average Nodes Visited: 11.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 2, 20] 
+Parameters: 500 - 4 (Time 4.5 sec) 
+Average Path Length: 2.74777635271 
+Average Nodes Visited: 8.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [102, 155, 198] 
+Parameters: 500 - 8 (Time 12.73 sec) 
+Average Path Length: 2.4549490982 
+Average Nodes Visited: 14.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [3, 9, 95] 
+Parameters: 500 - 16 (Time 22.97 sec) 
+Average Path Length: 2.09457234469 
+Average Nodes Visited: 25.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 3] 
+Parameters: 1000 - 4 (Time 8.16 sec) 
+Average Path Length: 2.96781081081 
+Average Nodes Visited: 9.2 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [68, 92, 486] 
+Parameters: 1000 - 8 (Time 24.35 sec) 
+Average Path Length: 2.64855755756 
+Average Nodes Visited: 15.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 9, 159] 
+
+ Number of Trials: 100
+Number of Transactions:100 
+Parameters: 50 - 4 (Time 21.81 sec) 
+Average Path Length: 1.50166530612 
+Average Nodes Visited: 4.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [4, 12, 19] 
+Parameters: 50 - 8 (Time 21.45 sec) 
+Average Path Length: 1.50130612245 
+Average Nodes Visited: 8.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 1] 
+Parameters: 100 - 4 (Time 16.98 sec) 
+Average Path Length: 2.04991111111 
+Average Nodes Visited: 6.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [156, 591, 968] 
+Parameters: 100 - 8 (Time 26.67 sec) 
+Average Path Length: 1.86671313131 
+Average Nodes Visited: 10.98 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [2, 11, 98] 
+Parameters: 500 - 4 (Time 42.81 sec) 
+Average Path Length: 2.74571422846 
+Average Nodes Visited: 8.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [806, 1119, 3002] 
+Parameters: 500 - 8 (Time 119.96 sec) 
+Average Path Length: 2.45414637275 
+Average Nodes Visited: 13.98 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [27, 108, 521] 
+Parameters: 500 - 16 (Time 230.72 sec) 
+Average Path Length: 2.09507342685 
+Average Nodes Visited: 25.01 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 19] 
+Parameters: 1000 - 4 (Time 89.97 sec) 
+Average Path Length: 2.9699005005 
+Average Nodes Visited: 9.05 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [988, 1688, 3479] 
+Parameters: 1000 - 8 (Time 263.88 sec) 
+Average Path Length: 2.64692062062 
+Average Nodes Visited: 15.17 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [53, 212, 757] 
+Parameters: 1000 - 16 (Time 4265.34 sec) 
+Average Path Length: 2.29864930931 
+Average Nodes Visited: 27.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 2, 85] 
+Parameters: 2000 - 8 (Time 519.69 sec) 
+Average Path Length: 2.80987215608 
+Average Nodes Visited: 16.78 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [141, 314, 1138] 
+Parameters: 2000 - 16 (Time 6491.86 sec) 
+Average Path Length: 2.50216117059 
+Average Nodes Visited: 28.97 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 5, 36] 
+Parameters: 5000 - 8 (Time 1574.19 sec) 
+Average Path Length: 3.03022013603 
+Average Nodes Visited: 17.96 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [175, 809, 1234] 
+Parameters: 5000 - 16 (Time 243499.08 sec) 
+Average Path Length: 2.71832156751 
+Average Nodes Visited: 31.77 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 6, 102] 
+
+ Number of Trials: 100
+Number of Transactions:100 
+Parameters: 50 - 4 (Time 24.32 sec) 
+Average Path Length: 1.49954285714 
+Average Nodes Visited: 4.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 12, 31] 
+Parameters: 50 - 8 (Time 24.79 sec) 
+Average Path Length: 1.4976244898 
+Average Nodes Visited: 8.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 0] 
+Parameters: 100 - 4 (Time 17.85 sec) 
+Average Path Length: 2.05032323232 
+Average Nodes Visited: 5.97 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [140, 390, 944] 
+Parameters: 100 - 8 (Time 29.86 sec) 
+Average Path Length: 1.86726666667 
+Average Nodes Visited: 10.98 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 34, 93] 
+Parameters: 500 - 4 (Time 43.92 sec) 
+Average Path Length: 2.74757995992 
+Average Nodes Visited: 8.04 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [498, 1383, 2616] 
+Parameters: 500 - 8 (Time 121.87 sec) 
+Average Path Length: 2.45329771543 
+Average Nodes Visited: 14.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [29, 133, 483] 
+Parameters: 500 - 16 (Time 237.39 sec) 
+Average Path Length: 2.09489699399 
+Average Nodes Visited: 24.95 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 37] 
+Parameters: 1000 - 4 (Time 89.38 sec) 
+Average Path Length: 2.97048284284 
+Average Nodes Visited: 9.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [878, 1797, 3377] 
+Parameters: 1000 - 8 (Time 299.35 sec) 
+Average Path Length: 2.64568632633 
+Average Nodes Visited: 15.01 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [49, 288, 786] 
+Parameters: 1000 - 16 (Time 675.47 sec) 
+Average Path Length: 2.29941757758 
+Average Nodes Visited: 26.94 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 5, 29] 
+Parameters: 2000 - 8 (Time 547.71 sec) 
+Average Path Length: 2.81004954477 
+Average Nodes Visited: 16.09 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [122, 335, 920] 
+Parameters: 2000 - 16 (Time 4499.32 sec) 
+Average Path Length: 2.50196478239 
+Average Nodes Visited: 29.02 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 4, 42] 
+Parameters: 5000 - 8 (Time 1618.39 sec) 
+Average Path Length: 3.03037534147 
+Average Nodes Visited: 18.17 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [232, 329, 1659] 
+Parameters: 5000 - 16 (Time 6409.46 sec) 
+Average Path Length: 2.71844845769 
+Average Nodes Visited: 31.98 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [1, 10, 107] 
+
+ Number of Trials: 100
+Number of Transactions:100 
+Parameters: 50 - 4 (Time 23.38 sec) 
+Average Path Length: 1.49920816327 
+Average Nodes Visited: 4.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 17, 48] 
+Parameters: 50 - 8 (Time 22.89 sec) 
+Average Path Length: 1.49759183673 
+Average Nodes Visited: 8.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 0] 
+Parameters: 100 - 4 (Time 18.29 sec) 
+Average Path Length: 2.05201818182 
+Average Nodes Visited: 5.97 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [170, 442, 762] 
+Parameters: 100 - 8 (Time 28.26 sec) 
+Average Path Length: 1.86701212121 
+Average Nodes Visited: 11.03 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [5, 20, 94] 
+Parameters: 500 - 4 (Time 47.12 sec) 
+Average Path Length: 2.74811078156 
+Average Nodes Visited: 8.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [804, 1175, 2885] 
+Parameters: 500 - 8 (Time 122.15 sec) 
+Average Path Length: 2.45329034068 
+Average Nodes Visited: 14.02 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [21, 271, 599] 
+Parameters: 500 - 16 (Time 259.79 sec) 
+Average Path Length: 2.09480985972 
+Average Nodes Visited: 25.05 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 5, 8] 
+Parameters: 1000 - 4 (Time 89.91 sec) 
+Average Path Length: 2.96839217217 
+Average Nodes Visited: 8.89 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [722, 2339, 3144] 
+Parameters: 1000 - 8 (Time 276.63 sec) 
+Average Path Length: 2.64596776777 
+Average Nodes Visited: 15.01 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [77, 209, 796] 
+Parameters: 1000 - 16 (Time 722.29 sec) 
+Average Path Length: 2.29927059059 
+Average Nodes Visited: 27.13 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 5, 45] 
+Parameters: 2000 - 8 (Time 510.62 sec) 
+Average Path Length: 2.80932872936 
+Average Nodes Visited: 16.8 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [89, 399, 1069] 
+Parameters: 2000 - 16 (Time 45264.05 sec) 
+Average Path Length: 2.50163947974 
+Average Nodes Visited: 28.92 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [2, 2, 96] 
+Parameters: 5000 - 8 (Time 17048.58 sec) 
+Average Path Length: 3.02916277495 
+Average Nodes Visited: 17.99 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [134, 576, 1464] 
+Parameters: 5000 - 16 (Time 6102.81 sec) 
+Average Path Length: 2.71812126265 
+Average Nodes Visited: 32.06 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 22, 92] 
+
+ Number of Trials: 1000
+Number of Transactions:100 
+Parameters: 50 - 4 (Time 226.13 sec) 
+Average Path Length: 1.50047346939 
+Average Nodes Visited: 4.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [37, 229, 441] 
+Parameters: 50 - 8 (Time 230.31 sec) 
+Average Path Length: 1.50024 
+Average Nodes Visited: 8.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 1, 2] 
+Parameters: 100 - 4 (Time 183.6 sec) 
+Average Path Length: 2.05084161616 
+Average Nodes Visited: 5.998 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [1712, 4457, 8990] 
+Parameters: 100 - 8 (Time 270.36 sec) 
+Average Path Length: 1.86710121212 
+Average Nodes Visited: 10.993 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [30, 335, 1249] 
+
+ Number of Trials: 1000
+Number of Transactions:100 
+Parameters: 500 - 4 (Time 491.26 sec) 
+Average Path Length: 2.74728779158 
+Average Nodes Visited: 7.999 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [5596, 13631, 25857] 
+Parameters: 500 - 8 (Time 1307.23 sec) 
+Average Path Length: 2.45302405611 
+Average Nodes Visited: 13.999 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [282, 1551, 5333] 
+Parameters: 500 - 16 (Time 55835.84 sec) 
+Average Path Length: 2.09467308216 
+Average Nodes Visited: 25.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 5, 111] 
+
+ Number of Trials: 1000
+Number of Transactions:100 
+Parameters: 1000 - 4 (Time 964.89 sec) 
+Average Path Length: 2.96915231231 
+Average Nodes Visited: 9.003 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [8306, 18344, 31075] 
+Parameters: 1000 - 8 (Time 2842.31 sec) 
+Average Path Length: 2.64619041842 
+Average Nodes Visited: 15.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [707, 2761, 8072] 
+Parameters: 1000 - 16 (Time 11007.25 sec) 
+Average Path Length: 2.29881867067 
+Average Nodes Visited: 27.001 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [5, 16, 288] 
+
+ Number of Trials: 1000
+Number of Transactions:100 
+Parameters: 2000 - 8 (Time 12092.05 sec) 
+Average Path Length: 2.80966543972 
+Average Nodes Visited: 16.667 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [718, 3770, 12032] 
+Parameters: 2000 - 16 (Time 73496.47 sec) 
+Average Path Length: 2.50219551126 
+Average Nodes Visited: 28.993 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [1, 84, 504] 
+
+ Number of Trials: 1000
+Number of Transactions:100 
+Parameters: 5000 - 8 (Time 88679.36 sec) 
+Average Path Length: 3.03005538956 
+Average Nodes Visited: 18.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [1573, 5488, 14701] 
+
+ Number of Trials: 1000
+Number of Transactions:100 
+Parameters: 5000 - 16 (Time 260755.6 sec) 
+Average Path Length: 2.71845020012 
+Average Nodes Visited: 32.003 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [11, 124, 1032] 
+
+ Number of Trials: 1000
+Number of Transactions:100 
+Parameters: 1000 - 8 (Time 6320.63 sec) 
+Average Path Length: 2.64621727127 
+Average Nodes Visited: 14.999 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [603, 2765, 7839] 
+
+ Number of Trials: 1000
+Number of Transactions:100 
+Parameters: 2000 - 8 (Time 9776.14 sec) 
+Average Path Length: 2.80968747124 
+Average Nodes Visited: 16.019 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [1087, 3625, 10261] 
+
+ Number of Trials: 1000
+Number of Transactions:100 
+Parameters: 2000 - 16 (Time 79214.9 sec) 
+Average Path Length: 2.50213915758 
+Average Nodes Visited: 28.851 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [4, 73, 432] 
+
+ Number of Trials: 1000
+Number of Transactions:100 
+Parameters: 100 - 8 (Time 310.22 sec) 
+Average Path Length: 1.86668080808 
+Average Nodes Visited: 10.998 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [46, 306, 1421] 
+
+ Number of Trials: 1000
+Number of Transactions:100 
+Parameters: 500 - 8 (Time 1597.32 sec) 
+Average Path Length: 2.45311503808 
+Average Nodes Visited: 14.001 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [302, 1628, 4932] 
+
+ Number of Trials: 10
+Number of Transactions:100 
+Parameters: 500 - 8 (Time 13.39 sec) 
+Average Path Length: 2.4531246493 
+Average Nodes Visited: 14.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 37, 112] 
+
+ Number of Trials: 1000
+Number of Transactions:100 
+Parameters: 100 - 4 (Time 184.29 sec) 
+Average Path Length: 2.05055818182 
+Average Nodes Visited: 5.989 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [1583, 4831, 9182] 
+Parameters: 500 - 4 (Time 807.11 sec) 
+Average Path Length: 2.74733490982 
+Average Nodes Visited: 8.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [5622, 13773, 25943] 
+
+ Number of Trials: 1000
+Number of Transactions:100 
+
+ Number of Trials: 1000
+Number of Transactions:100 
+
+ Number of Trials: 1000
+Number of Transactions:100 
+
+ Number of Trials: 1000
+Number of Transactions:100 
+Parameters: 500 - 16 (Time 2637.32 sec) 
+Average Path Length: 2.09483245691 
+Average Nodes Visited: 25.003 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 10, 147] 
+
+ Number of Trials: 100
+Number of Transactions:100 
+Parameters: 10000 - 8 (Time 50316.07 sec) 
+Average Path Length: 3.21938572577 
+Average Nodes Visited: 19.75 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [134, 894, 1822] 
+
+ Number of Trials: 1000
+Number of Transactions:100 
+Parameters: 200 - 8 (Time 497.42 sec) 
+Average Path Length: 2.14053080402 
+Average Nodes Visited: 12.0 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [83, 671, 2716] 
+
+ Number of Trials: 1000
+Number of Transactions:100 
+Parameters: 100 - 8 (Time 303.64 sec) 
+Average Path Length: 1.86704060606 
+Average Nodes Visited: 10.993 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [27, 270, 1075] 
+
+ Number of Trials: 1000
+Number of Transactions:100 
+
+ Number of Trials: 1000
+Number of Transactions:100 
+
+ Number of Trials: 1000
+Number of Transactions:100 
+Parameters: 100 - 16 (Time 629.02 sec) 
+Average Path Length: 1.71619474747 
+Average Nodes Visited: 20.198 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 2, 15] 
+
+ Number of Trials: 1000
+Number of Transactions:100 
+Parameters: 200 - 16 (Time 3541.47 sec) 
+Average Path Length: 1.8737019598 
+Average Nodes Visited: 23.003 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 2, 36] 
+
+ Number of Trials: 50
+Number of Transactions:100 
+Parameters: 10000 - 16 (Time 21195.44 sec) 
+Average Path Length: 2.83709876268 
+Average Nodes Visited: 33.94 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [1, 5, 129] 
+
+ Number of Trials: 50
+Number of Transactions:100 
+Parameters: 10000 - 16 (Time 6931.58 sec) 
+Average Path Length: 2.83735430463 
+Average Nodes Visited: 34.02 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 8, 102] 
+
+ Number of Trials: 50
+Number of Transactions:100 
+Parameters: 100 - 16 (Time 29.05 sec) 
+Average Path Length: 1.71738585859 
+Average Nodes Visited: 20.2 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 1] 
+Parameters: 200 - 16 (Time 53.63 sec) 
+Average Path Length: 1.87385427136 
+Average Nodes Visited: 22.74 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 2, 0] 
+
+ Number of Trials: 1000
+Number of Transactions:100 
+
+ Number of Trials: 1000
+Number of Transactions:100 
+
+ Number of Trials: 1000
+Number of Transactions:100 
+
+ Number of Trials: 1000
+Number of Transactions:100 
+
+ Number of Trials: 1000
+Number of Transactions:100 
+Parameters: 100 - 16 (Time 657.0 sec) 
+Average Path Length: 1.71632141414 
+Average Nodes Visited: 20.052 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 0, 16] 
+Parameters: 200 - 16 (Time 1094.89 sec) 
+Average Path Length: 1.87359919598 
+Average Nodes Visited: 23.004 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [0, 1, 51] 
+
+ Number of Trials: 1000
+Number of Transactions:100 
+Parameters: 1000 - 16 (Time 10833.1 sec) 
+Average Path Length: 2.29884905105 
+Average Nodes Visited: 26.984 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [3, 49, 342] 
+Parameters: 2000 - 16 (Time 61956.18 sec) 
+Average Path Length: 2.50228142721 
+Average Nodes Visited: 28.994 
+Total Failing Paths: [0.2, 0.3, 0.4] -> [2, 47, 547] 
